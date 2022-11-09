@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
+use App\Http\Controllers\admin\TeamC;
+use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
 use App\Http\Controllers\front\BlogFc;
 use App\Http\Controllers\front\CareerFc;
@@ -110,12 +112,16 @@ Route::middleware(['adminLoggedIn'])->group(function () {
     Route::get('/profile', [AdminDashboard::class, 'profile']);
     Route::post('/update-profile', [AdminDashboard::class, 'updateProfile']);
 
-    Route::prefix('/employees')->group(function () {
-      Route::get('', [CreateUserC::class, 'index']);
-      Route::post('/store', [CreateUserC::class, 'store']);
-      Route::get('/delete/{id}', [CreateUserC::class, 'delete']);
-      Route::get('/update/{id}', [CreateUserC::class, 'index']);
-      Route::post('/update/{id}', [CreateUserC::class, 'update']);
+    Route::prefix('/team')->group(function () {
+      Route::get('', [TeamC::class, 'index']);
+      Route::post('/store', [TeamC::class, 'store']);
+      Route::get('/delete/{id}', [TeamC::class, 'delete']);
+      Route::get('/update/{id}', [TeamC::class, 'index']);
+      Route::post('/update/{id}', [TeamC::class, 'update']);
     });
   });
+});
+
+Route::prefix('common')->group(function () {
+  Route::get('/change-status', [CommonController::class, 'changeStatus']);
 });

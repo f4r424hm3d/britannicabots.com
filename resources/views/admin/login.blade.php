@@ -29,18 +29,7 @@
       <div class="row g-0">
         <div class="col-xxl-4 col-lg-4 col-md-12"></div>
         <div class="col-xxl-4 col-lg-4 col-md-12">
-          @if (session()->has('smsg'))
-          <div class="alert alert-success alert-dismissablee fade show">
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            {{ session()->get('smsg') }}
-          </div>
-          @endif
-          @if (session()->has('emsg'))
-          <div class="alert alert-danger alert-dismissablee fade show">
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            {{ session()->get('emsg') }}
-          </div>
-          @endif
+
           <div class="auth-full-page-content d-flex p-sm-5 p-4">
             <div class="w-100">
               <div class="d-flex flex-column h-100">
@@ -50,6 +39,16 @@
                     <span class="logo-txt">Britannica Bots</span>
                   </a>
                 </div>
+                @if (session()->has('smsg'))
+                <div class="alert alert-success alert-dismissablee fade show">
+                  {{ session()->get('smsg') }}
+                </div>
+                @endif
+                @if (session()->has('emsg'))
+                <div class="alert alert-danger alert-dismissablee fade show">
+                  {{ session()->get('emsg') }}
+                </div>
+                @endif
                 <div class="auth-content my-auto">
                   <form action="{{ url('admin/login') }}" method="post">
                     @csrf

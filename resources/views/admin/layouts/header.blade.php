@@ -104,16 +104,6 @@
             data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
             <i class="fa fa-fw fa-bars"></i>
           </button>
-
-          <!-- App Search-->
-          {{-- <form class="app-search d-none d-lg-block">
-            <div class="position-relative">
-              <input type="text" class="form-control" placeholder="Search..." />
-              <button class="btn btn-primary" type="button">
-                <i class="bx bx-search-alt align-middle"></i>
-              </button>
-            </div>
-          </form> --}}
         </div>
 
         <div class="d-flex">
@@ -216,6 +206,12 @@
                 </a>
               </li>
               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('team') }}" id="topnav-dashboard"
+                  role="button">
+                  <i data-feather="users"></i><span data-key="t-dashboards">Team</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
@@ -235,72 +231,6 @@
                     </a>
                   </div>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button">
-                  <i data-feather="file-text"></i>
-                  <span data-key="t-extra-pages">
-                    Leads
-                  </span>
-                  <div class="arrow-down"></div>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="topnav-more">
-                  <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('student/add') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">Add Student</span>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('students') }}" id="topnav-auth"
-                      role="button">
-                      <span data-key="t-authentication">Students</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button">
-                  <i data-feather="file-text"></i>
-                  <span data-key="t-extra-pages">
-                    Status
-                  </span>
-                  <div class="arrow-down"></div>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="topnav-more">
-                  <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('lead-type') }}" id="topnav-auth"
-                      role="button">
-                      <span data-key="t-authentication">Lead Type</span>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('lead-status') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">Lead Status</span>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('lead-sub-status') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">Lead Sub Status</span>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('follow-up-type') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">Follow-Up Type</span>
-                    </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('follow-up-status') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">Follow-Up Status</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('employees') }}" id="topnav-dashboard"
-                  role="button">
-                  <i data-feather="users"></i><span data-key="t-dashboards">Employees</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('band-score-details') }}"
-                  id="topnav-dashboard" role="button">
-                  <i class="bx bx-question-mark"></i><span data-key="t-dashboards">Band Score</span>
-                </a>
               </li>
             </ul>
           </div>

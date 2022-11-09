@@ -1,8 +1,16 @@
 @extends('admin.layouts.main')
 @push('title')
-<title>Employees</title>
+<title>{{ $page_title }}</title>
 @endpush
 @section('main-section')
+<style>
+  .team-profile-pic {
+    height: 100px;
+    width: 100px;
+    background-color: #fb892b;
+    padding: 3px;
+  }
+</style>
 <div class="page-content">
   <div class="container-fluid">
 
@@ -10,12 +18,12 @@
     <div class="row">
       <div class="col-12">
         <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-          <h4 class="mb-sm-0 font-size-18">Employees</h4>
+          <h4 class="mb-sm-0 font-size-18">{{ $page_title }}</h4>
 
           <div class="page-title-right">
             <ol class="breadcrumb m-0">
               <li class="breadcrumb-item"><a href="{{ url('/admin/') }}"><i class="mdi mdi-home-outline"></i></a></li>
-              <li class="breadcrumb-item active" aria-current="page">Employees</li>
+              <li class="breadcrumb-item active" aria-current="page">{{ $page_title }}</li>
             </ol>
           </div>
 
@@ -51,19 +59,6 @@
               <div class="row">
                 <div class="col-md-4 col-sm-12">
                   <div class="form-group mb-3">
-                    <label>Role</label>
-                    <select name="role" class="form-control select2">
-                      <option value="Counsellor">Counsellor</option>
-                    </select>
-                    <span class="text-danger">
-                      @error('role')
-                      {{ $message }}
-                      @enderror
-                    </span>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                  <div class="form-group mb-3">
                     <label>Enter Name</label>
                     <input name="name" type="text" class="form-control" placeholder="Enter Name"
                       value="{{ $ft == 'edit' ? $sd->name : old('name') }}">
@@ -86,14 +81,49 @@
                     </span>
                   </div>
                 </div>
-                @if ($ft == 'edit')
                 <div class="col-md-4 col-sm-12">
                   <div class="form-group mb-3">
-                    <label>Login Id / Username</label>
-                    <input name="username" type="text" class="form-control" placeholder="Enter Username"
-                      value="{{ $ft == 'edit' ? $sd->username : old('username') }}">
+                    <label>Enter Mobile</label>
+                    <input name="mobile" type="text" class="form-control" placeholder="Enter Mobile"
+                      value="{{ $ft == 'edit' ? $sd->mobile : old('mobile') }}">
                     <span class="text-danger">
-                      @error('username')
+                      @error('mobile')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Enter Designation</label>
+                    <input name="designation" type="text" class="form-control" placeholder="Enter Designation"
+                      value="{{ $ft == 'edit' ? $sd->designation : old('designation') }}">
+                    <span class="text-danger">
+                      @error('designation')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Enter LinkedIn Link</label>
+                    <input name="linked_in" type="text" class="form-control" placeholder="Enter LinkedIn Link"
+                      value="{{ $ft == 'edit' ? $sd->linked_in : old('linked_in') }}">
+                    <span class="text-danger">
+                      @error('linked_in')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Enter Quote</label>
+                    <input name="quote" type="text" class="form-control" placeholder="Enter Quote"
+                      value="{{ $ft == 'edit' ? $sd->quote : old('quote') }}">
+                    <span class="text-danger">
+                      @error('quote')
                       {{ $message }}
                       @enderror
                     </span>
@@ -101,17 +131,15 @@
                 </div>
                 <div class="col-md-4 col-sm-12">
                   <div class="form-group mb-3">
-                    <label>Enter Password</label>
-                    <input name="password" type="password" class="form-control" placeholder="Enter Password"
-                      value="{{ $ft == 'edit' ? $sd->password : old('password') }}">
+                    <label>Upload Profile Picture</label>
+                    <input name="profile_picture" type="file" class="form-control" placeholder="Upload Profile Picture">
                     <span class="text-danger">
-                      @error('password')
+                      @error('profile_picture')
                       {{ $message }}
                       @enderror
                     </span>
                   </div>
                 </div>
-                @endif
               </div>
               @if ($ft == 'add')
               <button type="reset" class="btn btn-sm btn-warning  mr-1">
@@ -138,8 +166,11 @@
               <thead>
                 <tr>
                   <th>Sr. No.</th>
-                  <th>Contact</th>
-                  <th>Login</th>
+                  <th>Pic</th>
+                  <th>Name</th>
+                  <th>LinkedIn</th>
+                  <th>Designation</th>
+                  <th>Quote</th>
                   <th>Status</th>
                   <th>Action</th>
                 </tr>
@@ -152,13 +183,22 @@
                 <tr id="row{{ $row->id }}">
                   <td>{{ $i }}</td>
                   <td>
-                    Name : {{ $row->name }} <br>
-                    Email : {{ $row->email }}
+                    @if ($row->profile_picture_path!=null)
+                    <a href="{{ asset($row->profile_picture_path) }}" target="_blank"
+                      class="waves-effect waves-light"><img class="rounded-circle team-profile-pic"
+                        src="{{ asset($row->profile_picture_path) }}" alt="{{ $row->name }}"></a>
+                    @else
+                    Not Uploaded
+                    @endif
                   </td>
                   <td>
-                    Login Id : {{ $row->username }} <br>
-                    Password : {{ $row->password }}
+                    Name : {{ $row->name }} <br>
+                    Email : {{ $row->email }}<br>
+                    Mobile : {{ $row->mobile }}<br>
                   </td>
+                  <td>{{ $row->linked_in }}</td>
+                  <td>{{ $row->designation }}</td>
+                  <td>{{ $row->quote }}</td>
                   <td id="statustd{{ $row->id }}">
                     <span id="asts{{ $row->id }}" class="badge bg-success {{ $row->status == 1 ? '' : 'hide-this' }}"
                       onclick="changeStatus('{{ $row->id }}','0')">Active</span>
@@ -170,7 +210,7 @@
                       class="waves-effect waves-light btn btn-sm btn-outline btn-danger">
                       <i class="fa fa-trash" aria-hidden="true"></i>
                     </a>
-                    <a href="{{ url('admin/employees/update/' . $row->id) }}"
+                    <a href="{{ url('admin/team/update/' . $row->id) }}"
                       class="waves-effect waves-light btn btn-sm btn-outline btn-info">
                       <i class="fa fa-edit" aria-hidden="true"></i>
                     </a>
@@ -191,51 +231,51 @@
 
 <script>
   function changeStatus(id, val) {
-      //alert(id);
-      var tbl = 'users';
+    //alert(id);
+    var tbl = 'teams';
+    $.ajax({
+      url: "{{ url('common/change-status') }}",
+      method: "GET",
+      data: {
+        id: id,
+        tbl: tbl,
+        val: val
+      },
+      success: function(data) {
+        if (data == '1') {
+          //alert('status changed of ' + id + ' to ' + val);
+          if (val == '1') {
+            $('#asts' + id).toggle();
+            $('#ists' + id).toggle();
+          }
+          if (val == '0') {
+            $('#asts' + id).toggle();
+            $('#ists' + id).toggle();
+          }
+        }
+      }
+    });
+
+  }
+
+  function DeleteAjax(id) {
+    //alert(id);
+    var cd = confirm("Are you sure ?");
+    if (cd == true) {
       $.ajax({
-        url: "{{ url('common/change-status') }}",
-        method: "GET",
-        data: {
-          id: id,
-          tbl: tbl,
-          val: val
-        },
+        url: "{{ url('admin/team/delete') }}" + "/" + id,
         success: function(data) {
           if (data == '1') {
-            //alert('status changed of ' + id + ' to ' + val);
-            if (val == '1') {
-              $('#asts' + id).toggle();
-              $('#ists' + id).toggle();
-            }
-            if (val == '0') {
-              $('#asts' + id).toggle();
-              $('#ists' + id).toggle();
-            }
+            $('#row' + id).remove();
+            var h = 'Success';
+            var msg = 'Record deleted successfully';
+            var type = 'success';
+            $('#toastMsg').text(msg);
+            $('#liveToast').show();
           }
         }
       });
-
     }
-
-    function DeleteAjax(id) {
-      //alert(id);
-      var cd = confirm("Are you sure ?");
-      if (cd == true) {
-        $.ajax({
-          url: "{{ url('admin/employees/delete') }}" + "/" + id,
-          success: function(data) {
-            if (data == '1') {
-              $('#row' + id).remove();
-              var h = 'Success';
-              var msg = 'Record deleted successfully';
-              var type = 'success';
-              $('#toastMsg').text(msg);
-              $('#liveToast').show();
-            }
-          }
-        });
-      }
-    }
+  }
 </script>
 @endsection
