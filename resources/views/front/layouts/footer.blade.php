@@ -8,7 +8,7 @@
           <div class="row footer-top-wrap">
             <div class="col-md-4 col-sm-6">
               <div class="footer-nav-wrap text-white">
-                <img src="img/logo-white.png" alt="logo" class="mb-2">
+                <img src="{{ url('/front/') }}/img/logo-white.png" alt="logo" class="mb-2">
                 <p>Continually myocardinate inexpensive catalysts for change with seamless initiatives.</p>
                 <div class="social-nav mt-4">
                   <ul class="list-unstyled social-list mb-0">
@@ -95,8 +95,8 @@
         </div>
         <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
           <ul class="list-inline policy-nav text-right social-list">
-            <li class="list-inline-item"><a href="privacy-disclaimer.html">Privacy & Disclaimer</a></li>
-            <li class="list-inline-item"><a href="terms-of-use.html">Terms of Use</a></li>
+            <li class="list-inline-item"><a href="{{ url('/privacy-disclaimer/') }}">Privacy & Disclaimer</a></li>
+            <li class="list-inline-item"><a href="{{ url('/terms-of-use/') }}">Terms of Use</a></li>
           </ul>
         </div>
       </div>
@@ -134,7 +134,7 @@
 <script src="{{ url('front/') }}/js/jquery.easy-pie-chart.js"></script>
 <!--custom js-->
 <script src="{{ url('front/') }}/js/scripts.js"></script>
-
+<script src="https://www.indianuniversities.net/assets/web/plugins/jquery-5.2.js"></script>
 <script>
   jQuery(document).ready(function($) {
     var owl = $('.owl-carousel');
@@ -212,6 +212,39 @@
         },
         1200: {
           items: 3
+        }
+      }
+    });
+  });
+</script>
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+</script>
+<script>
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top -60
+          }, 500);
+          return false;
         }
       }
     });

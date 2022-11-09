@@ -11,4 +11,12 @@ class HomeFc extends Controller
   {
     return view('front.index');
   }
+  public function privacyPolicy(Request $request)
+  {
+    return view('front.privacy-policy');
+  }
+  public function termsConditions(Request $request)
+  {
+    return view('front.terms-conditions');
+  }
 }

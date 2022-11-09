@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class TestimonialFc extends Controller
 {
-    //
+  public function index(Request $request)
+  {
+    return view('front.testimonial');
+  }
 }

@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class GetQuoteFc extends Controller
 {
-    //
+  public function index(Request $request)
+  {
+    return view('front.get-quote');
+  }
 }

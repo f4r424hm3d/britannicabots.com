@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class ServicesFc extends Controller
 {
-    //
+  public function index(Request $request)
+  {
+    return view('front.services');
+  }
 }
