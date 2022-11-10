@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
+use App\Http\Controllers\admin\ContactInquiryC;
+use App\Http\Controllers\admin\GetQuoteInquiryC;
 use App\Http\Controllers\admin\TeamC;
 use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
@@ -118,6 +120,15 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [TeamC::class, 'delete']);
       Route::get('/update/{id}', [TeamC::class, 'index']);
       Route::post('/update/{id}', [TeamC::class, 'update']);
+    });
+
+    Route::prefix('/contact-us')->group(function () {
+      Route::get('', [ContactInquiryC::class, 'index']);
+      Route::get('/delete/{id}', [ContactInquiryC::class, 'delete']);
+    });
+    Route::prefix('/get-quote')->group(function () {
+      Route::get('', [GetQuoteInquiryC::class, 'index']);
+      Route::get('/delete/{id}', [GetQuoteInquiryC::class, 'delete']);
     });
   });
 });

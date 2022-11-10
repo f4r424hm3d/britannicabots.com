@@ -215,19 +215,19 @@
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
-                    IELTS Mock Test
+                    Inquiry
                   </span>
                   <div class="arrow-down"></div>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-more">
                   <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ url('admin/ielts/ac') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">AC</span>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('contact-us') }}" id="topnav-auth"
+                      role="button">
+                      <span data-key="t-authentication">Contact Us</span>
                     </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ url('admin/ielts/gt') }}"
-                      id="topnav-auth" role="button">
-                      <span data-key="t-authentication">GT</span>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('get-quote') }}" id="topnav-auth"
+                      role="button">
+                      <span data-key="t-authentication">Get Quote</span>
                     </a>
                   </div>
                 </div>
