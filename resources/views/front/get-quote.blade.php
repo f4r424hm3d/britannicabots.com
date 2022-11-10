@@ -65,35 +65,16 @@
                   </div>
                 </div>
 
-                <div class="col-12">
-                  <label class="pb-1">Choose Services</label>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">SEO Services</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">Pay-Per-Click</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">SMO Services</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">Branding</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">Logo Design</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">ORM Services</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">Web Development</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">Website Design</button></div>
-                </div>
-                <div class="col-md-4 col-12">
-                  <div class="form-group"><button class="contBtn">eCommerce</button></div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <label class="pb-1">Select Services</label>
+                    <div class="input-group input-group-merge">
+                      <div class="input-icon"><span class="ti-link color-primary"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Select</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
 
               </div>
@@ -106,7 +87,7 @@
                 </div>
               </div>
 
-              <button class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+              <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
             </form>
 
           </div>
