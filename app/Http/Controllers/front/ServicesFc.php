@@ -11,4 +11,11 @@ class ServicesFc extends Controller
   {
     return view('front.services');
   }
+  public function subServices(Request $request)
+  {
+    $pageName = $request->segment(1);
+    $page_title = ucwords(str_replace('-', ' ', $pageName));
+    $data = compact('page_title');
+    return view('front.services.' . $pageName)->with($data);
+  }
 }

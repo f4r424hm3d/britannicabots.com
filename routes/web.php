@@ -97,8 +97,15 @@ Route::get('/services', [ServicesFc::class, 'index']);
 Route::get('/team', [TeamFc::class, 'index']);
 Route::get('/terms-of-use', [HomeFc::class, 'termsConditions']);
 Route::get('/privacy-disclaimer', [HomeFc::class, 'privacyPolicy']);
+
 /* ADMIN ROUTES BEFORE LOGIN */
-Route::get('/static-website-designing', [ServicesFc::class, 'subServices']);
+$serv = ['android-app-development', 'static-website-designing', 'dynamic-website-designing', 'landing-page-website-designing', 'website-re-designing', 'website-maintenance', 'ios-app-development', 'cms-web-development', 'web-development', 'ecommerce-web-development', 'shopify-website-development', 'search-engine-optimization', 'social-media-optimization', 'logo-design', 'brochure-design', 'social-creative', 'payment-gateway-integration', 'api-development'];
+foreach ($serv as $ser) {
+  Route::get('/' . $ser, [ServicesFc::class, 'subServices']);
+}
+
+
+
 /* ADMIN ROUTES BEFORE LOGIN */
 
 /* ADMIN ROUTES BEFORE LOGIN */

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!--title-->
-  <title>Britannica Bots</title>
+  @stack('title')
 
   <!--favicon icon-->
   <link rel="icon" href="{{ url('front/') }}/img/favicon.png" type="image/png" sizes="16x16">
