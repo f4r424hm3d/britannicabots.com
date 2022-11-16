@@ -10,7 +10,7 @@ class ContactInquiryC extends Controller
 {
   public function index()
   {
-    $rows = ContactUs::all();
+    $rows = ContactUs::where(['type' => 'contact-us'])->get();
     $page_title = 'Contact Us Inquiry';
     $data = compact('rows', 'page_title');
     return view('admin.contact-us')->with($data);

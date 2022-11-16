@@ -21,17 +21,33 @@
         <div class="col-md-8">
           <p class="lead mb-0">REQUEST FOR A NO OBLIGATION QUOTATION</p>
           <h2 class="font-weight-bold">Please Complete This Form</h2>
-
+          @if (session()->has('smsg'))
+          <div class="alert alert-success alert-dismissable">
+            {{ session()->get('smsg') }}
+          </div>
+          @endif
+          @if (session()->has('emsg'))
+          <div class="alert alert-danger alert-dismissable">
+            {{ session()->get('emsg') }}
+          </div>
+          @endif
           <div class="contact-us-form gray-light-bg rounded p-4">
-            <form action="#" method="POST" class="login-signup-form">
+            <form action="{{ url('get-quote') }}" method="POST" class="login-signup-form">
+              @csrf
               <div class="form-row">
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label class="pb-1">Your Name</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-user color-primary"></span></div>
-                      <input type="text" class="form-control" placeholder="Enter your name" required>
+                      <input name="name" type="text" class="form-control" placeholder="Enter full name"
+                        value="{{ old('name') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('name')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -40,8 +56,14 @@
                     <label class="pb-1">Your Email</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-email color-primary"></span></div>
-                      <input type="email" class="form-control" placeholder="Enter your email" required>
+                      <input name="email" type="email" class="form-control" placeholder="Enter Email Address"
+                        value="{{ old('email') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('email')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -50,8 +72,14 @@
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input type="number" class="form-control" placeholder="Enter your mobile no" required>
+                      <input name="mobile" type="number" class="form-control" placeholder="Phone No."
+                        value="{{ old('mobile') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('mobile')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -60,8 +88,14 @@
                     <label class="pb-1">Your Website</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-link color-primary"></span></div>
-                      <input type="url" class="form-control" placeholder="Enter your website">
+                      <input name="website" type="url" class="form-control" value="{{ old('website') }}"
+                        placeholder="Enter your website">
                     </div>
+                    <span class="text-danger">
+                      @error('website')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -70,10 +104,18 @@
                     <label class="pb-1">Select Services</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-link color-primary"></span></div>
-                      <select name="" id="" class="form-control">
+                      <select name="services[]" id="services" class="form-control" multiple="multiple">
                         <option value="">Select</option>
+                        @foreach ($services as $service)
+                        <option value="{{ $service->name }}">{{ $service->name }}</option>
+                        @endforeach
                       </select>
                     </div>
+                    <span class="text-danger">
+                      @error('services')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 

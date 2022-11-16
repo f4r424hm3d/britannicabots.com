@@ -13,11 +13,10 @@ return new class extends Migration
    */
   public function up()
   {
-    Schema::create('services', function (Blueprint $table) {
-      $table->id();
-      $table->string('name', 100);
-      $table->string('slug', 100);
-      $table->timestamps();
+    Schema::table('contact_us', function (Blueprint $table) {
+      $table->enum('type', ['contact-us', 'get-quote'])->after('message');
+      $table->string('services', 200)->nullable()->after('message');
+      $table->string('website', 200)->nullable()->after('message');
     });
   }
 
@@ -28,6 +27,8 @@ return new class extends Migration
    */
   public function down()
   {
-    Schema::dropIfExists('services');
+    Schema::table('contact_us', function (Blueprint $table) {
+      //
+    });
   }
 };

@@ -14,6 +14,7 @@ return array(
     'App\\Http\\Controllers\\admin\\AdminLogin' => $baseDir . '/app/Http/Controllers/admin/AdminLogin.php',
     'App\\Http\\Controllers\\admin\\ContactInquiryC' => $baseDir . '/app/Http/Controllers/admin/ContactInquiryC.php',
     'App\\Http\\Controllers\\admin\\GetQuoteInquiryC' => $baseDir . '/app/Http/Controllers/admin/GetQuoteInquiryC.php',
+    'App\\Http\\Controllers\\admin\\ServicesC' => $baseDir . '/app/Http/Controllers/admin/ServicesC.php',
     'App\\Http\\Controllers\\admin\\TeamC' => $baseDir . '/app/Http/Controllers/admin/TeamC.php',
     'App\\Http\\Controllers\\front\\AboutFc' => $baseDir . '/app/Http/Controllers/front/AboutFc.php',
     'App\\Http\\Controllers\\front\\BlogFc' => $baseDir . '/app/Http/Controllers/front/BlogFc.php',

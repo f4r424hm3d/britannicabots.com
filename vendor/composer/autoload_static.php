@@ -514,6 +514,7 @@ class ComposerStaticInit1cc77f80c229c7e63d6cbfc094aa4b17
         'App\\Http\\Controllers\\admin\\AdminLogin' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/AdminLogin.php',
         'App\\Http\\Controllers\\admin\\ContactInquiryC' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/ContactInquiryC.php',
         'App\\Http\\Controllers\\admin\\GetQuoteInquiryC' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/GetQuoteInquiryC.php',
+        'App\\Http\\Controllers\\admin\\ServicesC' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/ServicesC.php',
         'App\\Http\\Controllers\\admin\\TeamC' => __DIR__ . '/../..' . '/app/Http/Controllers/admin/TeamC.php',
         'App\\Http\\Controllers\\front\\AboutFc' => __DIR__ . '/../..' . '/app/Http/Controllers/front/AboutFc.php',
         'App\\Http\\Controllers\\front\\BlogFc' => __DIR__ . '/../..' . '/app/Http/Controllers/front/BlogFc.php',

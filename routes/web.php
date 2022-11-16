@@ -4,6 +4,7 @@ use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
+use App\Http\Controllers\admin\ServicesC;
 use App\Http\Controllers\admin\TeamC;
 use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
@@ -96,6 +97,9 @@ Route::get('/services', [ServicesFc::class, 'index']);
 Route::get('/team', [TeamFc::class, 'index']);
 Route::get('/terms-of-use', [HomeFc::class, 'termsConditions']);
 Route::get('/privacy-disclaimer', [HomeFc::class, 'privacyPolicy']);
+/* ADMIN ROUTES BEFORE LOGIN */
+Route::get('/static-website-designing', [ServicesFc::class, 'subServices']);
+/* ADMIN ROUTES BEFORE LOGIN */
 
 /* ADMIN ROUTES BEFORE LOGIN */
 Route::middleware(['adminLoggedOut'])->group(function () {
@@ -120,6 +124,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [TeamC::class, 'delete']);
       Route::get('/update/{id}', [TeamC::class, 'index']);
       Route::post('/update/{id}', [TeamC::class, 'update']);
+    });
+    Route::prefix('/services')->group(function () {
+      Route::get('', [ServicesC::class, 'index']);
+      Route::post('/store', [ServicesC::class, 'store']);
+      Route::get('/delete/{id}', [ServicesC::class, 'delete']);
+      Route::get('/update/{id}', [ServicesC::class, 'index']);
+      Route::post('/update/{id}', [ServicesC::class, 'update']);
     });
 
     Route::prefix('/contact-us')->group(function () {
