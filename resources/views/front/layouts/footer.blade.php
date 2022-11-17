@@ -215,6 +215,27 @@
         }
       }
     });
+    $('#gallery').owlCarousel({
+      loop: true,
+      nav: false,
+      margin:0,
+      dots: true,
+      autoplay: false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        767: {
+          items: 1
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1
+        }
+      }
+    });
   });
 </script>
 <script>
@@ -250,6 +271,8 @@
     });
   });
 </script>
+<link rel="stylesheet" href="{{ url('front/') }}/fancybox/jquery.fancybox.min.css" />
+<script src="{{ url('front/') }}/fancybox/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

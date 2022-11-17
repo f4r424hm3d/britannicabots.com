@@ -20,6 +20,8 @@ use App\Http\Controllers\front\PortfolioFc;
 use App\Http\Controllers\front\ServicesFc;
 use App\Http\Controllers\front\TeamFc;
 use App\Http\Controllers\front\TestimonialFc;
+use App\Models\Portfolio;
+use App\Models\Services;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
@@ -107,6 +109,14 @@ foreach ($serv as $ser) {
   Route::get('/' . $ser, [ServicesFc::class, 'subServices']);
 }
 
+$allServ = Services::all();
+foreach ($allServ as $ser) {
+  Route::get('/' . $ser->slug . '-portfolio', [PortfolioFc::class, 'PortfolioList']);
+}
+$allComp = Portfolio::all();
+foreach ($allComp as $com) {
+  Route::get('portfolio/' . $com->company_slug, [PortfolioFc::class, 'PortfolioDetail']);
+}
 
 
 /* ADMIN ROUTES BEFORE LOGIN */
