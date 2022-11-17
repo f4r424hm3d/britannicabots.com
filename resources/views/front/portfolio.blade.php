@@ -17,8 +17,8 @@
               retail businesses, professional service firms, backyard living dealerships, and home builders. Our
               portfolio will provide you with an inside look at how we create successful campaigns, exceptional
               websites, and memorable digital experiences.</p>
-            <div class="action-btns mt-3"><a href="#explore" class="btn secondary-solid-btn"><span class="blink"></span>
-                EXPLORE NOW</a></div>
+            <div class="action-btns mt-3"><a href="#designing" class="btn secondary-solid-btn"><span
+                  class="blink"></span> EXPLORE NOW</a></div>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
@@ -30,13 +30,40 @@
   </section>
   <!--banner section end-->
 
+  <!--btn 1 section start-->
+  <section class="bg-light pt-4 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#designing"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-desktop icon-sm d-block mb-2"></span>
+            WEBSITE<br>DESIGNING</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#development"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-cup icon-sm d-block mb-2"></span>
+            WEBSITE<br>DEVELOPMENT</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#app"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-mobile icon-sm d-block mb-2"></span>
+            APP<br>DEVELOPMENT</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#digital"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span
+              class="ti-announcement icon-sm d-block mb-2"></span> DIGITAL<br>MARKETING</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#graphic"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-brush icon-sm d-block mb-2"></span>
+            GRAPHIC<br>DESIGN</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="#other"
+            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-settings icon-sm d-block mb-2"></span>
+            OTHER<br>SERVICES</a></div>
+      </div>
+    </div>
+  </section>
+  <!--btn 1 section end-->
+
+
+
   <!--contact us section start-->
-  <section class="about-us-section ptb-100" id="explore">
+  <section class="about-us-section ptb-100" id="designing">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-5 col-lg-5">
-          <!--div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img src="{{ url('/front/') }}/img/portfolios/website.jpg" alt="about us" class="img-fluid"></div-->
-          <!--div class="image-circle"><img src="{{ url('/front/') }}/img/portfolios/website.jpg" /></div-->
           <div class="wow fadeInLeft animated" data-wow-duration="2s">
             <div class="custom-port-col-image w-anuimation-image4"><img alt=""
                 src="{{ url('/front/') }}/img/portfolios/website.jpg"></div>
@@ -50,8 +77,7 @@
               of a website, such as its responsive design, quick loading time, and intuitive navigation.</p>
             <p>Get a website created that will assist you in increasing leads and sales for your company with an
               appealing and user-friendly design and powerful call-to-action tactics. To compete in the market, our
-              primary goal is to offer strategic planning and the greatest product in the sector.
-            </p>
+              primary goal is to offer strategic planning and the greatest product in the sector.</p>
             <a href="portfolio-inside.html" class="btn btn secondary-solid-btn"><span class="blink"></span> EXPLORE
               WORK</a>
           </div>
@@ -60,10 +86,9 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/website-parallax.jpg)">
-  </section>
+  <section class="bgimg" style=" background-image:url(img/portfolios/website-parallax.jpg)"></section>
 
-  <section class="about-us-section ptb-100">
+  <section class="about-us-section ptb-100" id="development">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
@@ -90,10 +115,9 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/development-parallax.jpg)">
-  </section>
+  <section class="bgimg" style=" background-image:url(img/portfolios/development-parallax.jpg)"></section>
 
-  <section class="about-us-section ptb-100">
+  <section class="about-us-section ptb-100" id="app">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-5 col-lg-5">
@@ -119,9 +143,9 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/app-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url(img/portfolios/app-parallax.jpg)"></section>
 
-  <section class="about-us-section ptb-100">
+  <section class="about-us-section ptb-100" id="digital">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
@@ -147,10 +171,9 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/digital-parallax.jpg)">
-  </section>
+  <section class="bgimg" style=" background-image:url(img/portfolios/digital-parallax.jpg)"></section>
 
-  <section class="about-us-section ptb-100">
+  <section class="about-us-section ptb-100" id="graphic">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
@@ -174,10 +197,9 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/graphic-parallax.jpg)">
-  </section>
+  <section class="bgimg" style=" background-image:url(img/portfolios/graphic-parallax.jpg)"></section>
 
-  <section class="about-us-section ptb-100">
+  <section class="about-us-section ptb-100" id="other">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-5 col-lg-5">

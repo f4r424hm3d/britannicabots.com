@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\AdminLogin;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
 use App\Http\Controllers\admin\ServicesC;
+use App\Http\Controllers\admin\SubServicesC;
 use App\Http\Controllers\admin\TeamC;
 use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
@@ -138,6 +139,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [ServicesC::class, 'delete']);
       Route::get('/update/{id}', [ServicesC::class, 'index']);
       Route::post('/update/{id}', [ServicesC::class, 'update']);
+    });
+    Route::prefix('/sub-services')->group(function () {
+      Route::get('', [SubServicesC::class, 'index']);
+      Route::post('/store', [SubServicesC::class, 'store']);
+      Route::get('/delete/{id}', [SubServicesC::class, 'delete']);
+      Route::get('/update/{id}', [SubServicesC::class, 'index']);
+      Route::post('/update/{id}', [SubServicesC::class, 'update']);
     });
 
     Route::prefix('/contact-us')->group(function () {
