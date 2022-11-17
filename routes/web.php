@@ -4,6 +4,8 @@ use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
+use App\Http\Controllers\admin\PortfolioC;
+use App\Http\Controllers\admin\PortfolioImagesC;
 use App\Http\Controllers\admin\ServicesC;
 use App\Http\Controllers\admin\SubServicesC;
 use App\Http\Controllers\admin\TeamC;
@@ -146,6 +148,20 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [SubServicesC::class, 'delete']);
       Route::get('/update/{id}', [SubServicesC::class, 'index']);
       Route::post('/update/{id}', [SubServicesC::class, 'update']);
+    });
+    Route::prefix('/portfolio')->group(function () {
+      Route::get('', [PortfolioC::class, 'index']);
+      Route::post('/store', [PortfolioC::class, 'store']);
+      Route::get('/delete/{id}', [PortfolioC::class, 'delete']);
+      Route::get('/update/{id}', [PortfolioC::class, 'index']);
+      Route::post('/update/{id}', [PortfolioC::class, 'update']);
+    });
+    Route::prefix('/portfolio-images')->group(function () {
+      Route::get('/{portfolio_id}', [PortfolioImagesC::class, 'index']);
+      Route::post('/store', [PortfolioImagesC::class, 'store']);
+      Route::get('/delete/{id}', [PortfolioImagesC::class, 'delete']);
+      Route::get('/{portfolio_id}/update/{id}', [PortfolioImagesC::class, 'index']);
+      Route::post('/update/{id}', [PortfolioImagesC::class, 'update']);
     });
 
     Route::prefix('/contact-us')->group(function () {
