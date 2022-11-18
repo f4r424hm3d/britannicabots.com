@@ -100,6 +100,7 @@ Route::post('/get-quote', [GetQuoteFc::class, 'submitInquiry']);
 Route::get('/testimonials', [TestimonialFc::class, 'index']);
 Route::get('/portfolio', [PortfolioFc::class, 'index']);
 Route::get('/career', [CareerFc::class, 'index']);
+Route::post('/apply-job', [CareerFc::class, 'applyJob']);
 Route::get('/services', [ServicesFc::class, 'index']);
 Route::get('/team', [TeamFc::class, 'index']);
 Route::get('/terms-of-use', [HomeFc::class, 'termsConditions']);

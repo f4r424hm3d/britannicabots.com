@@ -3,7 +3,7 @@ use App\Models\Vacancy;
 @endphp
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>{{ $page_title }}</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -142,19 +142,35 @@ use App\Models\Vacancy;
       <div class="col-12 pb-3 message-box d-none">
         <div class="alert alert-danger"></div>
       </div>
-
+      @if (session()->has('smsg'))
+      <div class="alert alert-success alert-dismissable">
+        {{ session()->get('smsg') }}
+      </div>
+      @endif
+      @if (session()->has('emsg'))
+      <div class="alert alert-danger alert-dismissable">
+        {{ session()->get('emsg') }}
+      </div>
+      @endif
       <div class="row align-items-center">
         <div class="col-md-8">
           <div class="contact-us-form gray-light-bg rounded p-4">
-            <form action="#" method="POST" class="login-signup-form">
+            <form action="{{ url('apply-job') }}" method="POST" class="login-signup-form" enctype="multipart/form-data">
+              @csrf
               <div class="form-row">
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label class="pb-1">Your Name</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-user color-primary"></span></div>
-                      <input type="text" class="form-control" placeholder="Enter your name" required>
+                      <input name="name" id="name" type="text" class="form-control" placeholder="Enter your name"
+                        value="{{ old('name') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('name')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -162,9 +178,15 @@ use App\Models\Vacancy;
                   <div class="form-group">
                     <label class="pb-1">Your Email</label>
                     <div class="input-group input-group-merge">
-                      <div class="input-icon"><span class="ti-email"></span></div>
-                      <input type="email" class="form-control" placeholder="Enter your email" required>
+                      <div class="input-icon"><span class="ti-email color-primary"></span></div>
+                      <input name="email" type="email" class="form-control" placeholder="Enter Email Address"
+                        value="{{ old('email') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('email')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -173,8 +195,14 @@ use App\Models\Vacancy;
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input type="number" class="form-control" placeholder="Enter your mobile no" required>
+                      <input name="mobile" type="number" class="form-control" placeholder="Phone No."
+                        value="{{ old('mobile') }}" required>
                     </div>
+                    <span class="text-danger">
+                      @error('mobile')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -183,15 +211,21 @@ use App\Models\Vacancy;
                     <label class="pb-1">Experience</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-briefcase color-primary"></span></div>
-                      <select class="form-control">
+                      <select name="experience" id="experience" class="form-control">
                         <option value="">Select your experience</option>
-                        <option value="">Less than 1 year</option>
-                        <option value="">1-2 year</option>
-                        <option value="">2-3 year</option>
-                        <option value="">3-4 year</option>
-                        <option value="">More than 5</option>
+                        @php
+                        $exp = ['Less than 1 year','1-2 year','2-3 year','3-4 year','More than 5']
+                        @endphp
+                        @foreach ($exp as $exp)
+                        <option value="{{ $exp }}" {{ $exp==old('experience')?'selected':'' }}>{{ $exp }}</option>
+                        @endforeach
                       </select>
                     </div>
+                    <span class="text-danger">
+                      @error('experience')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -200,15 +234,20 @@ use App\Models\Vacancy;
                     <label class="pb-1">Apply for position</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-vector color-primary"></span></div>
-                      <select class="form-control">
+                      <select name="position" id="position" class="form-control">
                         <option value="">Select position</option>
-                        <option value="">Web Designer</option>
-                        <option value="">UI/UX Designer</option>
-                        <option value="">App Optimizers & Marketers</option>
-                        <option value="">PR & Outreach Influencers</option>
-                        <option value="">Content/Copywriter</option>
+                        @foreach ($designations as $des)
+                        <option value="{{ $des->designation_id }}" {{ $des->
+                          designation_id==old('position')?'selected':'' }}>{{
+                          $des->getDesignation->designation }}</option>
+                        @endforeach
                       </select>
                     </div>
+                    <span class="text-danger">
+                      @error('experience')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -217,20 +256,31 @@ use App\Models\Vacancy;
                     <label class="pb-1">Upload your CV/Resume</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-upload color-primary"></span></div>
-                      <input type="file" class="form-control" placeholder="Upload you file max 10mb" required>
+                      <input name="resume" id="resume" type="file" class="form-control"
+                        placeholder="Upload you file max 2MB" required>
                     </div>
+                    <span class="text-danger">
+                      @error('resume')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
-                <div class="col-12 col-md-12">
+                <div class=" col-12 col-md-12">
                   <div class="form-group">
                     <label class="pb-1">Your Message</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon" style="height:100px;"><span class="ti-pencil-alt color-primary"
                           style="height:100px;"></span></div>
-                      <textarea type="text" class="form-control" placeholder="Enter your message here"
-                        style="height:100px; padding-top:17px" required></textarea>
+                      <textarea name="msg" id="msg" type="text" class="form-control"
+                        placeholder="Enter your message here" style="height:100px; padding-top:17px"></textarea>
                     </div>
+                    <span class="text-danger">
+                      @error('msg')
+                      {{ $message }}
+                      @enderror
+                    </span>
                   </div>
                 </div>
 
@@ -244,7 +294,7 @@ use App\Models\Vacancy;
                 </div>
               </div>
 
-              <button class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+              <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
             </form>
           </div>
         </div>
