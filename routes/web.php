@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\AdminLogin;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
+use App\Http\Controllers\admin\JobApplicationC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
 use App\Http\Controllers\admin\ServicesC;
@@ -205,6 +206,10 @@ Route::middleware(['adminLoggedIn'])->group(function () {
     Route::prefix('/get-quote')->group(function () {
       Route::get('', [GetQuoteInquiryC::class, 'index']);
       Route::get('/delete/{id}', [GetQuoteInquiryC::class, 'delete']);
+    });
+    Route::prefix('/job-application')->group(function () {
+      Route::get('', [JobApplicationC::class, 'index']);
+      Route::get('/delete/{id}', [JobApplicationC::class, 'delete']);
     });
   });
 });

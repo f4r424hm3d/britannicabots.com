@@ -292,6 +292,10 @@
                       role="button">
                       <span data-key="t-authentication">Vacancy</span>
                     </a>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('job-application') }}"
+                      id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Job Application</span>
+                    </a>
                   </div>
                 </div>
               </li>

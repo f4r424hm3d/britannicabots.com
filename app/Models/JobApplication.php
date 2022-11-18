@@ -7,5 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class JobApplication extends Model
 {
-    use HasFactory;
+  use HasFactory;
+  public function getDesignation()
+  {
+    return $this->hasOne(Designation::class, 'id', 'designation_id');
+  }
 }
