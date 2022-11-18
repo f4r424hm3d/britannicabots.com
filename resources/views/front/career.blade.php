@@ -1,3 +1,6 @@
+@php
+use App\Models\Vacancy;
+@endphp
 @extends('front.layouts.main')
 @push('title')
 <title>About</title>
@@ -47,178 +50,41 @@
         <div class="row mt-5">
 
           <div class="tab col-md-4">
-            <button class="tablinks" onClick="openCity(event, '1')" id="defaultOpen">Web Designer</button>
-            <button class="tablinks" onClick="openCity(event, '2')">UI/UX Designer</button>
-            <button class="tablinks" onClick="openCity(event, '3')">App Optimizers & Marketers</button>
-            <button class="tablinks" onClick="openCity(event, '4')">PR & Outreach Influencers</button>
-            <button class="tablinks" onClick="openCity(event, '5')">Content/Copywriter</button>
+            @foreach ($designations as $des)
+            <button class="tablinks" onClick="openCity(event, '{{ $des->designation_id }}')" id="defaultOpen">{{
+              $des->getDesignation->designation }}</button>
+            @endforeach
           </div>
 
           <div class="col-md-8">
-            <div id="1" class="tabcontent">
+            @foreach ($designations as $des)
+            <div id="{{ $des->designation_id }}" class="tabcontent">
+              @php
+              $vacancy = Vacancy::where(['designation_id'=>$des->designation_id])->get();
+              @endphp
+              @foreach ($vacancy as $row)
               <div class="about-us-content-wrap white-bg border rounded p-4">
-                <h3><span class="color-secondary">Website Designer</span></h3>
+                <h3><span class="color-secondary">{{
+                    $row->title }}</span></h3>
                 <span class="heading-border mb-4"></span>
 
-                <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
-                  1 to 3 Years</p>
-                <p class=""><strong>Location :</strong> Noida</p>
+                <p class="mb-2"><strong>No. of Position :</strong> {{
+                  $row->no_of_position }} &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
+                  {{ $row->experience }}</p>
+                <p class=""><strong>Location :</strong> {{ $row->location }}</p>
 
                 <h4 class="mb-2">Roles & Responsibilities :</h4>
-                <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                  HTML, CSS, JavaScript, and wire-framing tools.</p>
+                {!! $row->roles !!}
 
                 <h4 class="mb-2">Job Description:</h4>
-                <ul class="list-unstyled tech-feature-list w-100">
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                    design phases from idea to finishing hand-off to engineering</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                    designs & core deliverables to peers and administrative level stakeholders</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize original
-                    site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                    wireframes, process flows, site maps, and storyboards to converse communication and design notions
-                  </li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                    design guidelines, standards, and best practices.</li>
-                </ul>
+                {!! $row->job_description !!}
 
                 <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
 
               </div>
+              @endforeach
             </div>
-
-            <div id="2" class="tabcontent">
-              <div class="about-us-content-wrap white-bg border rounded p-4">
-                <h3><span class="color-secondary">UI/UX Designer</span></h3>
-                <span class="heading-border mb-4"></span>
-
-                <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
-                  1 to 3 Years</p>
-                <p class=""><strong>Location :</strong> Noida</p>
-
-                <h4 class="mb-2">Roles & Responsibilities :</h4>
-                <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                  HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                <h4 class="mb-2">Job Description:</h4>
-                <ul class="list-unstyled tech-feature-list w-100">
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                    design phases from idea to finishing hand-off to engineering</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                    designs & core deliverables to peers and administrative level stakeholders</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize original
-                    site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                    wireframes, process flows, site maps, and storyboards to converse communication and design notions
-                  </li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                    design guidelines, standards, and best practices.</li>
-                </ul>
-
-                <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-
-              </div>
-            </div>
-
-            <div id="3" class="tabcontent">
-              <div class="about-us-content-wrap white-bg border rounded p-4">
-                <h3><span class="color-secondary">App Optimizers & Marketers</span></h3>
-                <span class="heading-border mb-4"></span>
-
-                <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
-                  1 to 3 Years</p>
-                <p class=""><strong>Location :</strong> Noida</p>
-
-                <h4 class="mb-2">Roles & Responsibilities :</h4>
-                <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                  HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                <h4 class="mb-2">Job Description:</h4>
-                <ul class="list-unstyled tech-feature-list w-100">
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                    design phases from idea to finishing hand-off to engineering</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                    designs & core deliverables to peers and administrative level stakeholders</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize original
-                    site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                    wireframes, process flows, site maps, and storyboards to converse communication and design notions
-                  </li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                    design guidelines, standards, and best practices.</li>
-                </ul>
-
-                <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-
-              </div>
-            </div>
-
-            <div id="4" class="tabcontent">
-              <div class="about-us-content-wrap white-bg border rounded p-4">
-                <h3><span class="color-secondary">PR & Outreach Influencers</span></h3>
-                <span class="heading-border mb-4"></span>
-
-                <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
-                  1 to 3 Years</p>
-                <p class=""><strong>Location :</strong> Noida</p>
-
-                <h4 class="mb-2">Roles & Responsibilities :</h4>
-                <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                  HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                <h4 class="mb-2">Job Description:</h4>
-                <ul class="list-unstyled tech-feature-list w-100">
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                    design phases from idea to finishing hand-off to engineering</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                    designs & core deliverables to peers and administrative level stakeholders</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize original
-                    site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                    wireframes, process flows, site maps, and storyboards to converse communication and design notions
-                  </li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                    design guidelines, standards, and best practices.</li>
-                </ul>
-
-                <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-
-              </div>
-            </div>
-
-            <div id="5" class="tabcontent">
-              <div class="about-us-content-wrap white-bg border rounded p-4">
-                <h3><span class="color-secondary">Content/Copywriter</span></h3>
-                <span class="heading-border mb-4"></span>
-
-                <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
-                  1 to 3 Years</p>
-                <p class=""><strong>Location :</strong> Noida</p>
-
-                <h4 class="mb-2">Roles & Responsibilities :</h4>
-                <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                  HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                <h4 class="mb-2">Job Description:</h4>
-                <ul class="list-unstyled tech-feature-list w-100">
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                    design phases from idea to finishing hand-off to engineering</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                    designs & core deliverables to peers and administrative level stakeholders</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize original
-                    site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                    wireframes, process flows, site maps, and storyboards to converse communication and design notions
-                  </li>
-                  <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                    design guidelines, standards, and best practices.</li>
-                </ul>
-
-                <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-
-              </div>
-            </div>
+            @endforeach
 
           </div>
         </div>
@@ -228,182 +94,41 @@
         <div class="row mt-3">
           <div class="col-lg-12">
             <div id="accordion-1" class="accordion accordion-faq">
-
+              @foreach ($designations as $des)
               <div class="card">
-                <div class="card-header py-3 collapsed" id="heading-1-1" data-toggle="collapse" role="button"
-                  data-target="#collapse-1-1" aria-expanded="true" aria-controls="collapse-1-1">
-                  <h5 class="mb-0 color-secondary">Website Designer</h5>
+                <div class="card-header py-3 collapsed" id="heading-1-{{ $des->designation_id }}" data-toggle="collapse"
+                  role="button" data-target="#collapse-1-{{ $des->designation_id }}" aria-expanded="false"
+                  aria-controls="collapse-1-{{ $des->designation_id }}">
+                  <h5 class="mb-0 color-secondary">
+                    {{ $des->getDesignation->designation }}
+                  </h5>
                 </div>
-                <div id="collapse-1-1" class="collapse show" aria-labelledby="heading-1-1" data-parent="#accordion-1">
+                @php
+                $vacancy = Vacancy::where(['designation_id'=>$des->designation_id])->get();
+                @endphp
+                @foreach ($vacancy as $row)
+                <div id="collapse-1-{{ $des->designation_id }}" class="collapse"
+                  aria-labelledby="heading-1-{{ $des->designation_id }}" data-parent="#accordion-1">
                   <div class="card-body">
-                    <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience
-                        :</strong> 1 to 3 Years</p>
-                    <p class=""><strong>Location :</strong> Noida</p>
+                    <h5>{{ $row->title }}</h5>
+                    <hr>
+                    <p class="mb-2"><strong>No. of Position :</strong> {{
+                      $row->no_of_position }} &nbsp; &nbsp; &nbsp; <strong>Experience :</strong>
+                      {{ $row->experience }}</p>
+                    <p class=""><strong>Location :</strong> {{ $row->location }}</p>
 
                     <h4 class="mb-2">Roles & Responsibilities :</h4>
-                    <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                      HTML, CSS, JavaScript, and wire-framing tools.</p>
+                    {!! $row->roles !!}
 
                     <h4 class="mb-2">Job Description:</h4>
-                    <ul class="list-unstyled tech-feature-list w-100">
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                        design phases from idea to finishing hand-off to engineering</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                        designs & core deliverables to peers and administrative level stakeholders</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize
-                        original site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                        wireframes, process flows, site maps, and storyboards to converse communication and design
-                        notions</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                        design guidelines, standards, and best practices.</li>
-                    </ul>
+                    {!! $row->job_description !!}
 
                     <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
                   </div>
                 </div>
+                @endforeach
               </div>
-
-              <div class="card">
-                <div class="card-header py-3" id="heading-1-2" data-toggle="collapse" role="button"
-                  data-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
-                  <h5 class="mb-0 color-secondary">UI/UX Designer</h5>
-                </div>
-                <div id="collapse-1-2" class="collapse" aria-labelledby="heading-1-2" data-parent="#accordion-1">
-                  <div class="card-body">
-                    <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience
-                        :</strong> 1 to 3 Years</p>
-                    <p class=""><strong>Location :</strong> Noida</p>
-
-                    <h4 class="mb-2">Roles & Responsibilities :</h4>
-                    <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                      HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                    <h4 class="mb-2">Job Description:</h4>
-                    <ul class="list-unstyled tech-feature-list w-100">
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                        design phases from idea to finishing hand-off to engineering</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                        designs & core deliverables to peers and administrative level stakeholders</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize
-                        original site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                        wireframes, process flows, site maps, and storyboards to converse communication and design
-                        notions</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                        design guidelines, standards, and best practices.</li>
-                    </ul>
-
-                    <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header py-3" id="heading-1-3" data-toggle="collapse" role="button"
-                  data-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                  <h5 class="mb-0 color-secondary">App Optimizers & Marketers</h5>
-                </div>
-                <div id="collapse-1-3" class="collapse" aria-labelledby="heading-1-3" data-parent="#accordion-1">
-                  <div class="card-body">
-                    <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience
-                        :</strong> 1 to 3 Years</p>
-                    <p class=""><strong>Location :</strong> Noida</p>
-
-                    <h4 class="mb-2">Roles & Responsibilities :</h4>
-                    <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                      HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                    <h4 class="mb-2">Job Description:</h4>
-                    <ul class="list-unstyled tech-feature-list w-100">
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                        design phases from idea to finishing hand-off to engineering</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                        designs & core deliverables to peers and administrative level stakeholders</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize
-                        original site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                        wireframes, process flows, site maps, and storyboards to converse communication and design
-                        notions</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                        design guidelines, standards, and best practices.</li>
-                    </ul>
-
-                    <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header py-3" id="heading-1-4" data-toggle="collapse" role="button"
-                  data-target="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
-                  <h5 class="mb-0 color-secondary">PR & Outreach Influencers</h5>
-                </div>
-                <div id="collapse-1-4" class="collapse" aria-labelledby="heading-1-4" data-parent="#accordion-1">
-                  <div class="card-body">
-                    <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience
-                        :</strong> 1 to 3 Years</p>
-                    <p class=""><strong>Location :</strong> Noida</p>
-
-                    <h4 class="mb-2">Roles & Responsibilities :</h4>
-                    <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                      HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                    <h4 class="mb-2">Job Description:</h4>
-                    <ul class="list-unstyled tech-feature-list w-100">
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                        design phases from idea to finishing hand-off to engineering</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                        designs & core deliverables to peers and administrative level stakeholders</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize
-                        original site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                        wireframes, process flows, site maps, and storyboards to converse communication and design
-                        notions</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                        design guidelines, standards, and best practices.</li>
-                    </ul>
-
-                    <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header py-3" id="heading-1-5" data-toggle="collapse" role="button"
-                  data-target="#collapse-1-5" aria-expanded="false" aria-controls="collapse-1-5">
-                  <h5 class="mb-0 color-secondary">Content/Copywriter</h5>
-                </div>
-                <div id="collapse-1-5" class="collapse" aria-labelledby="heading-1-5" data-parent="#accordion-1">
-                  <div class="card-body">
-                    <p class="mb-2"><strong>No. of Position :</strong> 2 &nbsp; &nbsp; &nbsp; <strong>Experience
-                        :</strong> 1 to 3 Years</p>
-                    <p class=""><strong>Location :</strong> Noida</p>
-
-                    <h4 class="mb-2">Roles & Responsibilities :</h4>
-                    <p><strong>Mandatory Skills :</strong> Expertise in Photoshop, Illustrator, or other visual design,
-                      HTML, CSS, JavaScript, and wire-framing tools.</p>
-
-                    <h4 class="mb-2">Job Description:</h4>
-                    <ul class="list-unstyled tech-feature-list w-100">
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Perform all visual
-                        design phases from idea to finishing hand-off to engineering</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Present and protect
-                        designs & core deliverables to peers and administrative level stakeholders</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Conceptualize
-                        original site design concepts that bring ease and user friendliness to difficult roadblocks</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Make user flows,
-                        wireframes, process flows, site maps, and storyboards to converse communication and design
-                        notions</li>
-                      <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> Set up and endorse
-                        design guidelines, standards, and best practices.</li>
-                    </ul>
-
-                    <a href="#apply" class="btn btn secondary-solid-btn mt-3">Apply Now</a>
-                  </div>
-                </div>
-              </div>
-
+              @endforeach
             </div>
           </div>
         </div>

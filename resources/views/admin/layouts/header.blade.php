@@ -212,10 +212,25 @@
                 </a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('portfolio') }}" id="topnav-dashboard"
-                  role="button">
-                  <i data-feather="users"></i><span data-key="t-dashboards">Portfolio</span>
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                  <i data-feather="file-text"></i>
+                  <span data-key="t-extra-pages">
+                    Portfolios
+                  </span>
+                  <div class="arrow-down"></div>
                 </a>
+                <div class="dropdown-menu" aria-labelledby="topnav-more">
+                  <div class="dropdown">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('portfolio') }}" id="topnav-auth"
+                      role="button">
+                      <span data-key="t-authentication">Portfolio</span>
+                    </a>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('digital-marketing-portfolio') }}"
+                      id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Digital Marketing Portfolio</span>
+                    </a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
@@ -255,6 +270,27 @@
                     <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('get-quote') }}" id="topnav-auth"
                       role="button">
                       <span data-key="t-authentication">Get Quote</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                  <i data-feather="file-text"></i>
+                  <span data-key="t-extra-pages">
+                    Career
+                  </span>
+                  <div class="arrow-down"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="topnav-more">
+                  <div class="dropdown">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('designations') }}"
+                      id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Designation</span>
+                    </a>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('vacancy') }}" id="topnav-auth"
+                      role="button">
+                      <span data-key="t-authentication">Vacancy</span>
                     </a>
                   </div>
                 </div>

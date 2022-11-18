@@ -3,12 +3,14 @@
 use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
 use App\Http\Controllers\admin\ContactInquiryC;
+use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
 use App\Http\Controllers\admin\ServicesC;
 use App\Http\Controllers\admin\SubServicesC;
 use App\Http\Controllers\admin\TeamC;
+use App\Http\Controllers\admin\VacancyC;
 use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
 use App\Http\Controllers\front\BlogFc;
@@ -138,6 +140,20 @@ Route::middleware(['adminLoggedIn'])->group(function () {
     Route::get('/profile', [AdminDashboard::class, 'profile']);
     Route::post('/update-profile', [AdminDashboard::class, 'updateProfile']);
 
+    Route::prefix('/designations')->group(function () {
+      Route::get('', [DesignationC::class, 'index']);
+      Route::post('/store', [DesignationC::class, 'store']);
+      Route::get('/delete/{id}', [DesignationC::class, 'delete']);
+      Route::get('/update/{id}', [DesignationC::class, 'index']);
+      Route::post('/update/{id}', [DesignationC::class, 'update']);
+    });
+    Route::prefix('/vacancy')->group(function () {
+      Route::get('', [VacancyC::class, 'index']);
+      Route::post('/store', [VacancyC::class, 'store']);
+      Route::get('/delete/{id}', [VacancyC::class, 'delete']);
+      Route::get('/update/{id}', [VacancyC::class, 'index']);
+      Route::post('/update/{id}', [VacancyC::class, 'update']);
+    });
     Route::prefix('/team')->group(function () {
       Route::get('', [TeamC::class, 'index']);
       Route::post('/store', [TeamC::class, 'store']);
@@ -160,6 +176,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::post('/update/{id}', [SubServicesC::class, 'update']);
     });
     Route::prefix('/portfolio')->group(function () {
+      Route::get('', [PortfolioC::class, 'index']);
+      Route::post('/store', [PortfolioC::class, 'store']);
+      Route::get('/delete/{id}', [PortfolioC::class, 'delete']);
+      Route::get('/update/{id}', [PortfolioC::class, 'index']);
+      Route::post('/update/{id}', [PortfolioC::class, 'update']);
+    });
+    Route::prefix('/digital-marketing-portfolio')->group(function () {
       Route::get('', [PortfolioC::class, 'index']);
       Route::post('/store', [PortfolioC::class, 'store']);
       Route::get('/delete/{id}', [PortfolioC::class, 'delete']);
