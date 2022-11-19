@@ -163,7 +163,8 @@
             <h5>Website Designing</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('static-website-designing') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -172,7 +173,8 @@
             <h5>Website Development</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('cms-web-development') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -181,7 +183,8 @@
             <h5>Graphic Designing</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('logo-design') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -190,7 +193,8 @@
             <h5>App Development</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('android-app-development') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -199,7 +203,8 @@
             <h5>Digital Marketing</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('search-engine-optimization') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -208,7 +213,8 @@
             <h5>Other Services</h5>
             <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
               partnerships.</p>
-            <a href="" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="{{ url('api-development') }}" class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></a>
           </div>
         </div>
       </div>

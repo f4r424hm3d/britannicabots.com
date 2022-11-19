@@ -112,7 +112,8 @@
               following and achieve success with social media optimization. Our team accelerates your social media
               presence with innovative, compelling, and engaging posts made to inspire your audience to take action.
               We do this by using a distinctly different approach to cultivate success.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

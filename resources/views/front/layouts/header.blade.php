@@ -110,7 +110,7 @@
                         <a href="{{ url('/') }}/ecommerce-web-development"><span
                             class="ti-arrow-right color-secondary"></span>
                           Ecommerce Web Development</a>
-                        <a href="{{ url('/') }}/shopiefy-website-development"><span
+                        <a href="{{ url('/') }}/shopify-website-development"><span
                             class="ti-arrow-right color-secondary"></span>
                           Shopify Website Development</a>
                       </div>

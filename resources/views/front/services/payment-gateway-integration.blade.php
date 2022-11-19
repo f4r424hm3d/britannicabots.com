@@ -113,7 +113,8 @@
               developing an elegant website. We can implement the payment gateway on your website to take your website
               to the grand next level. Your business will grow simultaneously with Payment gateway’s advanced options.
             </p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

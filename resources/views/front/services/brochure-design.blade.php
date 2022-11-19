@@ -103,7 +103,8 @@
               enough to create high-quality graphics and catalogs, booklets, leaflets for your business. Our unique
               brochure designs fulfill the motive of exploring all the important detailing of the different products
               and services of a company.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

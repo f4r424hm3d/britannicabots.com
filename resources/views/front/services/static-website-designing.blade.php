@@ -105,7 +105,7 @@
               strategic planning and the greatest product in the industry in order to compete in the market.</p>
             <p>Are you a business owner in need of a website or website redesign? Let's talk to our experts and
               receive a free proposal.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn" data-toggle="modal"
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn" data-toggle="modal"
               data-target="#popupInquiry"><span class="blink"></span> Lets talk with us</a>
           </div>
         </div>
@@ -323,7 +323,8 @@
               represents your business and helps it grow.</p>
             <p class="lead">Are you a business owner in Gurugram that requires a website or is seeking for a website
               design company? Let's talk to our experts and obtain a free proposal.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

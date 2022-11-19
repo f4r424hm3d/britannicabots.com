@@ -102,7 +102,8 @@
               design experts who are dedicated to logo and branding services. We perform extensive research on each
               element of the design and make sure that your brand logo is well accepted at the local and international
               levels in a positive light.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

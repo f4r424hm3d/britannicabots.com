@@ -71,7 +71,8 @@
               can expand your business and improve ROI with the aid of our unrivalled SEO services in India. So why
               are you still waiting? With the help of our successful on-page and off-page optimization services, you
               can help your company establish a solid online reputation.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

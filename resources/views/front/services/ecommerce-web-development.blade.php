@@ -105,7 +105,8 @@
               e-commerce websites to successfully market your business.</p>
             <p>Our experts will review your bespoke feature requirements and tailor a cost-effective solution based on
               your company's size and e-commerce aspirations.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

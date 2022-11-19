@@ -98,7 +98,8 @@
               features. As SHOPIFY Partners for many years, our agile-trained SHOPIFY developers have taken advantage
               of SHOPIFY's capabilities to produce incredibly persuasive shopping experiences. This has aided in
               increasing business conversions for our clients.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

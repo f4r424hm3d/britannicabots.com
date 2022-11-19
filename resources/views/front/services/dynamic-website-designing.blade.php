@@ -101,7 +101,8 @@
               format you require.</p>
             <p>We will optimise your potential and achieve an excellent return on your investment, whether it is a
               bespoke brochure or a smart website.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>
@@ -319,7 +320,8 @@
               represents your business and helps it grow.</p>
             <p class="lead">Are you a business owner in Gurugram that requires a website or is seeking for a website
               design company? Let's talk to our experts and obtain a free proposal.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

@@ -130,7 +130,8 @@
               management systems. Our CMS design service includes high-end solutions to all content management
               concerns. Our services are intended to assist your company grow in some way. Since we have been a
               recognised CMS service provider in India for a long time, the market holds us in high regard.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

@@ -107,7 +107,8 @@
               characteristics through various types of marketing campaigns, as well as various webmaster tools. If the
               webmaster was only paid to launch the website and not to maintain it, simply contact our website's
               maintenance services department and your website will be our duty.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

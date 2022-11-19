@@ -100,7 +100,8 @@
               keeping in mind the most crucial features for a website such as it's responsive design, faster loading
               speed and user-friendly navigation. Our main focus, as a Website Designing Company is to provide
               strategic planning & industry’s best product to compete in the market.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

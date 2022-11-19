@@ -103,7 +103,8 @@
               and the best product in the business in order to compete in the market.</p>
             <p>Are you a business owner in need of a website or website redesign? Let's talk to our specialists and
               obtain a free proposal.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>
@@ -317,7 +318,8 @@
               size, or functionality. If you are a leader who wants to bring a commendable to your business site for
               inflating its market reach, online presence, and ultimate content audience, don't hesitate to select us
               for this difficult assignment. </p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

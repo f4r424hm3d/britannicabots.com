@@ -99,7 +99,8 @@
               to be well-designed, user-friendly, robust, and dynamic. We have proficient app developers who develop
               iOS apps which flexible, upgradable, handy and simple. We work with start-ups to large-scale companies
               to launch their project into a mobile application.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

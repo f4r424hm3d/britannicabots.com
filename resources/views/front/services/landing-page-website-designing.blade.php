@@ -110,7 +110,8 @@
             <p>Britannica Bots is a top landing page website design firm in India that values creativity and quality.
               We are a group of creative thinkers who collaborate to create exceptional and result-driven websites.
             </p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>
@@ -321,7 +322,8 @@
               All navigation tabs go to the specialised area of a single page. Any company thinking about digital
               marketing or a small business in need of a low-cost instructive website could contact a landing page
               website design company like Britannica Bots.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

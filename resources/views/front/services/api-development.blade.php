@@ -103,7 +103,8 @@
             <p class="lead">As a highly acclaimed API development company, we have supported clients in the USA, UK,
               Canada, Singapore, and more by strategizing, managing, and running high-performance API programs to meet
               their business goals.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>

@@ -104,7 +104,8 @@
               your business requirements before recommending the best website development solution.</p>
             <p>Do you have an idea for a business? Let's talk about it and make it happen with our results-oriented
               approach and solutions. Call us right now for a free proposal.</p>
-            <a href="get-quote.html" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk with
+            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              with
               us</a>
           </div>
         </div>
