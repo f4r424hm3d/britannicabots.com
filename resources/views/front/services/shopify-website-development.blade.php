@@ -666,7 +666,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="#" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>
