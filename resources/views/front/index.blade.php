@@ -511,7 +511,7 @@
 
   <!--testimonial section start-->
   <section class="testimonial-section ptb-100"
-    style="background: url('img/testimonial-bg.png')no-repeat center center / cover">
+    style="background: url('{{ url('/front/') }}/img/testimonial-bg.png')no-repeat center center / cover">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 col-lg-5">
