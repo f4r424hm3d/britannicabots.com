@@ -41,7 +41,7 @@ class PortfolioC extends Controller
         'service' => 'required|numeric',
         'company_name' => 'required',
         'company_category' => 'required',
-        'description' => 'required',
+        //'description' => 'required',
         'thumbnail' => 'nullable|max:50000|mimes:jpg,jpeg,png,gif',
       ]
     );

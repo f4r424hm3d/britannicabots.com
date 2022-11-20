@@ -26,22 +26,25 @@
   <section class="bg-light pt-4 pb-4">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('website-development-portfolio') }}"
-            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-desktop icon-sm d-block mb-2"></span>
-            WEBSITE<br>DESIGNING</a></div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+          <a href="{{ url('website-designing-portfolio') }}" class="btn btn secondary-solid-btn pt-4 pb-3 w-100">
+            <span class="ti-desktop icon-sm d-block mb-2"></span>WEBSITE<br>DESIGNING
+          </a>
+        </div>
         <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('website-development-portfolio') }}"
             class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-cup icon-sm d-block mb-2"></span>
             WEBSITE<br>DEVELOPMENT</a></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('website-development-portfolio') }}"
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('app-development-portfolio') }}"
             class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-mobile icon-sm d-block mb-2"></span>
             APP<br>DEVELOPMENT</a></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="portfolio-inside-digital-marketing.html"
-            class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span
-              class="ti-announcement icon-sm d-block mb-2"></span> DIGITAL<br>MARKETING</a></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('website-development-portfolio') }}"
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+          <a href="{{ url('digital-marketing-portfolio') }}" class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span
+              class="ti-announcement icon-sm d-block mb-2"></span> DIGITAL<br>MARKETING</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('graphic-designing-portfolio') }}"
             class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-brush icon-sm d-block mb-2"></span>
             GRAPHIC<br>DESIGN</a></div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('website-development-portfolio') }}"
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6"><a href="{{ url('other-services-portfolio') }}"
             class="btn btn secondary-solid-btn pt-4 pb-3 w-100"><span class="ti-settings icon-sm d-block mb-2"></span>
             OTHER<br>SERVICES</a></div>
       </div>

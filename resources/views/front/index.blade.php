@@ -87,25 +87,49 @@
             <strong class="color-secondary">About Us</strong>
             <h3>Grow Your Business With Experts</h3>
             <span class="animate-border mb-4"></span>
-            <p>Globally transition proactive niches without progressive processes. Objectively syndicate
-              enterprise-wide services through timely metrics.</p>
+            <p>Marketing your brand without an internet marketing strategy or using an inappropriate online marketing
+              plan is a
+              surefire way to lose money, waste time and get nowhere.</p>
 
             <ul class="list-unstyled tech-feature-list w-100 mb-3">
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Creative</strong>
-                Websites Design</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Accounting</strong>
-                Procedures
-                Guidebook</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Cost</strong>
-                Accounting Fundamentals</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
-                Cash Management</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
-                Optimization Services</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
-                Brand Solutions</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>45-Day</strong>
-                Money-Back Guarantee</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span>Determine marketing gaps
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Expand your reach</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Improve audience targeting
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Save time, money and
+                resources</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Increase traffic,
+                leads and conversions</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Generate better, faster
+                revenue</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Discover more opportunities
+                to build brand awareness</li>
+
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Take appropriate actions
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Measure campaign
+                performance and
+                brand success</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Build a brand reputation
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Scale business</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Compete with industry
+                giants
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Accomplish business goals
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Manage your financial
+                resources</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Britannica Overseas10:10 AM
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Rank better with</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> our search engine</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> optimization (SEO) service
+              </li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Get organic traffic from
+                the best
+                SEO agency in India</li>
             </ul>
 
             <div class="row hide-this">

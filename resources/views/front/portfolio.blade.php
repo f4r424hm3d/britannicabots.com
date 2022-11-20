@@ -138,7 +138,7 @@
               heavily on smartphone applications for a variety of tasks, including shopping, cab or taxi booking,
               magazine and newspaper subscriptions, food delivery, making healthcare appointments, engaging with friends
               on social media, and performing bank transactions.</p>
-            <a href="{{ url('website-development-portfolio') }}" class="btn btn secondary-solid-btn"><span
+            <a href="{{ url('app-development-portfolio') }}" class="btn btn secondary-solid-btn"><span
                 class="blink"></span> EXPLORE
               WORK</a>
           </div>
@@ -161,7 +161,7 @@
             <p>Get a website created that will assist you in increasing leads and sales for your company with an
               appealing and user-friendly design and powerful call-to-action tactics. To compete in the market, our
               primary goal is to offer strategic planning and the greatest product in the sector.</p>
-            <a href="{{ url('website-development-portfolio') }}" class="btn btn secondary-solid-btn"><span
+            <a href="{{ url('digital-marketing-portfolio') }}" class="btn btn secondary-solid-btn"><span
                 class="blink"></span> EXPLORE
               WORK</a>
           </div>
@@ -189,7 +189,7 @@
               identity and goal. Your visual must convey everything about your business, and our team of graphic design
               professionals is committed to providing services for branding. We conduct in-depth research on each design
               element to ensure that your company's graphics are seen favourably both locally and internationally.</p>
-            <a href="{{ url('website-development-portfolio') }}" class="btn btn secondary-solid-btn"><span
+            <a href="{{ url('graphic-designing-portfolio') }}" class="btn btn secondary-solid-btn"><span
                 class="blink"></span> EXPLORE
               WORK</a>
           </div>
@@ -226,8 +226,9 @@
               shopping, booking cab or taxi, subscribe newspaper & magazines, order food, schedule an appointment with
               doctors, interacting with friends on social media or perform bank transactions, mobile apps have made
               everything easy.</p>
-            <a href="{{ url('website-development-portfolio') }}" class="btn btn secondary-solid-btn"><span
-                class="blink"></span> EXPLORE
+            <a href="{{ url('other-services-portfolio') }}" class="btn btn secondary-solid-btn"><span
+                class="blink"></span>
+              EXPLORE
               WORK</a>
           </div>
         </div>

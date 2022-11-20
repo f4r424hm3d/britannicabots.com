@@ -63,7 +63,8 @@
                     <select name="service" id="service" class="form-control">
                       <option value="">Select</option>
                       @foreach ($services as $ser)
-                      <option value="{{ $ser->id }}" {{ $ft=='edit' && $sd->service_id == $ser->id ? 'Selected' : ''
+                      <option value="{{ $ser->id }}" {{ ($ft=='edit' && $sd->service_id == $ser->id) || (old('service')
+                        == $ser->id) ? 'Selected' : ''
                         }}>{{
                         $ser->name }}</option>
                       @endforeach
