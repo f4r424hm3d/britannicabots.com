@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>Get Quote</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -142,12 +142,13 @@
 
             <hr class="my-4">
 
-            <h2 class="font-weight-bolder"><a href="tel:+60104306704" class="color-black">+60-10-4306-704</a></h2>
+            <h2 class="font-weight-bolder"><a href="tel:+60104306704" class="color-black">(+91) 9818 560 331</a></h2>
 
             <hr class="my-4">
 
             <h5 class="mb-1">Address</h5>
-            <p><span class="ti-location-pin color-secondary"></span> 100 Yellow House, Mn Factory, United State, 13420
+            <p><span class="ti-location-pin color-secondary"></span> B-16 Ground Floor, Mayfield Garden, Sector 50,
+              Gurugram, Haryana - 122002
             </p>
 
             <h5 class="mb-1">Email</h5>
@@ -156,14 +157,14 @@
 
             <h5 class="mb-3">Follow us</h5>
             <div class="social-links">
-              <a href=""><span class="ti-facebook"></span></a>
-              <a href=""><span class="ti-pinterest"></span></a>
-              <a href=""><span class="ti-instagram"></span></a>
-              <a href=""><span class="ti-linkedin"></span></a>
+              <a href="javascript:void()"><span class="ti-facebook"></span></a>
+              <a href="javascript:void()"><span class="ti-pinterest"></span></a>
+              <a href="javascript:void()"><span class="ti-instagram"></span></a>
+              <a href="javascript:void()"><span class="ti-linkedin"></span></a>
             </div>
 
-            <div class="mt-4"><a href="#" class="btn outline-btn align-items-center">Get Directions <span
-                  class="ti-arrow-right pl-2"></span></a></div>
+            {{-- <div class="mt-4"><a href="#" class="btn outline-btn align-items-center">Get Directions <span
+                  class="ti-arrow-right pl-2"></span></a></div> --}}
 
           </div>
         </div>

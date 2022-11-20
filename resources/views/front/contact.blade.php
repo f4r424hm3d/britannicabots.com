@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>Contact Us</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -8,7 +8,7 @@
 
   <!--header section start-->
   <section class="hero-section ptb-100 gradient-overlay"
-    style="background: url('img/header-bg-5.jpg')no-repeat center center / cover">
+    style="background: url('{{ url('/front/') }}/img/header-bg-5.jpg')no-repeat center center / cover">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-10">
@@ -72,17 +72,6 @@
             </div>
           </div>
         </div>
-        <!--div class="col-lg-3 col-md-6 col-sm-6">
-<div class="card single-promo-card single-promo-hover text-center shadow-sm">
-<div class="card-body py-5">
-<div class="pb-2">
-<span class="ti-headphone-alt icon-sm color-secondary"></span>
-</div>
-<div><h5 class="mb-2">Live Chat 24/7</h5>
-<p class="text-muted mb-0">Skype<br>Google Meet</p></div>
-</div>
-</div>
-</div-->
       </div>
     </div>
   </section>
@@ -96,10 +85,10 @@
         </div>
         <div class="col-lg-4 col-md-4">
           <div class="social-links-big">
-            <a href=""><span class="ti-facebook"></span></a>
-            <a href=""><span class="ti-pinterest"></span></a>
-            <a href=""><span class="ti-instagram"></span></a>
-            <a href=""><span class="ti-linkedin"></span></a>
+            <a href="javascript:void()"><span class="ti-facebook"></span></a>
+            <a href="javascript:void()"><span class="ti-pinterest"></span></a>
+            <a href="javascript:void()"><span class="ti-instagram"></span></a>
+            <a href="javascript:void()"><span class="ti-linkedin"></span></a>
           </div>
         </div>
 

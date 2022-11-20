@@ -13,15 +13,14 @@
         <div class="col-md-12 col-lg-6">
           <div class="hero-slider-content text-white">
             <h1 class="text-white">WEBSITE DEVELOPMENT FOR BETTER IMPACT</h1>
-            <p class="lead">Providing On-Demand Website Development Services with a Renowned Website Development
-              Company in Gurugram that provides a visually beautiful and dynamic web experience We are a team of web
-              developers who believe in the three pillars of website development: user experience, scalability and
-              security.</p>
+            <p class="lead">Providing On-Demand Website Development Services with a Renowned Website Development Company
+              in Gurugram that provides a visually beautiful and dynamic web experience We are a team of web developers
+              who believe in the three pillars of website development: user experience, scalability and security.</p>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/web-development.svg" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/web-development.svg" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -41,7 +40,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -53,7 +52,7 @@
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -65,7 +64,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -77,7 +76,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -98,20 +97,20 @@
             <span class="animate-border mb-4"></span>
             <p>Britannica Bots specialises in strong and multi-functional website construction using an agile
               development process and assuring a user-friendly admin panel to allow you to administer your website as
-              easily as possible. For all your web-related projects, use the best Website development firm in
-              Gururgram. We employ safe and cutting-edge technologies to create scalable websites and web portals that
-              will provide you with a favourable ROI from the system. Our professionals will discuss and comprehend
-              your business requirements before recommending the best website development solution.</p>
+              easily as possible. For all your web-related projects, use the best Website development firm in Gururgram.
+              We employ safe and cutting-edge technologies to create scalable websites and web portals that will provide
+              you with a favourable ROI from the system. Our professionals will discuss and comprehend your business
+              requirements before recommending the best website development solution.</p>
             <p>Do you have an idea for a business? Let's talk about it and make it happen with our results-oriented
               approach and solutions. Call us right now for a free proposal.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/web-development.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/web-development.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -138,25 +137,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Responsive</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">SEO-Optimized</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Fast</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -165,25 +164,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Scalable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Maintainable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Highly Usable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -193,7 +192,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/web-development3.svg" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/web-development3.svg" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -215,85 +214,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -309,8 +307,7 @@
       <div class="row d-flex align-items-center">
         <div class="col-md-12 col-lg-12">
           <div class="section-heading text-center">
-            <h2><strong class="color-secondary">Why Website Development Services</strong><br>with Britannica Boats
-            </h2>
+            <h2><strong class="color-secondary">Why Website Development Services</strong><br>with Britannica Boats</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
           </div>
         </div>
@@ -346,8 +343,8 @@
             data-wow-duration="2.2s">
             <span class="ti-credit-card icon-lg color-secondary d-block mb-4"></span>
             <h5>Convenience</h5>
-            <p>Being a global company, we have sales and service representatives available 24 hours Monday to Friday
-              to answer all your Pre Sales or Support questions.<span class="hidden-xs">&nbsp;<br>&nbsp;</span></p>
+            <p>Being a global company, we have sales and service representatives available 24 hours Monday to Friday to
+              answer all your Pre Sales or Support questions.<span class="hidden-xs">&nbsp;<br>&nbsp;</span></p>
           </div>
         </div>
 
@@ -405,8 +402,8 @@
               <div class="timeline__event__content">
                 <div class="timeline__event__title">Detailed Consultation</div>
                 <div class="timeline__event__description">
-                  <p>Our Approach begins with a thorough discussion of your needs. Britannica Bots experts have over
-                    ten years of experience and are always eager to provide you with the best answer available.</p>
+                  <p>Our Approach begins with a thorough discussion of your needs. Britannica Bots experts have over ten
+                    years of experience and are always eager to provide you with the best answer available.</p>
                 </div>
               </div>
             </div>
@@ -471,9 +468,9 @@
               <div class="timeline__event__content">
                 <div class="timeline__event__title">Post-Deployment and Maintenance</div>
                 <div class="timeline__event__description">
-                  <p>Post-Deployment and Maintenance Of course, we will be available to you after the launch. We
-                    ensure that the website is properly maintained, and if the client encounters any difficulties, we
-                    are right there with them!</p>
+                  <p>Post-Deployment and Maintenance Of course, we will be available to you after the launch. We ensure
+                    that the website is properly maintained, and if the client encounters any difficulties, we are right
+                    there with them!</p>
                 </div>
               </div>
             </div>
@@ -498,10 +495,10 @@
             <p class="lead">Britannica Bots provides amazing yet entirely customised web development solutions.
               Organizations applaud the introduction of website construction tools that make it simple to design a
               low-cost website. The issue is rising competitiveness. It is difficult for free web pages to rank highly
-              in search engines. Hiring a professional custom web development firm in India is the best option for
-              your organisation. A custom website design and development agency is the most effective at offering the
-              type of good investment return that businesses require. The following are some advantages to witnessing
-              on your own:</p>
+              in search engines. Hiring a professional custom web development firm in India is the best option for your
+              organisation. A custom website design and development agency is the most effective at offering the type of
+              good investment return that businesses require. The following are some advantages to witnessing on your
+              own:</p>
           </div>
         </div>
       </div>
@@ -523,8 +520,8 @@
             <h5 class="mb-2">User-Friendly</h5>
             <p>A personalised website, in addition to being beautiful and unique, can deliver an improved user
               experience. This is done so that the website can fully meet your needs and brand objectives. You can do
-              this if you want customers to be able to effortlessly navigate the website and add products to their
-              cart. You can also post personalised forms to collect information about your products or services.</p>
+              this if you want customers to be able to effortlessly navigate the website and add products to their cart.
+              You can also post personalised forms to collect information about your products or services.</p>
           </div>
         </div>
 
@@ -546,7 +543,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -584,7 +581,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -613,7 +610,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -642,7 +639,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -671,7 +668,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -700,7 +697,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

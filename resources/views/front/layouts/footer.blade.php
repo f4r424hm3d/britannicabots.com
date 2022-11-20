@@ -69,8 +69,8 @@
                   <!--li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span> 1234 Street Name, City Name, USA</li-->
                   <li class="d-flex align-items-center py-2"><span class="fas fa-envelope mr-2"></span>
                     info@britannicabots.com</li>
-                  <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span> (123)
-                    456-7890 - (123) 456-7890</li>
+                  <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span>+91 9818560331
+                  </li>
                 </ul>
                 <form class="newsletter-form mt-3">
                   <input type="text" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required=""
@@ -134,7 +134,6 @@
 <script src="{{ url('front/') }}/js/jquery.easy-pie-chart.js"></script>
 <!--custom js-->
 <script src="{{ url('front/') }}/js/scripts.js"></script>
-<script src="https://www.indianuniversities.net/assets/web/plugins/jquery-5.2.js"></script>
 <script>
   jQuery(document).ready(function($) {
     var owl = $('.owl-carousel');

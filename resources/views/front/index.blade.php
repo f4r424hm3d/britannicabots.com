@@ -18,8 +18,6 @@
                 <p class="lead">Join the top digital marketing firm in Gurugram to grow your business. Our primary
                   objective is to provide your company with all the chances, innovations, and success it deserves.
                   With our ongoing innovations, we hope to increase the productivity of your business.</p>
-                <p class="lead">We always guarantee our utmost effort and are committed to fostering client-company
-                  business relationships.</p>
                 <div class="action-btns mt-3"><a href="#" class="btn secondary-solid-btn">Start Now</a></div>
               </div>
             </div>
@@ -66,7 +64,7 @@
           <div class="promo-item">
             <div class="promo-img"><img src="{{ url('front/') }}/img/consult.svg" alt="prevention" width="75"></div>
             <h5>Call For Expert</h5>
-            <a href="tel:+445431234567" class="emergency-btn">+44 543 1234567</a>
+            <a href="tel:+919818560331" class="emergency-btn">+91 98185 60331</a>
           </div>
         </div>
       </div>
@@ -110,7 +108,7 @@
                 Money-Back Guarantee</li>
             </ul>
 
-            <div class="row">
+            <div class="row hide-this">
               <div class="col-4">
                 <div class="counter-single">
                   <h2 class="mb-0 color-secondary">4566</h2>
@@ -130,7 +128,7 @@
                 </div>
               </div>
             </div>
-            <div class="action-btns mt-4">
+            <div class="action-btns mt-4 hide-this">
               <a href="#" class="btn secondary-solid-btn mr-3">Start Now</a>
               <a href="#" class="btn secondary-outline-btn">Learn More</a>
             </div>
@@ -161,8 +159,8 @@
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-desktop icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Designing</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
+            <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
+              cutting-edge web...</p>
             <a href="{{ url('static-website-designing') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
@@ -171,18 +169,17 @@
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-cup icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Development</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-            <a href="{{ url('cms-web-development') }}" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <p class="mb-0">With experience in the agile development process and a user-friendly admin panel,
+              Britannica...</p>
+            <a href="web-development" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-brush icon-lg color-secondary d-block mb-4"></span>
             <h5>Graphic Designing</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
+            <p class="mb-0">Britannica Bots creates amazing, ever-changing images that effectively communicate your
+              company's...</p>
             <a href="{{ url('logo-design') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
@@ -191,9 +188,9 @@
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-mobile icon-lg color-secondary d-block mb-4"></span>
             <h5>App Development</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-            <a href="{{ url('android-app-development') }}" class="detail-link mt-4">Read more <span
+            <p class="mb-0">Britannica Bots is a leading Android and iOS app development firm that creates native,
+              cross-platform...</p>
+            <a href="android-app-development" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
@@ -201,9 +198,9 @@
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
             <h5>Digital Marketing</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-            <a href="{{ url('search-engine-optimization') }}" class="detail-link mt-4">Read more <span
+            <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
+              cutting-edge web...</p>
+            <a href="{{ url('social-media-optimization') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
@@ -211,9 +208,9 @@
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Other Services</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-            <a href="{{ url('api-development') }}" class="detail-link mt-4">Read more <span
+            <p class="mb-0">We are top Android & iOS App development company, designing and developing native
+              applications...</p>
+            <a href="{{ url('payment-gateway-integration') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
@@ -223,7 +220,7 @@
   <!--services section end-->
 
   <!--work process section start-->
-  <section class="work-process-section ptb-100 gray-light-bg">
+  <section class="work-process-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-9">
@@ -378,7 +375,7 @@
   <!--call to action section end-->
 
   <!--portfolio section start-->
-  <section class="our-portfolio-section ptb-100">
+  <section class="our-portfolio-section ptb-100 hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -405,7 +402,7 @@
           <div class="portfolio-container" id="MixItUp">
             <div class="mix portfolio-item branding" data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/3.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -421,7 +418,7 @@
             </div>
             <div class="mix portfolio-item other animation" data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/2.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -437,7 +434,7 @@
             </div>
             <div class="mix portfolio-item animation" data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/4.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -453,7 +450,7 @@
             </div>
             <div class="mix portfolio-item branding" data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/1.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -469,7 +466,7 @@
             </div>
             <div class="mix portfolio-item animation other" data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/5.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -485,7 +482,7 @@
             </div>
             <div class="mix portfolio-item branding " data-ref="mixitup-target">
               <div class="portfolio-wrapper">
-                <a href="project-details.html" target="_blank">
+                <a href="project-details" target="_blank">
                   <div class="content-overlay"></div>
                   <img class="img-fluid" src="{{ url('front/') }}/img/portfolios/6.jpg" alt="portfolio" />
                   <div class="content-details fadeIn-bottom text-white">
@@ -510,7 +507,7 @@
   <!--portfolio section end-->
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100"
+  <section class="testimonial-section ptb-100 hide-this"
     style="background: url('{{ url('/front/') }}/img/testimonial-bg.png')no-repeat center center / cover">
     <div class="container">
       <div class="row align-items-center">
@@ -621,7 +618,7 @@
   <!--testimonial section end-->
 
   <!--blog section start-->
-  <section class="our-blog-section ptb-100">
+  <section class="our-blog-section ptb-100 hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-9">
@@ -765,7 +762,7 @@
   <!--blog section end-->
 
   <!--clientle two section start-->
-  <section class="team-two-section ptb-100 gray-light-bg">
+  <section class="team-two-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-lg-8">

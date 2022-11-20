@@ -307,7 +307,8 @@ use App\Models\Vacancy;
             <img src="{{ url('/front/') }}/img/contact-guy.svg" class="img-fluid float-ani" alt="contact">
             <p class="mb-2"><span class="ti-email color-secondary mr-1"></span> <a
                 href="mailto:career@britannicabots.com">career@britannicabots.com</a></p>
-            <p>BrandBurp renders all the world-class facilities to its employees by useful peerless infrastructure. So,
+            <p>Britannica Bots renders all the world-class facilities to its employees by useful peerless
+              infrastructure. So,
               what are you waiting for? Join our team now!</p>
           </div>
 

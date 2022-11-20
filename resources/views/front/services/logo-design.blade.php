@@ -10,20 +10,20 @@
   <section class="ptb-70 gradient-bg">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-12 col-lg-6">
+        <div class="col-md-7 col-lg-7">
           <div class="hero-slider-content text-white">
-            <h1 class="text-white">LOGO DESIGN SERVICES</h1>
-            <p class="lead">Professional Logo Design Services to Enhance your Identity!</p>
-            <p class="lead">We design a perpetual and stunning logo that promptly conveys your business identity and
-              objective. Your logo must deliver all that your brand is and Axis Web Intelligence has a team of graphic
-              design experts who are dedicated to logo and branding services. We perform extensive research on each
-              element of the design and make sure that your brand logo is well accepted at the local and international
-              levels in a positive light.</p>
+            <h1 class="text-white">SERVICES FOR LOGO DESIGN</h1>
+            <p class="lead">Services for Professional Logo Design to Strengthen Your Identity!</p>
+            <p class="lead">We create a timeless, beautiful logo that effectively communicates your company's identity
+              and goal. Britannica Bots has a team of graphic design professionals who are dedicated to providing logo
+              and branding services because your logo needs to convey everything that your brand is. We conduct in-depth
+              research on each design element to ensure that your company's logo is viewed favourably both locally and
+              internationally.</p>
           </div>
         </div>
-        <div class="col-md-12 col-lg-6">
+        <div class="col-md-5 col-lg-5">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/logo-design.svg" class="img-fluid m-auto float-ani" alt="hero">
+            <img src="{{url('front')}}/img/logo-design.svg" class="img-fluid m-auto float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -95,13 +95,13 @@
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
           <div class="about-us-content-wrap pr-4">
-            <h2><span class="color-secondary">Best Logo Designing</span> Company in Gurugram</h2>
+            <h2><span class="color-secondary">The best logo design</span> firm in Gurugram</h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">We design a perpetual and stunning logo that promptly conveys your business identity and
-              objective. Your logo must deliver all that your brand is and Axis Web Intelligence has a team of graphic
-              design experts who are dedicated to logo and branding services. We perform extensive research on each
-              element of the design and make sure that your brand logo is well accepted at the local and international
-              levels in a positive light.</p>
+            <p class="lead">A renowned logo design firm Britannica Bots has been serving clients in Gurugram for many
+              years. More than 500 professional brands have been developed by our team of logo designers for start-up
+              companies, small businesses, and large corporations. We can provide business companies with original,
+              creative corporate branding ideas. This would have a significant impact on the company's ability to
+              survive in a fiercely competitive market.</p>
             <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
@@ -109,7 +109,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/logo-design.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/logo-design.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -121,10 +121,10 @@
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-9">
           <div class="section-heading text-center">
-            <h2>Our Logo Design will be</h2>
+            <h2>Our suggested logo will be</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
-            <p class="lead">We believe in designing responsive, fast-loading, user-friendly websites that appear and
-              feel the same across multiple web browsers.</p>
+            <p class="lead">We are experts at creating websites that are responsive, quick to load, and simple to use
+              across a variety of web browsers.</p>
           </div>
         </div>
       </div>
@@ -136,19 +136,19 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Memorable For Anyone</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Distinct Identity</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Versatile In Nature</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -157,19 +157,19 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Timeless Concept</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Original Artwork</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Attractive First Glance</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/logo-design2.svg" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/logo-design2.svg" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -191,7 +191,7 @@
         <div class="col-md-12 col-lg-12">
           <div class="section-heading text-center">
             <strong class="color-secondary">Work Process</strong>
-            <h2>OUR LOGO DESIGNING PROCESS</h2>
+            <h2>Our process for designing logos</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
           </div>
 
@@ -200,10 +200,9 @@
               <div class="timeline__event__icon">1</div>
               <div class="timeline__event__date"><span class="ti-light-bulb icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Tell us about your Vision</div>
+                <div class="timeline__event__title">DISCUSS YOUR VISION WITH US</div>
                 <div class="timeline__event__description">
-                  <p>Our branding consultants will have a discussion with you to know your vision and requirements.
-                  </p>
+                  <p>You will speak with one of our branding consultants to discuss your goals and needs.</p>
                 </div>
               </div>
             </div>
@@ -211,21 +210,20 @@
               <div class="timeline__event__icon">2</div>
               <div class="timeline__event__date"><span class="ti-brush icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Design Creation</div>
+                <div class="timeline__event__title">CREATIVE DESIGN</div>
                 <div class="timeline__event__description">
-                  <p>After in-depth analysis, our graphic experts create innovative design concepts exclusively for
-                    you</p>
+                  <p>Our graphic designers produce cutting-edge design concepts exclusively for you following thorough
+                    analysis.</p>
                 </div>
               </div>
             </div>
             <div class="timeline__event animated fadeInDown delay-2s timeline__event--type3">
               <div class="timeline__event__icon">3</div>
-              <div class="timeline__event__date"><span class="ti-vector icon-xl d-block"></span></div>
+              <div class="timeline__event__date"><span class="ti-comment icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Share your feedback</div>
+                <div class="timeline__event__title">SHARING YOUR COMMENTS</div>
                 <div class="timeline__event__description">
-                  <p>We will ask for your feedback on designed concepts and welcome your reviews to reach the
-                    perfection.</p>
+                  <p>As we strive for perfection, we will solicit your opinion on the designed concepts.</p>
                 </div>
               </div>
             </div>
@@ -233,9 +231,10 @@
               <div class="timeline__event__icon">4</div>
               <div class="timeline__event__date"><span class="ti-desktop icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Finalize the Design</div>
+                <div class="timeline__event__title">PERFECT THE DESIGN</div>
                 <div class="timeline__event__description">
-                  <p>Finalize the design you like the most and get ownership and source files of your logo design.</p>
+                  <p>Get ownership of your logo design and the source files after finalising the version you like best.
+                  </p>
                 </div>
               </div>
             </div>
@@ -263,85 +262,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -374,8 +372,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+              the attention of visitors and user-friendly navigation around the website to keep visitors on the website
+              for a longer period of time.</p>
           </div>
         </div>
 
@@ -386,8 +384,8 @@
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance even
+              after the project is over.</p>
           </div>
         </div>
 
@@ -415,18 +413,17 @@
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
           <div class="section-heading">
-            <h2>What we can help the <strong class="color-secondary">Business Owners with?</strong></h2>
+            <h2>What services can we provide to <strong class="color-secondary">business owners?</strong></h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">We help the businesses achieve their goals with their good collection of resources.In the
-              web development companies like us - there are business analysts, QA experts, developers and all the
-              other specialists who come together to create a website as per your business’ requirements.</p>
-            <p class="lead">These web development experts who enhance the user experiences while building some amazing
-              & visually appealing UI's.</p>
-            <p class="lead">In fact, they take care of all the necessary aspects of web designing process. As we have
-              discussed earlier that a website’s design is one of the most important aspects, the business owners
-              prefer to get in touch with adept web developers.</p>
-            <p class="lead"><strong>Let’s have a close look at the benefits of getting in touch with these
-                professionals:</strong></p>
+            <p class="lead">With our extensive resource pool, we assist businesses in achieving their objectives.</p>
+            <p class="lead">Business analysts, QA experts, developers, and other specialists work together in web
+              development businesses like ours to produce a website that meets the needs of your company.</p>
+            <p class="lead">These web development experts improve user experiences by creating innovative and visually
+              appealing user interfaces.</p>
+            <p class="lead">In reality, they handle all of the essential aspects of the web design process. Considering
+              that the design of a website is one of the most crucial parts, business owners prefer to work with skilled
+              web developers.</p>
+            <p class="lead"><strong>Let's take a closer look at the advantages of visiting these experts:</strong></p>
           </div>
         </div>
       </div>
@@ -435,42 +432,42 @@
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
-            <h5 class="mb-2">They Create Seamless Experience</h5>
-            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors
-              find it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
-              professional web designers ensure that the visitors browse your website without facing difficulty.</p>
+            <h5 class="mb-2">They Provide a Seamless Experience</h5>
+            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to the
+              pages they want to see, it may distract from their overall experience. As a result, good professional web
+              designers ensure that visitors can easily navigate your website.</p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
-            <h5 class="mb-2">Your Website Will Have Aesthetic Layouts</h5>
-            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing
-              features. And, web designers do the same. They integrate the appealing visual graphics and additional
-              features in the websites.<br><span class="hidden-xs">&nbsp;</span></p>
+            <h5 class="mb-2">Aesthetic Website Layouts</h5>
+            <p>It is essential for businesses to have their websites developed with appealing layouts and exciting
+              features. Web designers are no exception. They incorporate attractive visual elements and other functions
+              into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
-            <h5 class="mb-2">You Will Get A Responsive Website</h5>
-            <p>In this competitive world, the ease of use decides the success of a website. Hence, a website should be
-              mobile-friendly, or responsive. Today, more people like to get access to any website through mobile
-              devices. So, it is imperative that you being a business have a mobile-friendly website. A responsive and
-              faster loading website can broaden your customer base.<br><span class="hidden-xs">&nbsp;</span></p>
+            <h5 class="mb-2">A Responsive Website</h5>
+            <p>In today's competitive environment, the simplicity of use of a website determines its success. As a
+              result, a website must be mobile-friendly or responsive. Nowadays, more people choose to browse any
+              website using mobile devices. As a result, it is critical that you have a mobile-friendly website as a
+              business. An adaptable and quick-loading website might help you expand your customer base.</p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
-            <h5 class="mb-2">You Can Target Your Audience Effectively</h5>
-            <p>Everything starts with a great design because the visitor, who is comfortable with the design of your
-              website and its navigation, will more probably retain with your brand. However, you need to target your
-              audience effectively for getting more customers. However, the web designers consider the psychological
-              aspects of the target audience while designing and developing the website.</p>
+            <h5 class="mb-2">You Can Effectively Target Your Audience</h5>
+            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and navigation
+              of your website is more likely to stick with your brand. However, in order to gain more customers, you
+              must successfully target your audience. Moreover, when creating and constructing a website, web designers
+              consider the psychological traits of the intended audience.</p>
           </div>
         </div>
 
@@ -481,7 +478,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -519,7 +516,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -548,7 +545,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -577,7 +574,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -606,7 +603,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">

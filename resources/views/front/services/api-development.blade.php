@@ -13,17 +13,17 @@
         <div class="col-md-12 col-lg-6">
           <div class="hero-slider-content text-white">
             <h1 class="text-white">API Development company in Gurugram</h1>
-            <p class="lead">ColorWhistle is a custom API development services and integration solutions. From simple
+            <p class="lead">Britannica Bots is a custom API development services and integration solutions. From simple
               API integration services to complex or multiple end-points custom API development, we can create a
-              solution that is easy to consume, well documented, and truly dependable.</p>
-            <p class="lead">We have a professional team of API developers in India who can construct web APIs that are
-              completely scalable, secure, and match your business requirements. Our custom API development services
-              will enrich and enhance your services in new and creative ways.</p>
+              solution that is easy to consume, well documented, and truly dependable.<br>
+              We have a professional team of API developers in India who can construct web APIs that are completely
+              scalable, secure, and match your business requirements. Our custom API development services will enrich
+              and enhance your services in new and creative ways.</p>
           </div>
         </div>
 
         <div class="col-md-12 col-lg-6 wow fadeInRight animated" data-wow-duration="2s">
-          <div class="image-wrap"><img src="{{ url('/front/') }}/img/api-development.png" alt="hero"
+          <div class="image-wrap"><img src="{{url('front')}}/img/api-development.png" alt="hero"
               class="img-fluid float-ani"></div>
         </div>
       </div>
@@ -43,7 +43,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -89,28 +89,28 @@
   </section>
   <!--services box end-->
 
-  <!--services section start-->
+  <!--about section start-->
   <section class="about-us-section ptb-100 gray-light-bg">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
           <div class="about-us-content-wrap pr-4">
-            <h2><span class="color-secondary">API Development</span> and Integration Services</h2>
+            <h2><span class="color-secondary">Services for API</span> Development and Integration</h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">Our API integration and development team have vast knowledge in the technologies behind
-              API, and also master the end-to-end process (managing, monitoring, and monetizing). We are also
-              experienced in developing custom APIs, open-source APIs, WordPress REST API, and third-party APIs.</p>
-            <p class="lead">As a highly acclaimed API development company, we have supported clients in the USA, UK,
-              Canada, Singapore, and more by strategizing, managing, and running high-performance API programs to meet
-              their business goals.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <p class="lead">Our API development and integration team is well-versed in the technologies behind APIs and
+              has a firm grasp of the end-to-end procedure (managing, monitoring, and monetizing). We have also
+              developed third-party APIs, open-source APIs, custom APIs, and REST APIs for WordPress.</p>
+            <p class="lead">We have assisted clients in the USA, UK, Canada, Singapore, and other countries by
+              conceptualising, administering, and operating high-performance API programmes to accomplish their business
+              objectives. We are a well regarded API development firm.</p>
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/api-development.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/api-development.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -136,19 +136,19 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">API Integration & Development Services</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Source Code Repository Integration</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">API as a Service</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -157,19 +157,19 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">API Development Platform</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Marketing Software API Integration</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Custom Web API Solutions</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-wrap wow fadeInRight  animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/api-development.svg" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/api-development.svg" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -190,7 +190,8 @@
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
           <div class="section-heading text-center">
-            <h2>Our API Services Will Simplify your Systems and Reduce your Operating and Maintenance costs</h2>
+            <h3>Your Systems Will Be Simplified by Our API Services,<br>Cutting Down on Operating and Maintenance Costs.
+            </h3>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
           </div>
 
@@ -199,12 +200,12 @@
               <div class="timeline__event__icon">1</div>
               <div class="timeline__event__date"><span class="ti-light-bulb icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Worked with esteemed Clients & Years of Experience</div>
+                <div class="timeline__event__title">Years of experience and work with reputable clients</div>
                 <div class="timeline__event__description">
-                  <p>We are creating awesome websites and apps since 2012 and worked for hundreds of businesses to be
-                    successful with their online marketing efforts. We create websites that are attractive, simple to
-                    use, and drive results for your company. We use our knowledge and expertise to help our clients
-                    take their business to the next level with results-driven e-marketing solutions.</p>
+                  <p>Since 2012, we have been building amazing websites and apps and assisting hundreds of companies
+                    with their online marketing initiatives. We design websites that are appealing, easy to use, and
+                    produce results for your business. With results-driven e-marketing solutions, we help our clients
+                    grow their businesses by leveraging our knowledge and experience.</p>
                 </div>
               </div>
             </div>
@@ -215,10 +216,10 @@
                 <div class="timeline__event__title">We ask, listen, understand and then work</div>
                 <div class="timeline__event__description">
                   <p>Each website project is taken care at utmost level. We first develop strong understanding of your
-                    requirement which help us to create the best outcome which solves your business purpose. We keep
-                    our work process transparent and involve our clients for all important steps, incorporating
-                    feedback finalizing the website. It's a collaborative process of discovery that takes patience,
-                    experience, and communication.</p>
+                    requirement which help us to create the best outcome which solves your business purpose. We keep our
+                    work process transparent and involve our clients for all important steps, incorporating feedback
+                    finalizing the website. It's a collaborative process of discovery that takes patience, experience,
+                    and communication.</p>
                 </div>
               </div>
             </div>
@@ -226,12 +227,12 @@
               <div class="timeline__event__icon">3</div>
               <div class="timeline__event__date"><span class="ti-vector icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">We are Goal Oriented & ROI-Driven Focused</div>
+                <div class="timeline__event__title">We are goal-oriented, ROI-driven, and ROI-focused</div>
                 <div class="timeline__event__description">
-                  <p>A great website cam ease, monitor and measure all your marketing efforts. We understand that the
-                    website is an important part of your business and you want the expected outcome from the website.
-                    We design SEO-Friendly website and mobile responsive website with integration of all the important
-                    tools that allows the tracking and analysis of website performance.</p>
+                  <p>All of your marketing initiatives can be streamlined, monitored, and assessed with a great website.
+                    We understand that your website is important to your business and that you want it to deliver the
+                    outcomes you are hoping for. We build SEO-friendly, mobile-responsive websites that include all the
+                    essential tools for tracking and analysing website performance.</p>
                 </div>
               </div>
             </div>
@@ -239,12 +240,12 @@
               <div class="timeline__event__icon">4</div>
               <div class="timeline__event__date"><span class="ti-mobile icon-xl d-block"></span></div>
               <div class="timeline__event__content">
-                <div class="timeline__event__title">Use of Standard Codings Quality checks</div>
+                <div class="timeline__event__title">UTILIZE QUALITY CHECKS FOR STANDARD CODINGS</div>
                 <div class="timeline__event__description">
-                  <p>Our web design & development team utilizes up-to-date coding practices with clean HTML5 and CSS3.
-                    All of our websites are developed to look and perform beautifully on every device your users are
-                    viewing it from. Also, we understand that Fast load times = happy customers. Google has made it
-                    clear that they prefer websites that respond quickly.</p>
+                  <p>Our web design and development team uses clean HTML5 and CSS3 and the most recent coding
+                    techniques. Every one of our websites is designed to look and function beautifully on whatever
+                    device your users are using to view it. We are aware that happy customers are a direct result of
+                    fast load times. Google has been very clear that they favour websites with quick responses.</p>
                 </div>
               </div>
             </div>
@@ -272,85 +273,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -383,8 +383,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+              the attention of visitors and user-friendly navigation around the website to keep visitors on the website
+              for a longer period of time.</p>
           </div>
         </div>
 
@@ -395,8 +395,8 @@
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance even
+              after the project is over.</p>
           </div>
         </div>
 
@@ -424,18 +424,17 @@
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
           <div class="section-heading">
-            <h2>What we can help the <strong class="color-secondary">Business Owners with?</strong></h2>
+            <h2>What services can we provide to <strong class="color-secondary">business owners?</strong></h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">We help the businesses achieve their goals with their good collection of resources.In the
-              web development companies like us - there are business analysts, QA experts, developers and all the
-              other specialists who come together to create a website as per your business’ requirements.</p>
-            <p class="lead">These web development experts who enhance the user experiences while building some amazing
-              & visually appealing UI's.</p>
-            <p class="lead">In fact, they take care of all the necessary aspects of web designing process. As we have
-              discussed earlier that a website’s design is one of the most important aspects, the business owners
-              prefer to get in touch with adept web developers.</p>
-            <p class="lead"><strong>Let’s have a close look at the benefits of getting in touch with these
-                professionals:</strong></p>
+            <p class="lead">With our extensive resource pool, we assist businesses in achieving their objectives.</p>
+            <p class="lead">Business analysts, QA experts, developers, and other specialists work together in web
+              development businesses like ours to produce a website that meets the needs of your company.</p>
+            <p class="lead">web development experts improve user experiences by creating innovative and visually
+              appealing user interfaces.</p>
+            <p class="lead">In reality, they handle all of the essential aspects of the web design process. Considering
+              that the design of a website is one of the most crucial parts, business owners prefer to work with skilled
+              web developers.</p>
+            <p class="lead"><strong>Let's take a closer look at the advantages of visiting these experts:</strong></p>
           </div>
         </div>
       </div>
@@ -444,42 +443,42 @@
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
-            <h5 class="mb-2">They Create Seamless Experience</h5>
-            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors
-              find it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
-              professional web designers ensure that the visitors browse your website without facing difficulty.</p>
+            <h5 class="mb-2">They Provide a Seamless Experience</h5>
+            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to the
+              pages they want to see, it may distract from their overall experience. As a result, good professional web
+              designers ensure that visitors can easily navigate your website.</p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
-            <h5 class="mb-2">Your Website Will Have Aesthetic Layouts</h5>
-            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing
-              features. And, web designers do the same. They integrate the appealing visual graphics and additional
-              features in the websites.<br><span class="hidden-xs">&nbsp;</span></p>
+            <h5 class="mb-2">Aesthetic Website Layouts</h5>
+            <p>It is essential for businesses to have their websites developed with appealing layouts and exciting
+              features. Web designers are no exception. They incorporate attractive visual elements and other functions
+              into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
-            <h5 class="mb-2">You Will Get A Responsive Website</h5>
-            <p>In this competitive world, the ease of use decides the success of a website. Hence, a website should be
-              mobile-friendly, or responsive. Today, more people like to get access to any website through mobile
-              devices. So, it is imperative that you being a business have a mobile-friendly website. A responsive and
-              faster loading website can broaden your customer base.<br><span class="hidden-xs">&nbsp;</span></p>
+            <h5 class="mb-2">A Responsive Website</h5>
+            <p>In today's competitive environment, the simplicity of use of a website determines its success. As a
+              result, a website must be mobile-friendly or responsive. Nowadays, more people choose to browse any
+              website using mobile devices. As a result, it is critical that you have a mobile-friendly website as a
+              business. An adaptable and quick-loading website might help you expand your customer base.</p>
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
-            <h5 class="mb-2">You Can Target Your Audience Effectively</h5>
-            <p>Everything starts with a great design because the visitor, who is comfortable with the design of your
-              website and its navigation, will more probably retain with your brand. However, you need to target your
-              audience effectively for getting more customers. However, the web designers consider the psychological
-              aspects of the target audience while designing and developing the website.</p>
+            <h5 class="mb-2">You Can Effectively Target Your Audience</h5>
+            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and navigation
+              of your website is more likely to stick with your brand. However, in order to gain more customers, you
+              must successfully target your audience. Moreover, when creating and constructing a website, web designers
+              consider the psychological traits of the intended audience.</p>
           </div>
         </div>
 
@@ -490,7 +489,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -528,7 +527,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -557,7 +556,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -586,7 +585,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -615,7 +614,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -644,7 +643,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

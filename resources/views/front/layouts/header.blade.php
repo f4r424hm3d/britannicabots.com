@@ -36,6 +36,11 @@
   <link rel="stylesheet" href="{{ url('front/') }}/css/style.css">
   <!--responsive css-->
   <link rel="stylesheet" href="{{ url('front/') }}/css/responsive.css">
+  <style>
+    .hide-this {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>

@@ -13,13 +13,14 @@
         <div class="col-md-12 col-lg-6">
           <div class="hero-slider-content text-white">
             <h1 class="text-white">Best IOS App Development Company</h1>
-            <p class="lead">If you want to start your own Grocery shop online or want to start any business related to
-              grocery business, get your grocery mobile app development right away.</p>
+            <p class="lead">Britannica Bots is widely recognised as the best IOS App Development Company in Gurugram in
+              2022, and we have worked with over 100 firms globally. We prioritise customer relationships above
+              high-ticket proposals.</p>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/ios-app.svg" class="img-fluid m-auto float-ani" alt="hero">
+            <img src="{{url('front')}}/img/ios-app.svg" class="img-fluid m-auto float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -39,7 +40,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -51,7 +52,7 @@
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -63,7 +64,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -75,7 +76,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -85,33 +86,33 @@
   </section>
   <!--services box end-->
 
-  <!--services section start-->
+  <!--about section start-->
   <section class="about-us-section ptb-100 gray-light-bg">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
           <div class="about-us-content-wrap pr-4">
-            <h2><span class="color-secondary">IOS App Development to</span> ease your Business</h2>
+            <h2><span class="color-secondary">IOS App Development to</span> Make Your Life Easier</h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">Axis Web Intelligence is a reputed iOS app development company in Delhi/NCR and capable of
-              creating cutting-edge iOS mobile apps that give your business a winning advantage. iPhone and other
-              Apple device users are habituated to smooth and efficient performance and thus, expect iOS mobile apps
-              to be well-designed, user-friendly, robust, and dynamic. We have proficient app developers who develop
-              iOS apps which flexible, upgradable, handy and simple. We work with start-ups to large-scale companies
-              to launch their project into a mobile application.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <p class="lead">Britannica Bots is a well-known iOS app development company in Gurugram, capable of
+              developing cutting-edge iOS mobile apps that will provide your organisation a competitive advantage. Users
+              of iPhones and other Apple devices are accustomed to seamless and efficient performance, so they want iOS
+              mobile apps to be well-designed, user-friendly, sturdy, and lively. We have skilled app developers who
+              create iOS apps that are adaptable, upgradable, convenient, and straightforward. We collaborate with
+              start-ups to huge corporations to turn their ideas into mobile applications.</p>
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/ios-app.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/ios-app.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
   </section>
-  <!--services section end-->
+  <!--about section end-->
 
   <section class="why-choose-us ptb-100">
     <div class="container">
@@ -121,7 +122,7 @@
             <strong class="color-secondary">Providing Services</strong>
             <h2>IOS Application Development Services</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
-            <p class="lead">Next-Gen Android App DevelopmentProfessional Excellence</p>
+            <p class="lead">Next-Gen IOS App Development Professional Expertise</p>
           </div>
         </div>
       </div>
@@ -133,25 +134,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">iOS UI/UX Design</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Custom iOS Apps</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Apple Watch App Development</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">iOS App Testing</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -160,25 +161,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">iOS App Development</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">iOS Game Development</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Enterprise iOS Apps</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">iOS Maintenance & Support</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -188,7 +189,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-wrap wow fadeInRight  animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/ios-app.png" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/ios-app.png" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -212,8 +213,8 @@
                 <div class="timeline__event__title">Strategy</div>
                 <div class="timeline__event__description">
                   <p>We craft MVP's development strategy that allows a team of professional developers to validate or
-                    invalidate a product's functionality and assumptions. It also helps gain data about the reaction
-                    and experience of target users to improve functionality.</p>
+                    invalidate a product's functionality and assumptions. It also helps gain data about the reaction and
+                    experience of target users to improve functionality.</p>
                 </div>
               </div>
             </div>
@@ -277,85 +278,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -372,10 +372,8 @@
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-9">
           <div class="section-heading text-center">
-            <h2><strong class="color-secondary">Why Are We the Best Choice for</strong><br>Website Design?</h2>
-            <span class="animate-border mr-auto ml-auto mb-4"></span>
-            <p class="lead">There are various companies that offer web services, but only a few are well-liked by
-              customers.</p>
+            <h2><strong class="color-secondary">The Advantages of</strong><br>IOS App Development</h2>
+            <span class="animate-border mr-auto ml-auto"></span>
           </div>
         </div>
       </div>
@@ -386,10 +384,9 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
-            <h5>Effective Layout and Navigation</h5>
-            <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+            <h5>Revenue from Apps</h5>
+            <p>iPhone apps are outperforming Android apps in the market; let us produce massive app revenue for your
+              company.</p>
           </div>
         </div>
 
@@ -398,10 +395,9 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
-            <h5>Information is easily accessible</h5>
-            <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+            <h5>Quality Criteria</h5>
+            <p>We are dedicated to providing high-quality IOS app development with faultless performance and incredible
+              experience.</p>
           </div>
         </div>
 
@@ -410,10 +406,9 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
-            <h5>Maintenance and Lifetime Warranty</h5>
-            <p>Our one-year free maintenance service and yearly dedicated maintenance service with lifetime code
-              guarantee make website maintenance hassle-free. With our free one-year hosting, you can forget about
-              website maintenance.</p>
+            <h5>Base of Customers</h5>
+            <p>With powerful IOS app development, you may potentially build a large consumer base.<br><span
+                class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
@@ -432,13 +427,13 @@
             <h2>What we can help the <strong class="color-secondary">Business Owners with?</strong></h2>
             <span class="animate-border mb-4"></span>
             <p class="lead">We help the businesses achieve their goals with their good collection of resources.In the
-              web development companies like us - there are business analysts, QA experts, developers and all the
-              other specialists who come together to create a website as per your business’ requirements.</p>
-            <p class="lead">These web development experts who enhance the user experiences while building some amazing
-              & visually appealing UI's.</p>
+              web development companies like us - there are business analysts, QA experts, developers and all the other
+              specialists who come together to create a website as per your business’ requirements.</p>
+            <p class="lead">These web development experts who enhance the user experiences while building some amazing &
+              visually appealing UI's.</p>
             <p class="lead">In fact, they take care of all the necessary aspects of web designing process. As we have
-              discussed earlier that a website’s design is one of the most important aspects, the business owners
-              prefer to get in touch with adept web developers.</p>
+              discussed earlier that a website’s design is one of the most important aspects, the business owners prefer
+              to get in touch with adept web developers.</p>
             <p class="lead"><strong>Let’s have a close look at the benefits of getting in touch with these
                 professionals:</strong></p>
           </div>
@@ -450,8 +445,8 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Create Seamless Experience</h5>
-            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors
-              find it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
+            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors find
+              it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
               professional web designers ensure that the visitors browse your website without facing difficulty.</p>
           </div>
         </div>
@@ -460,9 +455,9 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <h5 class="mb-2">Your Website Will Have Aesthetic Layouts</h5>
-            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing
-              features. And, web designers do the same. They integrate the appealing visual graphics and additional
-              features in the websites.<br><span class="hidden-xs">&nbsp;</span></p>
+            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing features.
+              And, web designers do the same. They integrate the appealing visual graphics and additional features in
+              the websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
@@ -495,7 +490,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -533,7 +528,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -562,7 +557,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -591,7 +586,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -620,7 +615,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -649,7 +644,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

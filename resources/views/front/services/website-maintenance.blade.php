@@ -13,14 +13,14 @@
         <div class="col-md-6 col-lg-6">
           <div class="hero-slider-content text-white">
             <h1 class="text-white">BEST WEBSITE MAINTENANCE COMPANY IN GURUGRAM</h1>
-            <p class="lead">Britannica Bots is widely recognised as the best Website Maintenance Company in Gurugram
-              in 2022, and we have worked with over 100 firms globally. We prioritise customer relationships above
+            <p class="lead">Britannica Bots is widely recognised as the best Website Maintenance Company in Gurugram in
+              2022, and we have worked with over 100 firms globally. We prioritise customer relationships above
               high-ticket proposals.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/website-maintenance.png" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/website-maintenance.png" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@
             </div>
             <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -97,24 +97,24 @@
             <h2><span class="color-secondary">Best Website</span> Maintenance Company in Gurugram</h2>
             <span class="animate-border mb-4"></span>
             <p>The ability to keep the website breathing is a crucial part of website maintenance. It is a common
-              misconception that the task is finished once the website is launched. People's attitudes must be
-              radically altered. It is critical to guarantee that the website is adequately maintained, that hardware
-              and software updates are performed, and that the website is checked by the webmaster himself, which is
-              where website maintenance services come in handy.</p>
+              misconception that the task is finished once the website is launched. People's attitudes must be radically
+              altered. It is critical to guarantee that the website is adequately maintained, that hardware and software
+              updates are performed, and that the website is checked by the webmaster himself, which is where website
+              maintenance services come in handy.</p>
             <p>Website maintenance is a paid service provided by the webmaster, who must ensure that the website does
               not fall behind. The material must also be in harmony with the website. Advertising and advertising
               elements of marketing are also a part of website maintenance services, and the webmaster learns these
               characteristics through various types of marketing campaigns, as well as various webmaster tools. If the
               webmaster was only paid to launch the website and not to maintain it, simply contact our website's
               maintenance services department and your website will be our duty.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/website-maintenance.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/website-maintenance.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -141,25 +141,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Responsive</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">SEO-Optimized</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Fast</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -168,25 +168,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Scalable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Maintainable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Highly Usable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/website-maintenance.svg" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/website-maintenance.svg" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -218,85 +218,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -346,7 +345,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -375,7 +374,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -404,7 +403,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -433,7 +432,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -462,7 +461,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

@@ -14,15 +14,14 @@
           <div class="hero-slider-content text-white">
             <h1 class="text-white">LANDING PAGE WEBSITE DESIGNING COMPANY</h1>
             <p class="lead">A landing page website, also known as a one-page parallax website, is commonly used for
-              conversion monitoring for PPC or other paid advertisements. Your advertising campaigns are most
-              effective when they lead to a well-designed website with complete information and a concise
-              call-to-action approach. A one page website design can also be used to create a low-cost informational
-              website.</p>
+              conversion monitoring for PPC or other paid advertisements. Your advertising campaigns are most effective
+              when they lead to a well-designed website with complete information and a concise call-to-action approach.
+              A one page website design can also be used to create a low-cost informational website.</p>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/landing-page2.svg" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/landing-page2.svg" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -42,7 +41,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -54,7 +53,7 @@
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -66,7 +65,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -78,7 +77,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -99,25 +98,24 @@
             <p>Website Landing Pages are single-page websites used for tracking lead conversions while executing
               pay-per-click/marketing campaigns and search engine optimization. By analysing the analytics of specific
               landing pages, it is possible to establish which campaign is functioning efficiently by using separate
-              landing pages for Ad campaigns. For low-budget website requirements, the best website designing company
-              in Gurugram recommends getting a single page website, also known as a one-page parallax website, where
-              all information can be viewed on a single web page. This is a wonderful alternative for new businesses
-              that only need an educational website and can also be used as a landing page for pay per click ads.</p>
+              landing pages for Ad campaigns. For low-budget website requirements, the best website designing company in
+              Gurugram recommends getting a single page website, also known as a one-page parallax website, where all
+              information can be viewed on a single web page. This is a wonderful alternative for new businesses that
+              only need an educational website and can also be used as a landing page for pay per click ads.</p>
             <p>We create landing page websites that adhere to all Google guidelines in order for your pay per click
-              campaign to produce the greatest results. The website is mobile-friendly, SEO-friendly, and has
-              efficient call-to-actions such as buy now, enquiry forms, and digital product download choices. Landing
-              page websites are often static coded, but may easily be dynamic with additional fees.</p>
-            <p>Britannica Bots is a top landing page website design firm in India that values creativity and quality.
-              We are a group of creative thinkers who collaborate to create exceptional and result-driven websites.
-            </p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              campaign to produce the greatest results. The website is mobile-friendly, SEO-friendly, and has efficient
+              call-to-actions such as buy now, enquiry forms, and digital product download choices. Landing page
+              websites are often static coded, but may easily be dynamic with additional fees.</p>
+            <p>Britannica Bots is a top landing page website design firm in India that values creativity and quality. We
+              are a group of creative thinkers who collaborate to create exceptional and result-driven websites.</p>
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/landing-page.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/landing-page.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -144,25 +142,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Responsive</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">SEO-Optimized</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Fast</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -171,25 +169,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Scalable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Maintainable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Highly Usable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -198,8 +196,8 @@
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
-          <div class="wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/landing-page.svg" alt="shape" class="img-fluid float-ani"></div>
+          <div class="wow fadeInRight animated" data-wow-duration="2s"><img src="{{url('front')}}/img/landing-page.svg"
+              alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -221,85 +219,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -322,7 +319,7 @@
               All navigation tabs go to the specialised area of a single page. Any company thinking about digital
               marketing or a small business in need of a low-cost instructive website could contact a landing page
               website design company like Britannica Bots.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
@@ -353,8 +350,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+              the attention of visitors and user-friendly navigation around the website to keep visitors on the website
+              for a longer period of time.</p>
           </div>
         </div>
 
@@ -365,8 +362,8 @@
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance even
+              after the project is over.</p>
           </div>
         </div>
 
@@ -401,9 +398,9 @@
               development businesses like ours to produce a website that meets the needs of your company.</p>
             <p class="lead">These web development experts improve user experiences by creating innovative and visually
               appealing user interfaces.</p>
-            <p class="lead">In reality, they handle all of the essential aspects of the web design process.
-              Considering that the design of a website is one of the most crucial parts, business owners prefer to
-              work with skilled web developers.</p>
+            <p class="lead">In reality, they handle all of the essential aspects of the web design process. Considering
+              that the design of a website is one of the most crucial parts, business owners prefer to work with skilled
+              web developers.</p>
             <p class="lead"><strong>Let's take a closer look at the advantages of visiting these experts:</strong></p>
           </div>
         </div>
@@ -414,9 +411,9 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Provide a Seamless Experience</h5>
-            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to
-              the pages they want to see, it may distract from their overall experience. As a result, good
-              professional web designers ensure that visitors can easily navigate your website.</p>
+            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to the
+              pages they want to see, it may distract from their overall experience. As a result, good professional web
+              designers ensure that visitors can easily navigate your website.</p>
           </div>
         </div>
 
@@ -425,8 +422,8 @@
             data-wow-duration="2.5s">
             <h5 class="mb-2">Aesthetic Website Layouts</h5>
             <p>It is essential for businesses to have their websites developed with appealing layouts and exciting
-              features. Web designers are no exception. They incorporate attractive visual elements and other
-              functions into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
+              features. Web designers are no exception. They incorporate attractive visual elements and other functions
+              into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
@@ -445,10 +442,10 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
             <h5 class="mb-2">You Can Effectively Target Your Audience</h5>
-            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and
-              navigation of your website is more likely to stick with your brand. However, in order to gain more
-              customers, you must successfully target your audience. Moreover, when creating and constructing a
-              website, web designers consider the psychological traits of the intended audience.</p>
+            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and navigation
+              of your website is more likely to stick with your brand. However, in order to gain more customers, you
+              must successfully target your audience. Moreover, when creating and constructing a website, web designers
+              consider the psychological traits of the intended audience.</p>
           </div>
         </div>
 
@@ -459,7 +456,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -497,7 +494,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -526,7 +523,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -555,7 +552,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -584,7 +581,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -613,7 +610,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

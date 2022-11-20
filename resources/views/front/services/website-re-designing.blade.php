@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/website-redesign.png" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/website-redesign.png" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
             </div>
             <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -95,22 +95,22 @@
           <div class="about-us-content-wrap pr-4">
             <h2><span class="color-secondary">Best Website</span> Re-Designing Company in Gurugram</h2>
             <span class="animate-border mb-4"></span>
-            <p>Get your website redesigned to help you generate more leads and sales for your company with appealing
-              and user-friendly design and effective call-to-action methods. Britannica Bots is renowned as the top
-              Website Designing Company in Gurugram, offering cutting-edge web design services globally, while keeping
-              the most important elements for a website in mind, such as responsive design, faster loading time, and
+            <p>Get your website redesigned to help you generate more leads and sales for your company with appealing and
+              user-friendly design and effective call-to-action methods. Britannica Bots is renowned as the top Website
+              Designing Company in Gurugram, offering cutting-edge web design services globally, while keeping the most
+              important elements for a website in mind, such as responsive design, faster loading time, and
               user-friendly navigation. As a Website Designing Company, our primary goal is to give strategic planning
               and the best product in the business in order to compete in the market.</p>
             <p>Are you a business owner in need of a website or website redesign? Let's talk to our specialists and
               obtain a free proposal.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/website-redesign.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/website-redesign.jpg" alt="about us" class="img-fluid"></div>
         </div>
       </div>
     </div>
@@ -137,25 +137,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Responsive</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">SEO-Optimized</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Fast</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -164,25 +164,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Scalable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Maintainable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Highly Usable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -192,7 +192,7 @@
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/website-redesign.svg" alt="shape" class="img-fluid float-ani"></div>
+              src="{{url('front')}}/img/website-redesign.svg" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
@@ -214,85 +214,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -310,15 +309,15 @@
           <div class="about-us-content-wrap pr-4 wow fadeInUp animated" data-wow-duration="1.5s">
             <h2>Importance of <span class="color-secondary">web redesigning</span></h2>
             <span class="animate-border mb-4"></span>
-            <p class="lead">It is yet another noticeable yet excellent aspect of extending any business's web
-              expansion. Website redesigning is another stage of transformation that entails changing amazing things
-              on the website. It could be coding, structure, content, or any other visual that makes your company's
-              website more visually appealing and well-versed. Britannica Bots has been providing this service for
-              many years, which is why we never hesitate to rebuild any website, regardless of its domain, reach,
-              size, or functionality. If you are a leader who wants to bring a commendable to your business site for
-              inflating its market reach, online presence, and ultimate content audience, don't hesitate to select us
-              for this difficult assignment. </p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <p class="lead">It is yet another noticeable yet excellent aspect of extending any business's web expansion.
+              Website redesigning is another stage of transformation that entails changing amazing things on the
+              website. It could be coding, structure, content, or any other visual that makes your company's website
+              more visually appealing and well-versed. Britannica Bots has been providing this service for many years,
+              which is why we never hesitate to rebuild any website, regardless of its domain, reach, size, or
+              functionality. If you are a leader who wants to bring a commendable to your business site for inflating
+              its market reach, online presence, and ultimate content audience, don't hesitate to select us for this
+              difficult assignment. </p>
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
@@ -400,8 +399,8 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5>Brand Identity That Is Consistent</h5>
-            <p>Time alters everything, including current tendencies. Website redesign services allow you to go back
-              and change your brand's identity to make it shine brighter than ever.</p>
+            <p>Time alters everything, including current tendencies. Website redesign services allow you to go back and
+              change your brand's identity to make it shine brighter than ever.</p>
           </div>
         </div>
 
@@ -410,8 +409,8 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <h5>Enhances Site Performance</h5>
-            <p>A new change or revised work results in overall improvement. It not only optimises the data on the
-              page, but it also enhances the overall performance of the site.</p>
+            <p>A new change or revised work results in overall improvement. It not only optimises the data on the page,
+              but it also enhances the overall performance of the site.</p>
           </div>
         </div>
 
@@ -431,8 +430,8 @@
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
             <h5>Redesign Content Management</h5>
-            <p>Redesigning a website is an excellent way to improve user flows by rethinking content management and
-              its tactics. With modern website redesigning options, your digital presence will form a single, cohesive
+            <p>Redesigning a website is an excellent way to improve user flows by rethinking content management and its
+              tactics. With modern website redesigning options, your digital presence will form a single, cohesive
               bridge.</p>
           </div>
         </div>
@@ -464,8 +463,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+              the attention of visitors and user-friendly navigation around the website to keep visitors on the website
+              for a longer period of time.</p>
           </div>
         </div>
 
@@ -476,8 +475,8 @@
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance even
+              after the project is over.</p>
           </div>
         </div>
 
@@ -511,9 +510,9 @@
               development businesses like ours to produce a website that meets the needs of your company.</p>
             <p class="lead">These web development experts improve user experiences by creating innovative and visually
               appealing user interfaces.</p>
-            <p class="lead">In reality, they handle all of the essential aspects of the web design process.
-              Considering that the design of a website is one of the most crucial parts, business owners prefer to
-              work with skilled web developers.</p>
+            <p class="lead">In reality, they handle all of the essential aspects of the web design process. Considering
+              that the design of a website is one of the most crucial parts, business owners prefer to work with skilled
+              web developers.</p>
             <p class="lead"><strong>Let's take a closer look at the advantages of visiting these experts:</strong></p>
           </div>
         </div>
@@ -524,9 +523,9 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Provide a Seamless Experience</h5>
-            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to
-              the pages they want to see, it may distract from their overall experience. As a result, good
-              professional web designers ensure that visitors can easily navigate your website.</p>
+            <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to the
+              pages they want to see, it may distract from their overall experience. As a result, good professional web
+              designers ensure that visitors can easily navigate your website.</p>
           </div>
         </div>
 
@@ -535,8 +534,8 @@
             data-wow-duration="2.5s">
             <h5 class="mb-2">Aesthetic Website Layouts</h5>
             <p>It is essential for businesses to have their websites developed with appealing layouts and exciting
-              features. Web designers are no exception. They incorporate attractive visual elements and other
-              functions into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
+              features. Web designers are no exception. They incorporate attractive visual elements and other functions
+              into their websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
@@ -555,10 +554,10 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
             <h5 class="mb-2">You Can Effectively Target Your Audience</h5>
-            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and
-              navigation of your website is more likely to stick with your brand. However, in order to gain more
-              customers, you must successfully target your audience. Moreover, when creating and constructing a
-              website, web designers consider the psychological traits of the intended audience.</p>
+            <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and navigation
+              of your website is more likely to stick with your brand. However, in order to gain more customers, you
+              must successfully target your audience. Moreover, when creating and constructing a website, web designers
+              consider the psychological traits of the intended audience.</p>
           </div>
         </div>
 
@@ -569,7 +568,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -607,7 +606,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -636,7 +635,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -665,7 +664,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -694,7 +693,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -723,7 +722,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>

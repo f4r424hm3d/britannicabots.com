@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>{{ $page_title }}</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -86,7 +86,8 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url(img/portfolios/website-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/website-parallax.jpg)">
+  </section>
 
   <section class="about-us-section ptb-100" id="development">
     <div class="container">
@@ -116,7 +117,8 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url(img/portfolios/development-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/development-parallax.jpg)">
+  </section>
 
   <section class="about-us-section ptb-100" id="app">
     <div class="container">
@@ -145,7 +147,7 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url(img/portfolios/app-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/app-parallax.jpg)"></section>
 
   <section class="about-us-section ptb-100" id="digital">
     <div class="container">
@@ -174,7 +176,8 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url(img/portfolios/digital-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/digital-parallax.jpg)">
+  </section>
 
   <section class="about-us-section ptb-100" id="graphic">
     <div class="container">
@@ -201,7 +204,8 @@
     </div>
   </section>
 
-  <section class="bgimg" style=" background-image:url(img/portfolios/graphic-parallax.jpg)"></section>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/graphic-parallax.jpg)">
+  </section>
 
   <section class="about-us-section ptb-100" id="other">
     <div class="container">

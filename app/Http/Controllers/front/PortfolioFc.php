@@ -12,7 +12,9 @@ class PortfolioFc extends Controller
 {
   public function index(Request $request)
   {
-    return view('front.portfolio');
+    $page_title = "Portfolios";
+    $data = compact('page_title');
+    return view('front.portfolio')->with($data);
   }
   public function PortfolioList(Request $request)
   {

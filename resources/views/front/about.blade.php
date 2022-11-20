@@ -6,392 +6,290 @@
 <!--body content wrap start-->
 <div class="main pt-80">
 
-  <!--header section start-->
-  <section class="hero-section ptb-100 gradient-overlay"
-    style="background: url('{{ url('front/') }}/img/header-bg-5.jpg')no-repeat center center / cover">
+  <!--banner section start-->
+  <section class="ptb-70 gradient-bg">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-7">
-          <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-            <h1 class="text-white mb-0">About Us</h1>
-            <div class="custom-breadcrumb">
-              <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="list-inline-item breadcrumb-item active">About Us</li>
-              </ol>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-md-12 col-lg-6">
+          <div class="hero-slider-content text-white">
+            <h1 class="text-white">Who are we?</h1>
+            <p class="lead">Britannica Bots creates digital tools that enable businesses to operate in an original and
+              creative manner. We create original software, design it, and offer top-notch product consulting. The
+              end-user of our products is taken into consideration by our staff, which strives for perfection. Our
+              values shape the way we provide for our customers and provide a memorable user experience.</p>
+            <div class="action-btns mt-3"><a href="#explore" class="btn secondary-solid-btn"><span class="blink"></span>
+                EXPLORE NOW</a></div>
           </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="wow fadeInRight animated" data-wow-duration="2s"><img src="{{ url('/front/') }}/img/work2.svg"
+              class="img-fluid float-ani" alt="hero"></div>
         </div>
       </div>
     </div>
   </section>
-  <!--header section end-->
+  <!--banner section end-->
 
-  <!--three box start-->
-  <section class="promo-section  ptb-100 gray-light-bg">
+  <!--contact us section start-->
+  <section class="about-us-section ptb-100" id="explore">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4">
-          <div class="promo-single-wrap p-5 text-center border rounded white-bg">
-            <div class="promo-icon mb-4">
-              <img src="{{ url('front/') }}/img/search-engine.svg" alt="promo" width="65">
-              <span class="number-bg">01</span>
-            </div>
-            <div class="promo-info">
-              <strong class="color-secondary">Lorem Ipsum</strong>
-              <h4>Our Vision</h4>
-              <p>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
-            </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-4 col-lg-4">
+          <div class="wow fadeInLeft animated" data-wow-duration="2s">
+            <div class="custom-port-col-image w-anuimation-image4"><img alt="Britannica Bots"
+                src="{{ url('/front/') }}/img/web-development-2.svg"></div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="promo-single-wrap p-5 text-center border rounded white-bg">
-            <div class="promo-icon mb-4">
-              <img src="{{ url('front/') }}/img/increase.svg" alt="promo" width="65">
-              <span class="number-bg">02</span>
-            </div>
-            <div class="promo-info">
-              <strong class="color-secondary">Lorem Ipsum</strong>
-              <h4>Our Mission</h4>
-              <p>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="promo-single-wrap p-5 text-center border rounded white-bg">
-            <div class="promo-icon mb-4">
-              <img src="{{ url('front/') }}/img/bullhorn.svg" alt="promo" width="65">
-              <span class="number-bg">03</span>
-            </div>
-            <div class="promo-info">
-              <strong class="color-secondary">Lorem Ipsum</strong>
-              <h4>Strategy</h4>
-              <p>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
-            </div>
+        <div class="col-md-8 col-lg-8">
+          <div class="about-us-content-wrap pl-4">
+            <h2 class="font-weight-bolder">What are <span class="color-secondary">we to do?</span></h2>
+            <span class="animate-border mb-4"></span>
+            <p class="lead">We brainstorm and create innovative, affordable web applications and mobile apps that aid
+              businesses in streamlining their procedures. Our goal is to create software of unrivalled quality within
+              deadlines that meet the needs of our clients. Following agile concepts in all facets of our working lives
+              is a core value of Britannica Bots.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="services-section pb-100 gray-light-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <span class="ti-eye icon-lg color-secondary d-block mb-4"></span>
-            <h5>Vision</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <span class="ti-cup icon-lg color-secondary d-block mb-4"></span>
-            <h5>Mission</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-            <h5>Strategy</h5>
-            <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-              partnerships.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/website-parallax.jpg)">
   </section>
-  <!--three box end-->
 
-  <!--about us section start-->
   <section class="about-us-section ptb-100">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <div class="about-us-img">
-            <img src="{{ url('front/') }}/img/about-us-img.svg" alt="about us" class="img-fluid about-single-img">
-            <img src="{{ url('front/') }}/img/about-us-img-bg.svg" alt="about bg" class="about-us-bg">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="about-us-content-wrap">
-            <strong class="color-secondary">Who we are</strong>
-            <h3>About Britannica Bots</h3>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-8 col-lg-8">
+          <div class="about-us-content-wrap pr-4">
+            <h2 class="font-weight-bolder">Our <span class="color-secondary">Goal</span></h2>
             <span class="animate-border mb-4"></span>
-            <p>Globally transition proactive niches without progressive processes. Objectively syndicate
-              enterprise-wide services through timely metrics.</p>
-            <ul class="list-unstyled tech-feature-list w-100 mb-3">
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Creative</strong>
-                Websites Design</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Accounting</strong>
-                Procedures
-                Guidebook</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Cost</strong>
-                Accounting Fundamentals</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Corporate</strong>
-                Cash Management</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>SEO</strong>
-                Optimization Services</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
-                Brand Solutions</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>45-Day</strong>
-                Money-Back Guarantee</li>
-            </ul>
-
-            <div class="action-btns mt-4">
-              <a href="#" class="btn secondary-solid-btn mr-3">Case Study</a>
-              <a href="#" class="btn secondary-outline-btn">Get in touch</a>
+            <p class="lead">Our goal is to apply a special approach that combines both established and cutting-edge
+              techniques to create high-quality software. We want to be the industry leader in providing cutting-edge
+              technology to our clients in order to support their exponential growth. In addition to creating top-notch
+              items, our goal is to earn our customers' trust.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="wow fadeInRight animated" data-wow-duration="2s">
+            <div class="custom-port-col-image w-anuimation-image4"><img alt="Britannica Bots"
+                src="{{ url('/front/') }}/img/goal.png">
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--about us section end-->
 
-  <section class="call-to-action ptb-100" style="background: url('img/ctg-bg-2.jpg')no-repeat center center / cover">
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/development-parallax.jpg)">
+  </section>
+
+  <section class="about-us-section ptb-100">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="circle-box">
-            <div class="chart easyPieChart" data-percent="70" style="width: 180px; height: 180px; line-height: 180px;">
-              <span>70%</span><canvas width="180" height="180"></canvas>
-            </div>
-          </div>
-          <div class="progress-info text-center mt-3">
-            <strong class="color-secondary">Our Services</strong>
-            <h5 class="text-white">Website Design</h5>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-4 col-lg-4">
+          <div class="wow fadeInLeft animated" data-wow-duration="2s">
+            <div class="custom-port-col-image w-anuimation-image4"><img alt="Britannica Bots"
+                src="{{ url('/front/') }}/img/website-redesign.svg"></div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="circle-box">
-            <div class="chart easyPieChart" data-percent="75" style="width: 180px; height: 180px; line-height: 180px;">
-              <span>75%</span><canvas width="180" height="180"></canvas>
-            </div>
-          </div>
-          <div class="progress-info text-center mt-3">
-            <strong class="color-secondary">Our Services</strong>
-            <h5 class="text-white">Website Development</h5>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="circle-box">
-            <div class="chart easyPieChart" data-percent="80" style="width: 180px; height: 180px; line-height: 180px;">
-              <span>80%</span><canvas width="180" height="180"></canvas>
-            </div>
-          </div>
-          <div class="progress-info text-center mt-3">
-            <strong class="color-secondary">Our Services</strong>
-            <h5 class="text-white">Graphic Design</h5>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="circle-box">
-            <div class="chart easyPieChart" data-percent="90" style="width: 180px; height: 180px; line-height: 180px;">
-              <span>90%</span><canvas width="180" height="180"></canvas>
-            </div>
-          </div>
-          <div class="progress-info text-center mt-3">
-            <strong class="color-secondary">Our Services</strong>
-            <h5 class="text-white">Digital Marketing</h5>
+        <div class="col-md-8 col-lg-8">
+          <div class="about-us-content-wrap pl-4">
+            <h2 class="font-weight-bolder">How do <span class="color-secondary">we operate?</span></h2>
+            <span class="animate-border mb-4"></span>
+            <p class="lead">At all times, our staff acts in our clients' best interests. Our team at Britannica Bots
+              enjoys the greatest working atmosphere, which inspires them to develop innovative solutions for the
+              companies we serve. Our workforce is our company's biggest asset, and we have faith in them.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!--clientle two section start-->
-  <section class="team-two-section ptb-100 gray-light-bg">
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/app-parallax.jpg)"></section>
+
+  <section class="about-us-section ptb-100">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-8 col-lg-8">
+          <div class="about-us-content-wrap pr-4">
+            <h2 class="font-weight-bolder">Our <span class="color-secondary">Priority</span></h2>
+            <span class="animate-border mb-4"></span>
+            <p class="lead">Our staff constantly aspires to excellence and works to strike a balance between optimism
+              and grounded authenticity. So that we can continue to lead the industry, we strive to evolve continuously.
+              We take responsibility for issues and see them through to a successful resolution. To ensure that we all
+              succeed together, our team of specialists will go above and beyond to fulfil and meet the needs of our
+              clients.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="wow fadeInRight animated" data-wow-duration="2s">
+            <div class="custom-port-col-image w-anuimation-image4"><img alt="Britannica Bots"
+                src="{{ url('/front/') }}/img/priority.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/digital-parallax.jpg)">
+  </section>
+
+
+  <section class="about-us-section ptb-100">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-7 col-lg-7">
+          <div class="about-us-content-wrap pr-4">
+            <h2 class="font-weight-bolder">Our <span class="color-secondary">Vision</span></h2>
+            <span class="animate-border mb-4"></span>
+            <p>Every firm must adjust adaptability and evolve consistently with software development upgrades in the
+              current, technology-driven industry. Those who want to set up their organisation with greater power,
+              adaptability, and top-notch functioning can use the current time as a secret weapon. Using digital access
+              in your business can make the shift easier overall, make operations run more smoothly, and improve the
+              final product. Employees are further put at ease, and the business grows faster thanks to the convenient
+              processing.</p>
+            <p>At Britannica Bots, we help our clients use the top applications and technologies that are convenient and
+              hassle-free for their industry. Our main goal is to provide national and international clients with a
+              platform to create the best developments with the least amount of time, money, and effort. For those
+              looking to revolutionise the industry with effectiveness and cost-efficiency, Britannica Bots is a
+              one-stop shop. Once you have trusted our methodology, we guarantee to deliver cutting-edge technologies,
+              flexible techniques, and a superior user experience.</p>
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-5">
+          <div class="image-frame wow fadeInRight  animated" data-wow-duration="2s"><img
+              src="{{ url('/front/') }}/img/static-web.jpg" alt="about us" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/graphic-parallax.jpg)">
+  </section>
+
+  <section class="why-choose-us ptb-100" id="start">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-8">
-          <div class="section-heading text-center mb-5">
-            <strong class="color-secondary">Who are Happy With Services and Work</strong>
-            <h2>Our Clientele</h2>
+        <div class="col-md-10 col-lg-9">
+          <div class="section-heading text-center">
+            <h2 class="font-weight-bolder"><strong class="color-secondary">We</strong> are unique?</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
-            <p class="lead">Distinctively grow go forward manufactured products and optimal networks. Enthusiastically
-              disseminate user-centric outsourcing.</p>
           </div>
         </div>
       </div>
-
-      <div class="row">
-
-        <div id="clientale" class="owl-carousel owl-theme custom-dot">
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-7">
+          <div class="why-choose-us-wrap wow zoomInDown  animated" data-wow-duration="2s"
+            style="visibility: visible; animation-duration: 2s; animation-name: zoomInDown;">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 promo-col">
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Budget - friendly</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Innovative</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Passionate</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Experienced</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
                 </div>
               </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
+
+              <div class="col-md-6 col-sm-6 promo-col">
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Powerful</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Worthy of Trust</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Understanding</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
+                </div>
+                <div class="promo-item pb-2">
+                  <h5 class="mb-4">Reliable</h5>
+                  <div class="promo-bottom-shape">
+                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
-
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
-                </div>
-              </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
-                </div>
-              </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
-                </div>
-              </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
-                </div>
-              </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="staff-member my-md-3 my-lg-3 my-sm-0">
-              <div class="card text-center">
-                <img src="{{ url('front/') }}/img/c1.png" alt="team image" class="m-auto pt-4" style="width:120px">
-                <div class="card-body">
-                  <h5 class="teacher mb-0">Company Name</h5>
-                  <span>Country / Location</span>
-                  <p class="teacher-quote pt-3">Dramatically leverage existing fully researched platforms.</p>
-                </div>
-              </div>
-              <div class="overlay d-flex align-items-center justify-content-center">
-                <div class="overlay-inner">
-                  <p class="teacher-quote">"Dramatically leverage existing fully researched platforms vis-a-vis
-                    viral."</p>
-                  <a href="#" class="teacher-name">
-                    <h5 class="mb-0 teacher text-white">Company Name</h5>
-                  </a>
-                  <span class="teacher-field text-white mb-3">Country / Location</span>
-                  <p class="teacher-see-profile"><a href="#" class="btn outline-white-btn">Case Studies</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+        </div>
+        <div class="col-md-5 col-lg-5">
+          <div class="image-wrap wow fadeInRight  animated" data-wow-duration="2s"><img
+              src="{{ url('/front/') }}/img/dynamik-web2.png" alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
     </div>
   </section>
-  <!--clientle two section end-->
 
-  <!--call to action section start-->
-  <section class="call-to-action py-5">
+  <section class="bgimg" style=" background-image:url({{ url('/front/') }}/img/portfolios/digital-parallax.jpg)">
+  </section>
+
+  <section class="why-choose-us ptb-100">
     <div class="container">
-      <div class="row justify-content-around align-items-center">
-        <div class="col-md-7">
-          <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
-            <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-7">
+          <div class="section-heading">
+            <h2 class="font-weight-bolder">Concerning <strong class="color-secondary font-weight-bolder">Britannica
+                Bots</strong></h2>
+            <span class="animate-border mb-4"></span>
+            <p>Without using progressive methods, transform proactive niches globally. Using accurate measurements,
+              effectively distribute services across the entire organisation.</p>
+            <ul class="list-unstyled tech-feature-list w-100">
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Designing</strong>
+                Creative Websites</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Guidebook</strong>
+                for Accounting Procedure</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>The
+                  Fundamentals</strong> of Cost Accounting</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Business</strong>
+                Cash Management</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Services</strong>
+                for SEO optimization</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Company</strong>
+                Branding Services</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span><strong>Guaranteed</strong>
+                45-Day Money-Back</li>
+            </ul>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+        <div class="col-md-5 col-lg-5">
+          <div class="wow fadeInRight  animated" data-wow-duration="2s">
+            <div class="custom-port-col-image w-anuimation-image4"><img alt="Britannica Bots"
+                src="{{ url('/front/') }}/img/about.png">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--call to action section end-->
+  <!--contact us section end-->
 
 </div>
 <!--body content wrap end-->

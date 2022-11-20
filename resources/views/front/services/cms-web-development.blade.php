@@ -16,15 +16,15 @@
             <p class="lead">Getting in touch with Britannica Bots CMS Web Development Agency in Gurugram means getting
               in touch with the best web Development service providers in the business. CMS has grown to be one of the
               most respected platforms for distinctive and creative website building components. Our is the primary
-              reason why global investors, company executives, start-up founders, and advertising firms are flocking
-              to this platform without hesitation.
+              reason why global investors, company executives, start-up founders, and advertising firms are flocking to
+              this platform without hesitation.
               <!--It provides experienced benefits to the business by providing what the business's essential demand is, website building from the ground up. We are the proper individuals to advise you through every step of the process to ensure that you meet your business objectives without difficulty. We are the best CMS web development company in Gurugram, and we can help you get your website in front of the right people.-->
             </p>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{ url('/front/') }}/img/cms-web2.png" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/cms-web2.png" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
             </div>
             <p>If you don't see results, you can get your money back.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
             <div class="promo-bottom-shape">
-              <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+              <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
           </div>
         </div>
@@ -101,36 +101,36 @@
             <h2><span class="color-secondary">Britannica Bots Can Help You Get</span> Highly Innovative CMS Web
               Development!</h2>
             <span class="animate-border mb-4"></span>
-            <p>The content management system, or CMS, is a framework for managing website content. The substance may
-              be added, changed, or distributed by the clients. The CMS setups include a back-end, known as the
+            <p>The content management system, or CMS, is a framework for managing website content. The substance may be
+              added, changed, or distributed by the clients. The CMS setups include a back-end, known as the
               Administrator end, that contains numerous operations that allow the composition to be altered. With the
-              help of the CMS, the client may examine a responsive plan that can fit into any screen size with little
-              to no effort.</p>
+              help of the CMS, the client may examine a responsive plan that can fit into any screen size with little to
+              no effort.</p>
             <p>One of the numerous advantages of using a material management solution is having control over your
-              content (CMS). Users with varying levels of access can administer or use our fantastic CMS Web
-              Development Company's data, assets, and content. Because of novel features such as SEO friendliness,
-              simple programming, intuitive user interface, speedy technical implementation, and so on, the process of
-              CMS web building is simple and secure. It is critical that you completely understand your organization's
-              and its users' demands in order for us to handle them in an agile manner. Britannica Bots is certain
-              that it can optimise your system for maximum efficiency, regardless of the CMS and web development
-              services you require.</p>
+              content (CMS). Users with varying levels of access can administer or use our fantastic CMS Web Development
+              Company's data, assets, and content. Because of novel features such as SEO friendliness, simple
+              programming, intuitive user interface, speedy technical implementation, and so on, the process of CMS web
+              building is simple and secure. It is critical that you completely understand your organization's and its
+              users' demands in order for us to handle them in an agile manner. Britannica Bots is certain that it can
+              optimise your system for maximum efficiency, regardless of the CMS and web development services you
+              require.</p>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <div class="image-frame wow fadeInRight animated" data-wow-duration="2s"><img
-              src="{{ url('/front/') }}/img/cms-web.jpg" alt="about us" class="img-fluid"></div>
+              src="{{url('front')}}/img/cms-web.jpg" alt="about us" class="img-fluid"></div>
         </div>
         <div class="col-md-12 col-lg-12">
           <div class="about-us-content-wrap">
             <p>We are the top CMS web development agency in India. We use the most advanced approaches in the industry
               to provide long-term and durable content management solutions for a variety of important businesses. Our
               CMS experts use cutting-edge technologies to create feature-rich content management solutions for a
-              variety of platforms. Our team not only is informed and skilled, but it also thoroughly reviews all of
-              the basic to complicated methods and strategies employed in the process of implementing our content
-              management systems. Our CMS design service includes high-end solutions to all content management
-              concerns. Our services are intended to assist your company grow in some way. Since we have been a
-              recognised CMS service provider in India for a long time, the market holds us in high regard.</p>
-            <a href="{{ url('get-quote') }}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+              variety of platforms. Our team not only is informed and skilled, but it also thoroughly reviews all of the
+              basic to complicated methods and strategies employed in the process of implementing our content management
+              systems. Our CMS design service includes high-end solutions to all content management concerns. Our
+              services are intended to assist your company grow in some way. Since we have been a recognised CMS service
+              provider in India for a long time, the market holds us in high regard.</p>
+            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
@@ -160,25 +160,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Responsive</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">SEO-Optimized</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Fast</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -187,25 +187,25 @@
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Scalable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Maintainable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Highly Usable</h5>
                   <div class="promo-bottom-shape">
-                    <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
+                    <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
                   </div>
                 </div>
               </div>
@@ -214,7 +214,7 @@
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
-          <div class="wow fadeInRight animated" data-wow-duration="2s"><img src="{{ url('/front/') }}/img/cms-web.svg"
+          <div class="wow fadeInRight animated" data-wow-duration="2s"><img src="{{url('front')}}/img/cms-web.svg"
               alt="shape" class="img-fluid float-ani"></div>
         </div>
       </div>
@@ -237,85 +237,84 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/autoh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/b2bh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/bankh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/consth.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eduh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/eventh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img
-              src="{{ url('/front/') }}/img/icons/insuranceh.png" height="60">
-          </div>
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/logih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/ecomh.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/plantah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/mediah.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{ url('/front/') }}/img/icons/taxih.png"
+          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
               height="60"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
@@ -331,8 +330,7 @@
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-9">
           <div class="section-heading text-center">
-            <h2><strong class="color-secondary">Amazing Benefits of Britannica Bots</strong><br>CMS Web Development
-            </h2>
+            <h2><strong class="color-secondary">Amazing Benefits of Britannica Bots</strong><br>CMS Web Development</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
           </div>
         </div>
@@ -346,8 +344,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Less time and effort required</h5>
             <p>CMS web development is the most user-friendly. Anyone with a basic understanding of marketing and
-              development may complete this assignment flawlessly. Our amazing developers, on the other hand, believe
-              in always providing the best for you.</p>
+              development may complete this assignment flawlessly. Our amazing developers, on the other hand, believe in
+              always providing the best for you.</p>
           </div>
         </div>
 
@@ -368,9 +366,8 @@
             data-wow-duration="3s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Analytics for the Web</h5>
-            <p>Even if we are unfamiliar with development and digitalization, our web analytics can provide you with
-              all of the information you seek. From monitoring website traffic to learning about social media sites.
-            </p>
+            <p>Even if we are unfamiliar with development and digitalization, our web analytics can provide you with all
+              of the information you seek. From monitoring website traffic to learning about social media sites.</p>
           </div>
         </div>
 
@@ -412,8 +409,8 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
             data-wow-duration="3s">
             <h5 class="mb-2">Implementation</h5>
-            <p>Regardless of the nature, size, or density of the business, execution and reporting are essential. In
-              our business arrangements, we ensure utmost transparency.</p>
+            <p>Regardless of the nature, size, or density of the business, execution and reporting are essential. In our
+              business arrangements, we ensure utmost transparency.</p>
           </div>
         </div>
 
@@ -445,7 +442,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/wp-logo.png">
+            <img src="{{url('front')}}/img/wp-logo.png">
             <p>Bloggers and businesses alike frequently utilise WordPress blogs. You can construct a self-hosted blog
               with a customised domain name using the WordPress platform; it is not only used for building blogs, but
               you can also develop an awesome website by using the available themes and plugins.</p>
@@ -454,7 +451,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/joomla-logo.png">
+            <img src="{{url('front')}}/img/joomla-logo.png">
             <p>Joomla is an open-source software that may be used to create websites in any industry. It allows for
               easier transfer to any preferred server and access to any database; Joomla aids in the development of a
               user-friendly interface and gives a large range of themes and templates for development.</p>
@@ -463,42 +460,53 @@
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/drupal-logo.png">
-            <p>Drupal provides a variety of common features required for creating an exceptional website; it
-              simplifies RSS feeds, website administration, user registration, and customization for users. Drupal
-              enhances website performance and versatility by providing extensive controls for website administration.
-            </p>
+            <img src="{{url('front')}}/img/drupal-logo.png">
+            <p>Drupal provides a variety of common features required for creating an exceptional website; it simplifies
+              RSS feeds, website administration, user registration, and customization for users. Drupal enhances website
+              performance and versatility by providing extensive controls for website administration.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/concrete5-logo.png">
+            <img src="{{url('front')}}/img/concrete5-logo.png">
             <p>Concrete5 is a basic CMS that allows you to change material directly from the web page. Search engine
-              optimization, server caching, version tracking, and a developer API are among its features. It is based
-              on the model view container architecture, sometimes known as MVC, and object oriented programming.</p>
+              optimization, server caching, version tracking, and a developer API are among its features. It is based on
+              the model view container architecture, sometimes known as MVC, and object oriented programming.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/modx-logo.png">
+            <img src="{{url('front')}}/img/modx-logo.png">
             <p>MODX encourages the creation of a customised website with powerful controls; it delivers the finest
-              end-user experience and allows users to manage any form of material without limitations. MODX enables
-              the user to fully utilise the website design; it provides numerous developer options.</p>
+              end-user experience and allows users to manage any form of material without limitations. MODX enables the
+              user to fully utilise the website design; it provides numerous developer options.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-            <img src="{{ url('/front/') }}/img/duke-logo.png">
+            <img src="{{url('front')}}/img/duke-logo.png">
             <p>DotNetNuke is a robust CMS platform that has comprehensive tools for managing email, advertisements,
               documents, blogs, and integrating multilingual functionality. It provides the best platform versatility,
               website speed optimization, and community support.</p>
           </div>
         </div>
 
+        <!--div class="col-lg-4 col-md-4 col-sm-6">
+<div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+<img src="{{url('front')}}/img/blogengine-logo.png">
+<p>BlogEngine.NET is an ASP.NET CMS facilitates in building the blogging platform. It includes all latest features of .NET that simplifies the working process and enables customization. It offers designing themes, extensions, and widgets to build a feature-rich blogging website.</p>
+</div>
+</div-->
 
+        <!--div class="col-lg-4 col-md-4 col-sm-6">
+<div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+<img src="{{url('front')}}/img/umbraco-logo.png">
+<p>Umbraco is an open-source CMS constructed based on the ASP.NET programming language. It is a feature-rich and flexible platform capable of running small campaigns to complex applications. Umbraco allows integrating Microsoft word – to facilitate in add or edit the web.</p>
+</div>
+</div-->
 
       </div>
     </div>
@@ -526,8 +534,8 @@
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
-              the attention of visitors and user-friendly navigation around the website to keep visitors on the
-              website for a longer period of time.</p>
+              the attention of visitors and user-friendly navigation around the website to keep visitors on the website
+              for a longer period of time.</p>
           </div>
         </div>
 
@@ -538,8 +546,8 @@
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
-              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance
-              even after the project is over.</p>
+              assignees, assign tasks for the project, conduct task discussions, and receive specialised assistance even
+              after the project is over.</p>
           </div>
         </div>
 
@@ -570,13 +578,13 @@
             <h2>What we can help the <strong class="color-secondary">Business Owners with?</strong></h2>
             <span class="animate-border mb-4"></span>
             <p class="lead">We help the businesses achieve their goals with their good collection of resources.In the
-              web development companies like us - there are business analysts, QA experts, developers and all the
-              other specialists who come together to create a website as per your business’ requirements.</p>
-            <p class="lead">These web development experts who enhance the user experiences while building some amazing
-              & visually appealing UI's.</p>
+              web development companies like us - there are business analysts, QA experts, developers and all the other
+              specialists who come together to create a website as per your business’ requirements.</p>
+            <p class="lead">These web development experts who enhance the user experiences while building some amazing &
+              visually appealing UI's.</p>
             <p class="lead">In fact, they take care of all the necessary aspects of web designing process. As we have
-              discussed earlier that a website’s design is one of the most important aspects, the business owners
-              prefer to get in touch with adept web developers.</p>
+              discussed earlier that a website’s design is one of the most important aspects, the business owners prefer
+              to get in touch with adept web developers.</p>
             <p class="lead"><strong>Let’s have a close look at the benefits of getting in touch with these
                 professionals:</strong></p>
           </div>
@@ -588,8 +596,8 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Create Seamless Experience</h5>
-            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors
-              find it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
+            <p>The experience of navigating on your website should be seamless for your visitors. If your visitors find
+              it difficult to land at the pages they want to be on, might hurt their experience. Hence, good the
               professional web designers ensure that the visitors browse your website without facing difficulty.</p>
           </div>
         </div>
@@ -598,9 +606,9 @@
           <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <h5 class="mb-2">Your Website Will Have Aesthetic Layouts</h5>
-            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing
-              features. And, web designers do the same. They integrate the appealing visual graphics and additional
-              features in the websites.<br><span class="hidden-xs">&nbsp;</span></p>
+            <p>It is important for businesses to get their website designed with aesthetic layouts and amazing features.
+              And, web designers do the same. They integrate the appealing visual graphics and additional features in
+              the websites.<br><span class="hidden-xs">&nbsp;</span></p>
           </div>
         </div>
 
@@ -633,7 +641,7 @@
 
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 gray-light-bg">
+  <section class="testimonial-section ptb-100 gray-light-bg hide-this">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12">
@@ -671,7 +679,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-1.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-1.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -700,7 +708,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-2.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-2.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -729,7 +737,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-3.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-3.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -758,7 +766,7 @@
               </div>
               <div class="client-info-wrap d-flex align-items-center mt-5">
                 <div class="client-img mr-3">
-                  <img src="{{ url('/front/') }}/img/client-4.jpg" alt="client" width="60"
+                  <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
@@ -787,7 +795,7 @@
         </div>
         <div class="col-md-4">
           <div class="action-btn text-lg-right text-sm-left">
-            <a href="{{ url('contact') }}" class="btn secondary-solid-btn">Get in touch with us</a>
+            <a href="{{url('contact')}}" class="btn secondary-solid-btn">Get in touch with us</a>
           </div>
         </div>
       </div>
