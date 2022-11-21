@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>Services</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -13,7 +13,7 @@
       <div class="row align-items-center">
         <div class="col-md-12 col-lg-5">
           <div class="hero-slider-content text-white pt-4">
-            <span>Loream Ipsum Loream Ipsum</span>
+            {{-- <span>Loream Ipsum Loream Ipsum</span> --}}
             <h1 class="text-white">TOP-NOTCH DIGITAL SERVICES ENSURING THE GROWTH OF YOUR BUSINESS</h1>
             <p class="lead">Ensuring The Growth Of Your Business!</p>
             <div class="action-btns mt-3"><a href="#start" class="btn secondary-solid-btn">Get Start Now</a></div>
@@ -149,7 +149,7 @@
           <div class="about-us-content-wrap pr-4">
             <h2>WEBSITE <span class="color-secondary">DESIGNING</span></h2>
             <span class="animate-border mb-4"></span>
-            <p>OGEN Infosystem being one of the best website designing company offerings include various web design
+            <p>Britannica Bots being one of the best website designing company offerings include various web design
               services ranging from one page parallax website, simple static web design, animated webs designing,
               dynamic website to corporate website packages. Each of our website is designed with upgraded technology
               keeping in mind all aspects of SEO optimization, mobile responsiveness and effective call-to-actions.</p>
@@ -195,7 +195,7 @@
           <div class="about-us-content-wrap pl-5">
             <h2>WEBSITE <span class="color-secondary">DEVELOPMENT</span></h2>
             <span class="animate-border mb-4"></span>
-            <p>OGEN Infosystem Expertise in robust & dynamic development starting from website CMS, web portal,
+            <p>Britannica Bots Expertise in robust & dynamic development starting from website CMS, web portal,
               ecommerce websites, Web Applications to Custom build website development. We use latest technologies,
               powerful frameworks with winning approach to ensure that our developed end-results are effective, scalable
               and result-driven with our core expertise is in PHP, Laravel, Codeigniter, .NET, and Node.js. We are bunch

@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\admin\AdminDashboard;
 use App\Http\Controllers\admin\AdminLogin;
+use App\Http\Controllers\admin\BlogCategoryC;
+use App\Http\Controllers\admin\BlogsC;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
@@ -23,6 +25,7 @@ use App\Http\Controllers\front\PortfolioFc;
 use App\Http\Controllers\front\ServicesFc;
 use App\Http\Controllers\front\TeamFc;
 use App\Http\Controllers\front\TestimonialFc;
+use App\Models\BlogCategory;
 use App\Models\Portfolio;
 use App\Models\Services;
 use Illuminate\Support\Facades\Artisan;
@@ -93,7 +96,6 @@ Route::get('/db-seed', function () {
 Route::get('/', [HomeFc::class, 'index']);
 Route::get('/home', [HomeFc::class, 'index']);
 Route::get('/about', [AboutFc::class, 'index']);
-Route::get('/blog', [BlogFc::class, 'index']);
 Route::get('/contact', [ContactFc::class, 'index']);
 Route::post('/contact', [ContactFc::class, 'submitInquiry']);
 Route::get('/get-quote', [GetQuoteFc::class, 'index']);
@@ -121,6 +123,16 @@ $allComp = Portfolio::all();
 foreach ($allComp as $com) {
   Route::get('portfolio/' . $com->company_slug, [PortfolioFc::class, 'PortfolioDetail']);
 }
+
+
+Route::get('/blogs', [BlogFc::class, 'index']);
+$allBlogCat = BlogCategory::all();
+foreach ($allBlogCat as $cat) {
+  Route::get('blogs/' . $cat->slug, [BlogFc::class, 'blogByCat']);
+}
+Route::get('blog/{slug}', [BlogFc::class, 'blogDetails']);
+
+
 
 
 /* ADMIN ROUTES BEFORE LOGIN */
@@ -198,7 +210,20 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/{portfolio_id}/update/{id}', [PortfolioImagesC::class, 'index']);
       Route::post('/update/{id}', [PortfolioImagesC::class, 'update']);
     });
-
+    Route::prefix('/blog-category')->group(function () {
+      Route::get('', [BlogCategoryC::class, 'index']);
+      Route::post('/store', [BlogCategoryC::class, 'store']);
+      Route::get('/delete/{id}', [BlogCategoryC::class, 'delete']);
+      Route::get('/update/{id}', [BlogCategoryC::class, 'index']);
+      Route::post('/update/{id}', [BlogCategoryC::class, 'update']);
+    });
+    Route::prefix('/blogs')->group(function () {
+      Route::get('', [BlogsC::class, 'index']);
+      Route::post('/store', [BlogsC::class, 'store']);
+      Route::get('/delete/{id}', [BlogsC::class, 'delete']);
+      Route::get('/update/{id}', [BlogsC::class, 'index']);
+      Route::post('/update/{id}', [BlogsC::class, 'update']);
+    });
     Route::prefix('/contact-us')->group(function () {
       Route::get('', [ContactInquiryC::class, 'index']);
       Route::get('/delete/{id}', [ContactInquiryC::class, 'delete']);

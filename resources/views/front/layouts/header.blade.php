@@ -88,7 +88,7 @@
                         <a href="{{ url('/') }}/static-website-designing"><span
                             class="ti-arrow-right color-secondary"></span>
                           Static Website Designing</a>
-                        <a href="{{ url('/') }}/dynamik-website-designing"><span
+                        <a href="{{ url('/') }}/dynamic-website-designing"><span
                             class="ti-arrow-right color-secondary"></span>
                           Dynamic Website Designing</a>
                         <a href="{{ url('/') }}/landing-page-website-designing"><span

@@ -37,10 +37,11 @@
               <div class="footer-nav-wrap text-white">
                 <h4 class="text-white">COMPANY</h4>
                 <ul class="nav flex-column">
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">About Our Services</a></li>
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">Our Affiliates Program</a></li>
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">View Our Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">Check Our Careers</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('services') }}">About Our Services</a></li>
+                  {{-- <li class="nav-item"><a class="nav-link" href="javascript:void()">Our Affiliates Program</a></li>
+                  --}}
+                  <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}">View Our Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('career') }}">Check Our Careers</a></li>
                 </ul>
               </div>
             </div>
@@ -49,11 +50,12 @@
               <div class="footer-nav-wrap text-white">
                 <h4 class="text-white">LEGAL</h4>
                 <ul class="nav flex-column">
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">Legal Information</a></li>
-                  <li class="nav-item"><a class="nav-link" href="privacy-disclaimer.html">Privacy & Disclaimer</a>
+                  {{-- <li class="nav-item"><a class="nav-link" href="javascript:void()">Legal Information</a></li> --}}
+                  <li class="nav-item"><a class="nav-link" href="{{ url('privacy-disclaimer') }}">Privacy &
+                      Disclaimer</a>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="javascript:void()">Report Abuse</a></li>
-                  <li class="nav-item"><a class="nav-link" href="terms-of-use.html">Terms of Use</a></li>
+                  {{-- <li class="nav-item"><a class="nav-link" href="javascript:void()">Report Abuse</a></li> --}}
+                  <li class="nav-item"><a class="nav-link" href="{{ url('terms-of-use') }}">Terms of Use</a></li>
                 </ul>
               </div>
             </div>

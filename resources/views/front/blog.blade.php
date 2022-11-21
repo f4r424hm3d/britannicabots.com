@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>{{ $page_title }}</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -32,143 +32,43 @@
   <section class="our-blog-section ptb-100 gray-light-bg">
     <div class="container">
       <div class="row">
+        @foreach ($rows as $row)
         <div class="col-md-4">
           <div class="single-blog-card card border-0 shadow-sm">
             <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/1.jpg" class="card-img-top" alt="blog">
+              <img src="{{ asset($row->thumbnail_path) }}" class="card-img-top" alt="blog">
               <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
+                <strong>{{ getFormattedDate($row->created_at,'d') }}</strong>
+                <small>{{ getFormattedDate($row->created_at,'M') }}</small>
               </div>
             </div>
             <div class="card-body">
               <div class="post-meta mb-2">
                 <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
+                  {{-- <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
+                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li> --}}
                 </ul>
               </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
+              <h3 class="h5 mb-2 card-title"><a href="#">{{ $row->title }} {{ $row->id }}</a></h3>
+              <p class="card-text">{{ $row->shortnote }}</p>
+              <a href="{{ url('blog/'.$row->title_slug.'-'.$row->id) }}" class="detail-link">Read more <span
+                  class="ti-arrow-right"></span></a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="single-blog-card card border-0 shadow-sm">
-            <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/2.jpg" class="card-img-top" alt="blog">
-              <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="post-meta mb-2">
-                <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
-                </ul>
-              </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="single-blog-card card border-0 shadow-sm">
-            <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/3.jpg" class="card-img-top" alt="blog">
-              <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="post-meta mb-2">
-                <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
-                </ul>
-              </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="single-blog-card card border-0 shadow-sm">
-            <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/4.jpg" class="card-img-top" alt="blog">
-              <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="post-meta mb-2">
-                <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
-                </ul>
-              </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="single-blog-card card border-0 shadow-sm">
-            <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/5.jpg" class="card-img-top" alt="blog">
-              <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="post-meta mb-2">
-                <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
-                </ul>
-              </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="single-blog-card card border-0 shadow-sm">
-            <div class="blog-img position-relative">
-              <img src="{{ url('/front/') }}/img/blog/6.jpg" class="card-img-top" alt="blog">
-              <div class="meta-date">
-                <strong>24</strong>
-                <small>Apr</small>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="post-meta mb-2">
-                <ul class="list-inline meta-list">
-                  <li class="list-inline-item"><i class="fas fa-heart mr-2"></i><span>45</span>Comments</li>
-                  <li class="list-inline-item"><i class="fas fa-share-alt mr-2"></i><span>10</span>Share</li>
-                </ul>
-              </div>
-              <h3 class="h5 mb-2 card-title"><a href="#">Appropriately productize fully</a></h3>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
-              <a href="blog-detail.html" class="detail-link">Read more <span class="ti-arrow-right"></span></a>
-            </div>
-          </div>
-        </div>
+        @endforeach
+
       </div>
 
       <div class="row">
         <div class="col-md-12">
+
           <nav class="custom-pagination-nav mt-4">
+            <ul class="pagination justify-content-center">
+              {!! $rows->links('pagination::bootstrap-5') !!}
+            </ul>
+          </nav>
+          {{-- <nav class="custom-pagination-nav mt-4">
             <ul class="pagination justify-content-center">
               <li class="page-item"><a class="page-link" href="#"><span class="ti-angle-left"></span></a></li>
               <li class="page-item active"><a class="page-link" href="#">1</a></li>
@@ -177,7 +77,7 @@
               <li class="page-item"><a class="page-link" href="#">4</a></li>
               <li class="page-item"><a class="page-link" href="#"><span class="ti-angle-right"></span></a></li>
             </ul>
-          </nav>
+          </nav> --}}
         </div>
       </div>
 

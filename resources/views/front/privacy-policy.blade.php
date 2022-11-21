@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>Privacy Disclaimer</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
@@ -15,7 +15,7 @@
           <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
             <h1 class="text-white mb-0">Privacy and Disclaimer</h1>
             <div class="custom-breadcrumb text-white">
-              <p class="lead">Axis Web Intelligence is committed to respecting and protecting your privacy on our
+              <p class="lead">Britannica Bots Intelligence is committed to respecting and protecting your privacy on our
                 website. This privacy policy is designed to provide you an outline of, what personal information is
                 collected from you and why.</p>
             </div>
@@ -42,7 +42,7 @@
             <h4 class="mb-1">How information is collected?</h4>
             <p>The information may be collected via our website by any technology used on our website for example the
               contact us form or a Quote request form. We may also collect personal information via telephone, letter,
-              promotional materials or at any function or event when meeting with a Axis Web Intelligence
+              promotional materials or at any function or event when meeting with a Britannica Bots Intelligence
               representative.</p>
 
             <h4 class="mb-1">Why collect information?</h4>

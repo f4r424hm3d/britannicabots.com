@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('title')
-<title>About</title>
+<title>About Us</title>
 @endpush
 @section('main-section')
 <!--body content wrap start-->
