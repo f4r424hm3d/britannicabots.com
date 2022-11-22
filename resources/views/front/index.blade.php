@@ -531,7 +531,7 @@
   <!--portfolio section end-->
 
   <!--testimonial section start-->
-  <section class="testimonial-section ptb-100 hide-this"
+  <section class="testimonial-section ptb-100 hide-thi"
     style="background: url('{{ url('/front/') }}/img/testimonial-bg.png')no-repeat center center / cover">
     <div class="container">
       <div class="row align-items-center">

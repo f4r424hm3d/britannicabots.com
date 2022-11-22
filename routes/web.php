@@ -13,6 +13,7 @@ use App\Http\Controllers\admin\PortfolioImagesC;
 use App\Http\Controllers\admin\ServicesC;
 use App\Http\Controllers\admin\SubServicesC;
 use App\Http\Controllers\admin\TeamC;
+use App\Http\Controllers\admin\TestimonialC;
 use App\Http\Controllers\admin\VacancyC;
 use App\Http\Controllers\CommonController;
 use App\Http\Controllers\front\AboutFc;
@@ -223,6 +224,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [BlogsC::class, 'delete']);
       Route::get('/update/{id}', [BlogsC::class, 'index']);
       Route::post('/update/{id}', [BlogsC::class, 'update']);
+    });
+    Route::prefix('/testimonial')->group(function () {
+      Route::get('', [TestimonialC::class, 'index']);
+      Route::post('/store', [TestimonialC::class, 'store']);
+      Route::get('/delete/{id}', [TestimonialC::class, 'delete']);
+      Route::get('/update/{id}', [TestimonialC::class, 'index']);
+      Route::post('/update/{id}', [TestimonialC::class, 'update']);
     });
     Route::prefix('/contact-us')->group(function () {
       Route::get('', [ContactInquiryC::class, 'index']);

@@ -320,6 +320,12 @@
                   </div>
                 </div>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('testimonial') }}" id="topnav-dashboard"
+                  role="button">
+                  <i data-feather="users"></i><span data-key="t-dashboards">Testimonial</span>
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
