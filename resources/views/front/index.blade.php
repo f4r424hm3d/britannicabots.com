@@ -377,7 +377,7 @@
   <!--why choose us section end-->
 
   <!--call to action section start-->
-  <section class="call-to-action-video">
+  <section class="call-to-action-video hide-this">
     <div class="row m-0">
       <div class="col-lg-6 col-md-12 p-0">
         <div class="free-trial-image text-center">
@@ -548,89 +548,28 @@
             <img src="{{ url('front/') }}/img/testimonial-arrow-top.png"
               class="img-fluid testimonial-tb-shape shape-top" alt="testimonial shape">
             <div class="owl-carousel owl-theme client-testimonial-1 custom-dot testimonial-shape">
+              @foreach ($testimonial as $tes)
               <div class="item">
                 <div class="testimonial-quote-wrap">
                   <div class="media author-info mb-3">
                     <div class="author-img mr-3">
-                      <img src="{{ url('front/') }}/img/client-1.jpg" alt="client" class="img-fluid">
+                      <img src="{{ $tes->thumbnail_path==null?'uploads/default.png':asset($tes->thumbnail_path) }}"
+                        alt="client" class="img-fluid">
                     </div>
                     <div class="media-body text-white">
-                      <h5 class="mb-0 text-white">John Charles</h5>
-                      <span>BizBite</span>
+                      <h5 class="mb-0 text-white">{{ $tes->name }}</h5>
+                      <span>{{ $tes->company }}</span>
                     </div>
                     <span class="fas fa-quote-right icon-md text-white"></span>
                   </div>
                   <div class="client-say text-white">
-                    <p>Interactively optimize
-                      fully researched expertise vis-a-vis plug-and-play relationships.
-                      Intrinsicly
-                      develop viral core competencies for fully tested customer service.
-                      Enthusiastically create next-generation growth strategies and.</p>
+                    <p>
+                      {!! $tes->review !!}
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimonial-quote-wrap">
-                  <div class="media author-info mb-3">
-                    <div class="author-img mr-3">
-                      <img src="{{ url('front/') }}/img/client-2.jpg" alt="client" class="img-fluid">
-                    </div>
-                    <div class="media-body text-white">
-                      <h5 class="mb-0 text-white">Arabella Ora</h5>
-                      <span>BizBite</span>
-                    </div>
-                    <span class="fas fa-quote-right icon-md text-white"></span>
-                  </div>
-                  <div class="client-say text-white">
-                    <p>Rapidiously develop user
-                      friendly growth strategies after extensive initiatives. Conveniently grow
-                      innovative benefits through fully tested deliverables. Rapidiously utilize
-                      focused platforms through end-to-end schemas.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-quote-wrap">
-                  <div class="media author-info mb-3">
-                    <div class="author-img mr-3">
-                      <img src="{{ url('front/') }}/img/client-3.jpg" alt="client" class="img-fluid">
-                    </div>
-                    <div class="media-body text-white">
-                      <h5 class="mb-0 text-white">Jeremy Jere</h5>
-                      <span>BizBite</span>
-                    </div>
-                    <span class="fas fa-quote-right icon-md text-white"></span>
-                  </div>
-                  <div class="client-say text-white">
-                    <p>Objectively synthesize
-                      client-centered e-tailers for maintainable channels. Holisticly administrate
-                      customer directed vortals whereas tactical functionalities. Energistically
-                      monetize reliable imperatives through client-centric best practices.
-                      Collaboratively.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-quote-wrap">
-                  <div class="media author-info mb-3">
-                    <div class="author-img mr-3">
-                      <img src="{{ url('front/') }}/img/client-4.jpg" alt="client" class="img-fluid">
-                    </div>
-                    <div class="media-body text-white">
-                      <h5 class="mb-0 text-white">John Charles</h5>
-                      <span>BizBite</span>
-                    </div>
-                    <span class="fas fa-quote-right icon-md text-white"></span>
-                  </div>
-                  <div class="client-say text-white">
-                    <p>Enthusiastically innovate
-                      B2C data without clicks-and-mortar convergence. Monotonectally deliver
-                      compelling testing procedures vis-a-vis B2B testing procedures. Competently
-                      evisculate integrated resources whereas global processes.
-                      Enthusiastically.</p>
-                  </div>
-                </div>
-              </div>
+              @endforeach
             </div>
             <img src="{{ url('front/') }}/img/testimonial-arrow-bottom.png"
               class="img-fluid testimonial-tb-shape shape-bottom" alt="testimonial shape">

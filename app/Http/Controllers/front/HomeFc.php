@@ -3,13 +3,16 @@
 namespace App\Http\Controllers\front;
 
 use App\Http\Controllers\Controller;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class HomeFc extends Controller
 {
   public function index(Request $request)
   {
-    return view('front.index');
+    $testimonial = Testimonial::where(['status' => 1])->limit(10)->get();
+    $data = compact('testimonial');
+    return view('front.index')->with($data);
   }
   public function privacyPolicy(Request $request)
   {
