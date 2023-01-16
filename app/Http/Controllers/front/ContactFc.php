@@ -26,7 +26,7 @@ class ContactFc extends Controller
     $request->validate(
       [
         'name' => 'required|regex:/^[a-zA-Z ]*$/',
-        'email' => 'required|email',
+        'email' => 'required|email|valid_email',
         'mobile' => 'required|numeric',
       ]
     );
@@ -34,7 +34,7 @@ class ContactFc extends Controller
     $field->name = $request['name'];
     $field->email = $request['email'];
     $field->mobile = $request['mobile'];
-    $field->message = $request['message'];
+    $field->message = strip_tags($request['message']);
     $field->status = 0;
     $field->save();
 
