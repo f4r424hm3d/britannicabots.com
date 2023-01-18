@@ -35,6 +35,7 @@ class StaticPageSeoC extends Controller
   {
     // printArray($request->all());
     // die;
+    $chk = StaticPageSeo::where(['page_name'=>$request['page_name']])->count();
     $request->validate(
       [
         'page_name' => 'required',
@@ -65,8 +66,12 @@ class StaticPageSeoC extends Controller
     $field->meta_description = $request['meta_description'];
     $field->page_content = $request['page_content'];
     $field->seo_rating = $request['seo_rating'];
-    $field->save();
-    session()->flash('smsg', 'New record has been added successfully.');
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'New record has been added successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/static-page-seo');
   }
   public function delete($id)
@@ -76,6 +81,8 @@ class StaticPageSeoC extends Controller
   }
   public function update($id, Request $request)
   {
+    //$chk = StaticPageSeo::where(['page_name'=>$request['page_name'],'id !='=>$id])->count();
+    $chk = StaticPageSeo::where('page_name',$request['page_name'])->where('id', '!=',$id)->count();
     $request->validate(
       [
         'page_name' => 'required',
@@ -106,8 +113,13 @@ class StaticPageSeoC extends Controller
     $field->meta_description = $request['meta_description'];
     $field->page_content = $request['page_content'];
     $field->seo_rating = $request['seo_rating'];
-    $field->save();
-    session()->flash('smsg', 'Record has been updated successfully.');
+
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'Record has been updated successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/static-page-seo');
   }
 }

@@ -165,6 +165,7 @@
                 <thead>
                   <tr>
                     <th>Sr. No.</th>
+                    <th>Page Name</th>
                     <th>Title</th>
                     <th>Keyword</th>
                     <th>Description</th>
@@ -181,6 +182,7 @@
                   @foreach ($rows as $row)
                   <tr id="row{{ $row->id }}">
                     <td>{{ $i }}</td>
+                    <td>{{ ucwords($row->page_name) }}</td>
                     <td>{{ $row->meta_title }}</td>
                     <td>{{ $row->meta_keyword }}</td>
                     <td>{{ $row->meta_description }}</td>

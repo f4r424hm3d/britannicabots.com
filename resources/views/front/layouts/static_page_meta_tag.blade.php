@@ -1,13 +1,13 @@
 @php
   use App\Models\StaticPageSeo;
-  $page_name = Request::segment(1)==''?'home':$request->segment(1);
+  $page_name = Request::segment(1)??'home';
   $seo = StaticPageSeo::where(['page_name' => $page_name])->first();
-  $meta_title = $seo->meta_title;
-  $meta_keyword = $seo->meta_keyword;
-  $meta_description = $seo->meta_description;
-  $page_content = $seo->page_content;
-  $seo_rating = $seo->seo_rating;
-  $og_image_path = $seo->og_image_path;
+  $meta_title = $seo->meta_title??'';
+  $meta_keyword = $seo->meta_keyword??'';
+  $meta_description = $seo->meta_description??'';
+  $page_content = $seo->page_content??'';
+  $seo_rating = $seo->seo_rating??'';
+  $og_image_path = $seo->og_image_path??'';
   $page_url = url()->current();
 @endphp
 
