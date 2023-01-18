@@ -1,7 +1,8 @@
 @extends('front.layouts.main')
-@push('title')
-<title>Terms of Use</title>
+@push('seo_meta_tag')
+@include('front.layouts.static_page_meta_tag')
 @endpush
+
 @section('main-section')
 <!--body content wrap start-->
 <div class="main pt-80">
@@ -23,6 +24,7 @@
       </div>
     </div>
   </section>
+
   <!--header section end-->
 
 

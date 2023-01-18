@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\front;
 
 use App\Http\Controllers\Controller;
+use App\Models\StaticPageSeo;
 use App\Models\Testimonial;
 use Illuminate\Http\Request;
 

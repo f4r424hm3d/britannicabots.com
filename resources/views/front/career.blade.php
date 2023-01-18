@@ -2,8 +2,8 @@
 use App\Models\Vacancy;
 @endphp
 @extends('front.layouts.main')
-@push('title')
-<title>{{ $page_title }}</title>
+@push('seo_meta_tag')
+@include('front.layouts.static_page_meta_tag')
 @endpush
 @section('main-section')
 <!--body content wrap start-->
