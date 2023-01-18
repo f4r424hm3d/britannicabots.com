@@ -11,6 +11,7 @@ use App\Http\Controllers\admin\JobApplicationC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
 use App\Http\Controllers\admin\ServicesC;
+use App\Http\Controllers\admin\StaticPageSeoC;
 use App\Http\Controllers\admin\SubServicesC;
 use App\Http\Controllers\admin\TeamC;
 use App\Http\Controllers\admin\TestimonialC;
@@ -243,6 +244,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
     Route::prefix('/job-application')->group(function () {
       Route::get('', [JobApplicationC::class, 'index']);
       Route::get('/delete/{id}', [JobApplicationC::class, 'delete']);
+    });
+    Route::prefix('/static-page-seo')->group(function () {
+      Route::get('', [StaticPageSeoC::class, 'index']);
+      Route::post('/store', [StaticPageSeoC::class, 'store']);
+      Route::get('/delete/{id}', [StaticPageSeoC::class, 'delete']);
+      Route::get('/update/{id}', [StaticPageSeoC::class, 'index']);
+      Route::post('/update/{id}', [StaticPageSeoC::class, 'update']);
     });
   });
 });

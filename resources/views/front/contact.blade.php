@@ -7,8 +7,7 @@
 <div class="main pt-80">
 
   <!--header section start-->
-  <section class="hero-section ptb-100 gradient-overlay"
-    style="background: url('{{ url('/front/') }}/img/header-bg-5.jpg')no-repeat center center / cover">
+  <section class="hero-section ptb-100 gradient-overlay" style="background: url('{{ url('/front/') }}/img/header-bg-5.jpg')no-repeat center center / cover">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-10">
@@ -40,8 +39,7 @@
               </div>
               <div>
                 <h5 class="mb-2">Call Us</h5>
-                <p class="text-muted mb-0"><a href="tel+919818560331">(+91) 9818560331</a><br><a
-                    href="tel+919342914452">(+91) 9342914452</a></p>
+                <p class="text-muted mb-0"><a href="tel+919818560331">(+91) 9818560331</a><br><a href="tel+919342914452">(+91) 9342914452</a></p>
               </div>
             </div>
           </div>
@@ -122,8 +120,7 @@
                     <label class="pb-1">Your Name</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-user color-primary"></span></div>
-                      <input name="name" type="text" class="form-control" placeholder="Enter full name"
-                        value="{{ old('name') }}" required>
+                      <input name="name" type="text" class="form-control" placeholder="Enter full name" value="{{ old('name') }}" required>
                     </div>
                     <span class="text-danger">
                       @error('name')
@@ -138,8 +135,7 @@
                     <label class="pb-1">Your Email</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-email color-primary"></span></div>
-                      <input name="email" type="email" class="form-control" placeholder="Enter Email Address"
-                        value="{{ old('email') }}" required>
+                      <input name="email" type="email" class="form-control" placeholder="Enter Email Address" value="{{ old('email') }}" required>
                     </div>
                     <span class="text-danger">
                       @error('email')
@@ -154,8 +150,7 @@
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input name="mobile" type="number" class="form-control" placeholder="Phone No."
-                        value="{{ old('mobile') }}" required>
+                      <input name="mobile" type="number" class="form-control" placeholder="Phone No." value="{{ old('mobile') }}" required>
                     </div>
                     <span class="text-danger">
                       @error('mobile')
@@ -169,10 +164,8 @@
                   <div class="form-group">
                     <label class="pb-1">Your Message</label>
                     <div class="input-group input-group-merge">
-                      <div class="input-icon" style="height:100px;"><span class="ti-pencil-alt color-primary"
-                          style="height:100px;"></span></div>
-                      <textarea id="message" name="message" class="form-control" style="height:100px; padding-top:17px"
-                        placeholder="Enter your message here">{{ old('message') }}</textarea>
+                      <div class="input-icon" style="height:100px;"><span class="ti-pencil-alt color-primary" style="height:100px;"></span></div>
+                      <textarea id="message" name="message" class="form-control" style="height:100px; padding-top:17px" placeholder="Enter your message here">{{ old('message') }}</textarea>
                     </div>
                   </div>
                 </div>
@@ -199,9 +192,7 @@
 
   <!--google map block start-->
   <div class="google-map">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.789820225382!2d80.2567652!3d12.9911925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6db67726a085fa14!2sBritannica%20Overseas%20Education!5e0!3m2!1sen!2sin!4v1644667080349!5m2!1sen!2sin"
-      height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.789820225382!2d80.2567652!3d12.9911925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6db67726a085fa14!2sBritannica%20Overseas%20Education!5e0!3m2!1sen!2sin!4v1644667080349!5m2!1sen!2sin" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   </div>
   <!--google map block end-->
 
@@ -209,7 +200,7 @@
 </div>
 <!--body content wrap end-->
 <script>
-  $(document).ready(function(){
+  $(document).ready(function() {
     $('.contBtn').click(function() {
       $(this).toggleClass('actBtn');
     });

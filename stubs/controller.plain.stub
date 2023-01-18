@@ -1,0 +1,25 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+  public function index($id = null){
+
+  }
+  public function store(Request $request)
+  {
+
+  }
+  public function delete($id)
+  {
+
+  }
+  public function update($id, Request $request)
+  {
+
+  }
+}
