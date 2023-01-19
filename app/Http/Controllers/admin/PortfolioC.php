@@ -64,6 +64,11 @@ class PortfolioC extends Controller
     $field->company_slug = slugify($request['company_name']);
     $field->company_category = $request['company_category'];
     $field->description = $request['description'];
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
     $field->save();
     session()->flash('smsg', 'New record has been added successfully.');
     return redirect('admin/portfolio');
@@ -103,6 +108,11 @@ class PortfolioC extends Controller
     $field->company_slug = slugify($request['company_name']);
     $field->company_category = $request['company_category'];
     $field->description = $request['description'];
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
     $field->save();
     session()->flash('smsg', 'Record has been updated successfully.');
     return redirect('admin/portfolio');
