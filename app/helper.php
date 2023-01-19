@@ -54,3 +54,14 @@ if (!function_exists('aurl')) {
     }
   }
 }
+if (!function_exists('replaceTag')) {
+	function replaceTag($string, $array)
+	{
+		foreach ($array as $key => $value) {
+			$string = $string == null ? null : str_replace('%' . $key . '%', $value, $string);
+		}
+		$string = trim(preg_replace('/\s+/', ' ', $string));
+		$string = ucwords($string);
+		return $string;
+	}
+}
