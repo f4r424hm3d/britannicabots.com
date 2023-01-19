@@ -14,7 +14,30 @@ class BlogFc extends Controller
   {
     $rows = Blog::with('getCategory')->where(['status' => 1])->orderBy('created_at', 'DESC')->paginate(6)->withQueryString();
     $page_title = 'Blogs';
-    $data = compact('rows', 'page_title');
+
+    $title = 'Blogs';
+    $page_name = 'blogs';
+    $seo = StaticPageSeo::where(['page_name' => $page_name])->first();
+    $site = url('/');
+    $tagArray = ['title' => $title,'currentmonth' => date('M'), 'currentyear' => date('Y'), 'site' => $site];
+
+    $meta_title = $seo->meta_title??'';
+    $meta_title = replaceTag($meta_title, $tagArray);
+
+    $meta_keyword = $seo->meta_keyword??'';
+    $meta_keyword = replaceTag($meta_keyword, $tagArray);
+
+    $meta_description = $seo->meta_description??'';
+    $meta_description = replaceTag($meta_description, $tagArray);
+
+    $page_content = $seo->page_content??'';
+    $page_content = replaceTag($page_content, $tagArray);
+
+    $seo_rating = $seo->seo_rating??'';
+    $og_image_path = $seo->og_image_path??'';
+    $page_url = url()->current();
+
+    $data = compact('rows', 'page_title','meta_title','meta_keyword','meta_description','page_content','seo_rating','og_image_path','page_url');
     return view('front.blog')->with($data);
   }
   public function blogByCat(Request $request)
@@ -23,7 +46,30 @@ class BlogFc extends Controller
     $cat = BlogCategory::where(['slug' => $slug])->first();
     $rows = Blog::with('getCategory')->where(['status' => 1, 'category_id' => $cat->id])->orderBy('created_at', 'DESC')->paginate(6)->withQueryString();
     $page_title = "$cat->name Blogs";
-    $data = compact('rows', 'page_title');
+
+    $title = $cat->name;
+    $page_name = 'blog-category';
+    $seo = StaticPageSeo::where(['page_name' => $page_name])->first();
+    $site = url('/');
+    $tagArray = ['title' => $title,'category' => $cat->name,'currentmonth' => date('M'), 'currentyear' => date('Y'), 'site' => $site];
+
+    $meta_title = $cat->meta_title??$seo->meta_title;
+    $meta_title = replaceTag($meta_title, $tagArray);
+
+    $meta_keyword = $cat->meta_keyword??$seo->meta_keyword;
+    $meta_keyword = replaceTag($meta_keyword, $tagArray);
+
+    $meta_description = $cat->meta_description??$seo->meta_description;
+    $meta_description = replaceTag($meta_description, $tagArray);
+
+    $page_content = $cat->page_content??$seo->page_content;
+    $page_content = replaceTag($page_content, $tagArray);
+
+    $seo_rating = $cat->seo_rating??$seo->seo_rating;
+    $og_image_path = $seo->og_image_path;
+    $page_url = url()->current();
+
+    $data = compact('rows', 'page_title','meta_title','meta_keyword','meta_description','page_content','seo_rating','og_image_path','page_url');
     return view('front.blog')->with($data);
   }
   public function blogDetails(Request $request)

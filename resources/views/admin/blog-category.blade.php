@@ -70,6 +70,68 @@
                   </div>
                 </div>
               </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-8 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Meta Title</label>
+                    <input name="meta_title" type="text" class="form-control" placeholder="Enter Meta Title"
+                      value="{{ $ft == 'edit' ? $sd->meta_title : old('meta_title') }}">
+                    <span class="text-danger">
+                      @error('meta_title')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Meta Keyword</label>
+                    <input name="meta_keyword" type="text" class="form-control" placeholder="Meta Keyword"
+                      value="{{ $ft == 'edit' ? $sd->meta_keyword : old('meta_keyword') }}">
+                    <span class="text-danger">
+                      @error('meta_keyword')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Meta Description</label>
+                    <textarea name="meta_description" id="meta_description" class="form-control" cols="30" rows="5">{{ $ft == 'edit' ? $sd->meta_description : old('meta_description') }}</textarea>
+                    <span class="text-danger">
+                      @error('meta_description')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Page Content</label>
+                    <input name="page_content" type="text" class="form-control" placeholder="Page Content"
+                      value="{{ $ft == 'edit' ? $sd->page_content : old('page_content') }}">
+                    <span class="text-danger">
+                      @error('page_content')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="form-group mb-3">
+                    <label>Seo Rating</label>
+                    <input name="seo_rating" type="text" class="form-control" placeholder="Seo Rating"
+                      value="{{ $ft == 'edit' ? $sd->seo_rating : old('seo_rating') }}">
+                    <span class="text-danger">
+                      @error('seo_rating')
+                      {{ $message }}
+                      @enderror
+                    </span>
+                  </div>
+                </div>
+              </div>
               @if ($ft == 'add')
               <button type="reset" class="btn btn-sm btn-warning  mr-1">
                 <i class="ti-trash"></i> Reset
@@ -96,6 +158,7 @@
                 <tr>
                   <th>Sr. No.</th>
                   <th>Name</th>
+                  <th>SEO</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -107,6 +170,36 @@
                 <tr id="row{{ $row->id }}">
                   <td>{{ $i }}</td>
                   <td>{{ $row->name }}</td>
+                  <td>
+                    @if ($row->meta_title != null)
+                    <button type="button" class="btn btn-xs btn-outline-info waves-effect waves-light" data-bs-toggle="modal" data-bs-target="#SeoModalScrollable{{ $row->id }}">View</button>
+                    <div class="modal fade" id="SeoModalScrollable{{ $row->id }}" tabindex="-1" role="dialog"
+                      aria-labelledby="SeoModalScrollableTitle{{ $row->id }}" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="SeoModalScrollableTitle{{ $row->id }}">
+                              SEO
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            {!! $row->meta_title !!} <br>
+                            {!! $row->meta_keyword !!} <br>
+                            {!! $row->meta_description !!} <br>
+                            {!! $row->page_content !!} <br>
+                            {!! $row->seo_rating !!}
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    @else
+                    Null
+                    @endif
+                  </td>
                   <td>
                     <a href="javascript:void()" onclick="DeleteAjax('{{ $row->id }}')"
                       class="waves-effect waves-light btn btn-sm btn-outline btn-danger">

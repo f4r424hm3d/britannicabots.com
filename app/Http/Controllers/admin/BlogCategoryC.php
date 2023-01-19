@@ -34,6 +34,7 @@ class BlogCategoryC extends Controller
   {
     // printArray($request->all());
     // die;
+    $chk = BlogCategory::where(['name'=>$request['name']])->count();
     $request->validate(
       [
         'name' => 'required',
@@ -42,8 +43,17 @@ class BlogCategoryC extends Controller
     $field = new BlogCategory;
     $field->name = $request['name'];
     $field->slug = slugify($request['name']);
-    $field->save();
-    session()->flash('smsg', 'New record has been added successfully.');
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'New record has been added successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/blog-category');
   }
   public function delete($id)
@@ -53,6 +63,7 @@ class BlogCategoryC extends Controller
   }
   public function update($id, Request $request)
   {
+    $chk = BlogCategory::where('name',$request['name'])->where('id', '!=',$id)->count();
     $request->validate(
       [
         'name' => 'required',
@@ -61,8 +72,17 @@ class BlogCategoryC extends Controller
     $field = BlogCategory::find($id);
     $field->name = $request['name'];
     $field->slug = slugify($request['name']);
-    $field->save();
-    session()->flash('smsg', 'Record has been updated successfully.');
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'Record has been updated successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/blog-category');
   }
 }
