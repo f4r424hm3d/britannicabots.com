@@ -128,7 +128,7 @@
                       </span>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-12">
+                  <div class="col-md-4 col-sm-12 ogImgField">
                     <div class="form-group mb-3">
                       <label>OG Image</label>
                       <input name="og_image" type="file" class="form-control" placeholder="OG Image" >
@@ -137,6 +137,27 @@
                         {{ $message }}
                         @enderror
                       </span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 fieldChangeBtn">
+                    <div class="form-group mb-3">
+                      <button onclick="ogImgFunc()" type="button" class="btn btn-sm btn-info">Enter Url</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 ogImgField hide-this">
+                    <div class="form-group mb-3">
+                      <label>OG Image</label>
+                      <input name="og_image" type="text" class="form-control" placeholder="OG Image" >
+                      <span class="text-danger">
+                        @error('og_image')
+                        {{ $message }}
+                        @enderror
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 fieldChangeBtn hide-this">
+                    <div class="form-group mb-3">
+                      <button onclick="ogImgFunc()" type="button" class="btn btn-sm btn-info">Upload File</button>
                     </div>
                   </div>
                 </div>
@@ -222,6 +243,10 @@
     </div>
   </div>
   <script>
+    function ogImgFunc() {
+      $(".fieldChangeBtn").toggle();
+      $(".ogImgField").toggle();
+    }
     function changeStatus(id, val) {
       //alert(id);
       var tbl = 'static_page_seos';

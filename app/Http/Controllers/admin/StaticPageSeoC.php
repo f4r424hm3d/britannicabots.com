@@ -59,6 +59,9 @@ class StaticPageSeoC extends Controller
       } else {
         session()->flash('emsg', 'Profile picture not uploaded.');
       }
+    }else{
+      $field->og_image_name = $request['og_image'];
+      $field->og_image_path = $request['og_image'];
     }
     $field->page_name = $request['page_name'];
     $field->meta_title = $request['meta_title'];
@@ -106,6 +109,9 @@ class StaticPageSeoC extends Controller
       } else {
         session()->flash('emsg', 'Profile picture not uploaded.');
       }
+    }else{
+      $field->og_image_name = $request['og_image'];
+      $field->og_image_path = $request['og_image'];
     }
     $field->page_name = $request['page_name'];
     $field->meta_title = $request['meta_title'];
