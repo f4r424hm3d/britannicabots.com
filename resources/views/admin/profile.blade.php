@@ -76,9 +76,8 @@
               <div class="col-sm-auto order-1 order-sm-2">
                 <div class="d-flex align-items-start justify-content-end gap-2">
                   <div>
-                    <button type="button" class="btn btn-soft-light">
-                      <i class="me-1"></i> Message
-                    </button>
+                    <button onclick="migrate()" type="button" class="btn btn-soft-light" id="migrateBtn">Migrate</button>
+                    <button onclick="optimize()" type="button" class="btn btn-soft-light" id="optimizeBtn">Optimize</button>
                   </div>
                   <div>
                     <div class="dropdown">
@@ -194,10 +193,44 @@
 
 </div>
 <script>
+  function migrate(){
+    return new Promise(function(resolve,reject) {
+      $("#migrateBtn").text('Migrating...');
+      setTimeout(() => {
+        $.get("{{ url('/f/migrate') }}",function(data) {
+          $("#migrateBtn").attr('class','btn btn-success');
+          $("#migrateBtn").text('Migrated');
+        }).fail(err => {
+          $("#migrateBtn").attr('class','btn btn-danger');
+          $("#migrateBtn").text('Migration Failed');
+        });
+      }, 2000);
+    });
+  }
+  function optimize(){
+    return new Promise(function(resolve,reject) {
+      $("#optimizeBtn").text('Optimizing...');
+      setTimeout(() => {
+        $.get("{{ url('/f/optimize') }}",function(data) {
+          $("#optimizeBtn").attr('class','btn btn-success');
+          $("#optimizeBtn").text('Optimized');
+        }).fail(err => {
+          $("#optimizeBtn").attr('class','btn btn-danger');
+          $("#optimizeBtn").text('Optimization Failed');
+        });
+      }, 2000);
+    });
+  }
+  {{--  migrate().then((result) => {
+    console.log(result);
+  }).catch((error) => {
+    console.log(error);
+  });  --}}
+
   function viewUpdate() {
-      $('.updbtn').show();
-      $('.editbtn').hide();
-      $("#name,#email,#loginid,#password").removeAttr('readonly');
-    }
+    $('.updbtn').show();
+    $('.editbtn').hide();
+    $("#name,#email,#loginid,#password").removeAttr('readonly');
+  }
 </script>
 @endsection

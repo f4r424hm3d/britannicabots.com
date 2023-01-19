@@ -58,6 +58,10 @@ Route::get('/optimize', function () {
   $exitCode = Artisan::call('optimize');
   return '<h1>Reoptimized class loader</h1>';
 });
+Route::get('/f/optimize', function () {
+  $exitCode = Artisan::call('optimize');
+  return true;
+});
 
 //Route cache:
 Route::get('/route-cache', function () {
@@ -87,6 +91,10 @@ Route::get('/config-cache', function () {
 Route::get('/migrate', function () {
   $exitCode = Artisan::call('migrate');
   return '<h1>Migrated</h1>';
+});
+Route::get('/f/migrate', function () {
+  $exitCode = Artisan::call('migrate');
+  return true;
 });
 
 Route::get('/db-seed', function () {
