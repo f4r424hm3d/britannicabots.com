@@ -69,11 +69,11 @@
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="javascript:void()" class="dropdown-toggle">About Bots</a>
               <ul class="sub-menu">
-                <li><a href="{{ url('/about') }}">Who we are</a></li>
-                <li><a href="{{ url('/team') }}">Our Team</a></li>
+                <li><a href="{{ url('/about/') }}/">Who we are</a></li>
+                <li><a href="{{ url('/team/') }}/">Our Team</a></li>
               </ul>
             </li>
-            <li class="mega-dropdown"><a href="{{ url('/services') }}" class="dropdown-toggle">Services</a>
+            <li class="mega-dropdown"><a href="{{ url('/services/') }}/" class="dropdown-toggle">Services</a>
               <ul class="sub-menu mega-dropdown-menu">
                 <div class="container">
                   <div class="row">
@@ -82,18 +82,18 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>Website Designing</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/static-website-designing"><span
+                        <a href="{{ url('/') }}/static-website-designing/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Static Website Designing</a>
-                        <a href="{{ url('/') }}/dynamic-website-designing"><span
+                        <a href="{{ url('/') }}/dynamic-website-designing/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Dynamic Website Designing</a>
-                        <a href="{{ url('/') }}/landing-page-website-designing"><span
+                        <a href="{{ url('/') }}/landing-page-website-designing/"><span
                             class="ti-arrow-right color-secondary"></span> Landing Page Website Designing</a>
-                        <a href="{{ url('/') }}/website-re-designing"><span
+                        <a href="{{ url('/') }}/website-re-designing/"><span
                             class="ti-arrow-right color-secondary"></span> Website
                           Re-Designing</a>
-                        <a href="{{ url('/') }}/website-maintenance"><span
+                        <a href="{{ url('/') }}/website-maintenance/"><span
                             class="ti-arrow-right color-secondary"></span> Website
                           Maintenance</a>
                       </div>
@@ -103,16 +103,16 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>Website Development</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/cms-web-development"><span
+                        <a href="{{ url('/') }}/cms-web-development/"><span
                             class="ti-arrow-right color-secondary"></span> CMS Web
                           Development</a>
-                        <a href="{{ url('/') }}/web-development"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/web-development/"><span class="ti-arrow-right color-secondary"></span>
                           Web
                           Development</a>
-                        <a href="{{ url('/') }}/ecommerce-web-development"><span
+                        <a href="{{ url('/') }}/ecommerce-web-development/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Ecommerce Web Development</a>
-                        <a href="{{ url('/') }}/shopify-website-development"><span
+                        <a href="{{ url('/') }}/shopify-website-development/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Shopify Website Development</a>
                       </div>
@@ -122,12 +122,12 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>Graphic Designing</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/logo-design"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/logo-design/"><span class="ti-arrow-right color-secondary"></span>
                           Logo Design</a>
-                        <a href="{{ url('/') }}/brochure-design"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/brochure-design/"><span class="ti-arrow-right color-secondary"></span>
                           Brochure
                           Design</a>
-                        <a href="{{ url('/') }}/social-creative"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/social-creative/"><span class="ti-arrow-right color-secondary"></span>
                           Social
                           Creative</a>
                       </div>
@@ -138,10 +138,10 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>App Development</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/android-app-development"><span
+                        <a href="{{ url('/') }}/android-app-development/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Android App development</a>
-                        <a href="{{ url('/') }}/ios-app-development"><span
+                        <a href="{{ url('/') }}/ios-app-development/"><span
                             class="ti-arrow-right color-secondary"></span> IOS App
                           development</a>
                       </div>
@@ -151,10 +151,10 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>Digital Marketing</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/search-engine-optimization"><span
+                        <a href="{{ url('/') }}/search-engine-optimization/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Search Engine Optimization</a>
-                        <a href="{{ url('/') }}/social-media-optimization"><span
+                        <a href="{{ url('/') }}/social-media-optimization/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Social Media Optimization</a>
                       </div>
@@ -165,10 +165,10 @@
                     <li class="col-md-3 col-sm-10">
                       <h3>Other Services</h3>
                       <div class="mega-link">
-                        <a href="{{ url('/') }}/payment-gateway-integration"><span
+                        <a href="{{ url('/') }}/payment-gateway-integration/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Payment Gateway Integration</a>
-                        <a href="{{ url('/') }}/api-development"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/api-development/"><span class="ti-arrow-right color-secondary"></span>
                           API
                           Development</a>
                       </div>
@@ -179,9 +179,9 @@
             </li>
             <li><a href="{{ url('/portfolio') }}/">Our Work</a></li>
             <li><a href="{{ url('/career') }}/">Career</a></li>
-            <li><a href="{{ url('/blog') }}/">Blog</a></li>
+            <li><a href="{{ url('/blogs') }}/">Blog</a></li>
             <li><a href="{{ url('/contact') }}/">Contact</a></li>
-            <li><a href="{{ url('/get-quote') }}" class="btn secondary-solid-btn check-btn"><span
+            <li><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn check-btn"><span
                   class="ti-pencil-alt mr-1"></span> Get Quote</a></li>
           </ul>
         </div>

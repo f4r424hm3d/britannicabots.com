@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
-@push('title')
-<title>{{ $row->title }}</title>
+@push('seo_meta_tag')
+@include('front.layouts.dynamic_page_meta_tag')
 @endpush
 @section('main-section')
 <div class="main pt-80">
@@ -12,12 +12,12 @@
       <div class="row justify-content-center">
         <div class="col-md-8 col-lg-7">
           <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-            <h1 class="text-white mb-0">Latest Blog</h1>
+            <h1 class="text-white mb-0">{{ $row->title }}</h1>
             <div class="custom-breadcrumb">
               <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                <li class="list-inline-item breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="list-inline-item breadcrumb-item active">Latest Blog</li>
+                <li class="list-inline-item breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+                <li class="list-inline-item breadcrumb-item"><a href="{{ url('/blogs') }}/">Blogs</a></li>
+                <li class="list-inline-item breadcrumb-item active">{{ $row->title }}</li>
               </ol>
             </div>
           </div>
@@ -58,87 +58,7 @@
           </article>
           <!-- Post end-->
 
-          <!-- Comments area-->
-          <div class="comments-area mb-5">
-            <h5 class="comments-title">3 Comments</h5>
-            <div class="comment-list">
-              <!-- Comment-->
-              <div class="comment">
-                <div class="comment-author"><img class="avatar img-fluid rounded-circle" src="img/client-2.jpg"
-                    alt="comment" /></div>
-                <div class="comment-body">
-                  <div class="comment-meta">
-                    <div class="comment-meta-author"><a href="#">Jason Ford</a></div>
-                    <div class="comment-meta-date"><a href="#">May 5, 2015 at 4:51 am</a></div>
-                  </div>
-                  <div class="comment-content">
-                    <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack
-                      nostrud. Seitan High Life reprehenderit consectetur cupidatat kogi about me. Photo booth anim
-                      8-bit hella, PBR 3 wolf moon beard Helvetica.</p>
-                  </div>
-                  <div class="comment-reply"><a href="#">Reply</a></div>
-                </div>
-                <!-- Subcomment-->
-                <div class="children">
-                  <div class="comment">
-                    <div class="comment-author"><img class="avatar img-fluid rounded-circle" src="img/client-3.jpg"
-                        alt="comment" /></div>
-                    <div class="comment-body">
-                      <div class="comment-meta">
-                        <div class="comment-meta-author"><a href="#">Harry Benson</a></div>
-                        <div class="comment-meta-date"><a href="#">May 5, 2015 at 4:51 am</a></div>
-                      </div>
-                      <div class="comment-content">
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny
-                          pack nostrud. Seitan High Life reprehenderit consectetur cupidatat kogi about me. Photo booth
-                          anim 8-bit hella.</p>
-                      </div>
-                      <div class="comment-reply"><a href="#">Reply</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Comment-->
-              <div class="comment">
-                <div class="comment-author"><img class="avatar img-fluid rounded-circle" src="img/client-4.jpg"
-                    alt="comment" /></div>
-                <div class="comment-body">
-                  <div class="comment-meta">
-                    <div class="comment-meta-author"><a href="#">Henry Cain</a></div>
-                    <div class="comment-meta-date"><a href="#">May 5, 2015 at 4:51 am</a></div>
-                  </div>
-                  <div class="comment-content">
-                    <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack
-                      nostrud. Seitan High Life reprehenderit consectetur cupidatat kogi about me. Photo booth anim
-                      8-bit hella, PBR 3 wolf moon beard Helvetica.</p>
-                  </div>
-                  <div class="comment-reply"><a href="#">Reply</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="comment-respond">
-              <h5 class="comment-reply-title">Leave a Reply</h5>
-              <p class="comment-notes">Your email address will not be published. Required fields are marked</p>
-              <form class="comment-form row">
-                <div class="form-group col-md-4">
-                  <input class="form-control" type="text" placeholder="Name">
-                </div>
-                <div class="form-group col-md-4">
-                  <input class="form-control" type="text" placeholder="Email">
-                </div>
-                <div class="form-group col-md-4">
-                  <input class="form-control" type="url" placeholder="Website">
-                </div>
-                <div class="form-group col-md-12">
-                  <textarea class="form-control" rows="8" placeholder="Comment"></textarea>
-                </div>
-                <div class="form-submit col-md-12">
-                  <button class="btn secondary-solid-btn" type="submit">Post Comment</button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!-- Comments area end-->
+
         </div>
         <div class="col-lg-4 col-md-4">
           <div class="sidebar-right pl-4">
@@ -174,12 +94,12 @@
                 @foreach ($rows as $rb)
                 <li class="clearfix">
                   <div class="wi">
-                    <a href="{{ url('blog/'.$rb->title_slug.'-'.$rb->id) }}">
+                    <a href="{{ url('blog/'.$rb->title_slug) }}">
                       <img src="{{ asset($rb->thumbnail_path) }}" alt="recent post" class="img-fluid rounded" />
                     </a>
                   </div>
                   <div class="wb">
-                    <a href="{{ url('blog/'.$rb->title_slug.'-'.$rb->id) }}">{{ $rb->shortnote }}</a>
+                    <a href="{{ url('blog/'.$rb->title_slug) }}">{{ $rb->shortnote }}</a>
                     <span class="post-date">{{ getFormattedDate($row->created_at,'M d, Y') }}</span>
                   </div>
                 </li>

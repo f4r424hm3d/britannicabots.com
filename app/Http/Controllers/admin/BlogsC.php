@@ -36,6 +36,7 @@ class BlogsC extends Controller
   {
     // printArray($request->all());
     // die;
+    $chk = Blog::where(['title'=>$request['title']])->count();
     $request->validate(
       [
         'category_id' => 'required|numeric',
@@ -63,8 +64,17 @@ class BlogsC extends Controller
     $field->title_slug = slugify($request['title']);
     $field->shortnote = $request['shortnote'];
     $field->description = $request['description'];
-    $field->save();
-    session()->flash('smsg', 'New record has been added successfully.');
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'New record has been added successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/blogs');
   }
   public function delete($id)
@@ -74,6 +84,7 @@ class BlogsC extends Controller
   }
   public function update($id, Request $request)
   {
+    $chk = Blog::where('title',$request['title'])->where('id', '!=',$id)->count();
     $request->validate(
       [
         'category_id' => 'required|numeric',
@@ -101,8 +112,17 @@ class BlogsC extends Controller
     $field->title_slug = slugify($request['title']);
     $field->shortnote = $request['shortnote'];
     $field->description = $request['description'];
-    $field->save();
-    session()->flash('smsg', 'Record has been updated successfully.');
+    $field->meta_title = $request['meta_title'];
+    $field->meta_keyword = $request['meta_keyword'];
+    $field->meta_description = $request['meta_description'];
+    $field->page_content = $request['page_content'];
+    $field->seo_rating = $request['seo_rating'];
+    if($chk==0){
+      $field->save();
+      session()->flash('smsg', 'Record has been updated successfully.');
+    }else{
+      session()->flash('emsg', 'Record already exist.');
+    }
     return redirect('admin/blogs');
   }
 }
