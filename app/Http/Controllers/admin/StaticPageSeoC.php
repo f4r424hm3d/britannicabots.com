@@ -33,8 +33,8 @@ class StaticPageSeoC extends Controller
   }
   public function store(Request $request)
   {
-    // printArray($request->all());
-    // die;
+    printArray($request->all());
+    die;
     $chk = StaticPageSeo::where(['page_name'=>$request['page_name']])->count();
     $request->validate(
       [
@@ -60,8 +60,8 @@ class StaticPageSeoC extends Controller
         session()->flash('emsg', 'Profile picture not uploaded.');
       }
     }else{
-      $field->og_image_name = $request['og_image'];
-      $field->og_image_path = $request['og_image'];
+      $field->og_image_name = $request['og_image2'];
+      $field->og_image_path = $request['og_image2'];
     }
     $field->page_name = $request['page_name'];
     $field->meta_title = $request['meta_title'];
@@ -104,14 +104,14 @@ class StaticPageSeoC extends Controller
       $file_name = $file_name_slug . '-' . time() . '.' . $request->file('og_image')->getClientOriginalExtension();
       $move = $request->file('og_image')->move('uploads/seo/', $file_name);
       if ($move) {
-        $field->profile_picture_name = $file_name;
-        $field->profile_picture_path = 'uploads/seo/' . $file_name;
+        $field->og_image_name = $file_name;
+        $field->og_image_path = 'uploads/seo/' . $file_name;
       } else {
         session()->flash('emsg', 'Profile picture not uploaded.');
       }
     }else{
-      $field->og_image_name = $request['og_image'];
-      $field->og_image_path = $request['og_image'];
+      $field->og_image_name = $request['og_image2'];
+      $field->og_image_path = $request['og_image2'];
     }
     $field->page_name = $request['page_name'];
     $field->meta_title = $request['meta_title'];

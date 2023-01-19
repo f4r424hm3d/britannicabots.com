@@ -147,9 +147,9 @@
                   <div class="col-md-4 col-sm-12 ogImgField hide-this">
                     <div class="form-group mb-3">
                       <label>OG Image</label>
-                      <input name="og_image" type="text" class="form-control" placeholder="OG Image" >
+                      <input name="og_image2" type="text" class="form-control" placeholder="OG Image" >
                       <span class="text-danger">
-                        @error('og_image')
+                        @error('og_image2')
                         {{ $message }}
                         @enderror
                       </span>
