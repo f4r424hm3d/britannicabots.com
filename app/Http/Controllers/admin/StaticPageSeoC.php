@@ -43,7 +43,7 @@ class StaticPageSeoC extends Controller
         'meta_keyword' => 'required',
         'meta_description' => 'required',
         'page_content' => 'required',
-        'og_image' => 'nullable|max:50000|mimes:jpg,jpeg,png,gif',
+        'og_image' => 'nullable|max:50000|mimes:jpg,jpeg,png,gif,svg',
       ]
     );
     $field = new StaticPageSeo;
@@ -93,7 +93,7 @@ class StaticPageSeoC extends Controller
         'meta_keyword' => 'required',
         'meta_description' => 'required',
         'page_content' => 'required',
-        'og_image' => 'nullable|max:50000|mimes:jpg,jpeg,png,gif',
+        'og_image' => 'nullable|max:50000|mimes:jpg,jpeg,png,gif,svg',
       ]
     );
     $field = StaticPageSeo::find($id);
