@@ -207,6 +207,7 @@
       }, 2000);
     });
   }
+  
   function optimize(){
     return new Promise(function(resolve,reject) {
       $("#optimizeBtn").text('Optimizing...');

@@ -33,8 +33,8 @@ class StaticPageSeoC extends Controller
   }
   public function store(Request $request)
   {
-    printArray($request->all());
-    die;
+    // printArray($request->all());
+    // die;
     $chk = StaticPageSeo::where(['page_name'=>$request['page_name']])->count();
     $request->validate(
       [
