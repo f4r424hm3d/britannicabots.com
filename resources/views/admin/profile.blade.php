@@ -207,7 +207,7 @@
       }, 2000);
     });
   }
-  
+
   function optimize(){
     return new Promise(function(resolve,reject) {
       $("#optimizeBtn").text('Optimizing...');
@@ -222,11 +222,12 @@
       }, 2000);
     });
   }
-  {{--  migrate().then((result) => {
-    console.log(result);
-  }).catch((error) => {
-    console.log(error);
-  });  --}}
+
+  // migrate().then((result) => {
+  //   console.log(result);
+  // }).catch((error) => {
+  //   console.log(error);
+  // });
 
   function viewUpdate() {
     $('.updbtn').show();
