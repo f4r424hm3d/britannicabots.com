@@ -38,10 +38,34 @@
       display: none;
     }
   </style>
+
+  <!--Schemas Start-->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N43TGPP4');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!--Schemas End-->
 </head>
 
 <body>
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N43TGPP4" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <!--loader start-->
   <div id="preloader">
     <div class="loader1">
@@ -58,8 +82,8 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top white-bg shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/img/logo-color.png" alt="logo"
-            class="img-fluid" /></a>
+        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/img/logo-color.png"
+            alt="logo" class="img-fluid" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu"></span>
@@ -106,7 +130,8 @@
                         <a href="{{ url('/') }}/cms-web-development/"><span
                             class="ti-arrow-right color-secondary"></span> CMS Web
                           Development</a>
-                        <a href="{{ url('/') }}/web-development/"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/web-development/"><span
+                            class="ti-arrow-right color-secondary"></span>
                           Web
                           Development</a>
                         <a href="{{ url('/') }}/ecommerce-web-development/"><span
@@ -124,10 +149,12 @@
                       <div class="mega-link">
                         <a href="{{ url('/') }}/logo-design/"><span class="ti-arrow-right color-secondary"></span>
                           Logo Design</a>
-                        <a href="{{ url('/') }}/brochure-design/"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/brochure-design/"><span
+                            class="ti-arrow-right color-secondary"></span>
                           Brochure
                           Design</a>
-                        <a href="{{ url('/') }}/social-creative/"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/social-creative/"><span
+                            class="ti-arrow-right color-secondary"></span>
                           Social
                           Creative</a>
                       </div>
@@ -168,7 +195,8 @@
                         <a href="{{ url('/') }}/payment-gateway-integration/"><span
                             class="ti-arrow-right color-secondary"></span>
                           Payment Gateway Integration</a>
-                        <a href="{{ url('/') }}/api-development/"><span class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/api-development/"><span
+                            class="ti-arrow-right color-secondary"></span>
                           API
                           Development</a>
                       </div>
