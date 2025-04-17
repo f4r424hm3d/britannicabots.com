@@ -75,8 +75,8 @@
                   </li>
                 </ul>
                 <form class="newsletter-form mt-3">
-                  <input type="text" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required=""
-                    autocomplete="off">
+                  <input type="text" class="input-newsletter" placeholder="Enter your email" name="EMAIL"
+                    required="" autocomplete="off">
                   <button type="submit" class="disabled" style="pointer-events: all; cursor: pointer;"><i
                       class="fas fa-paper-plane"></i></button>
                 </form>
@@ -92,7 +92,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-5 col-lg-5">
-          <p class="copyright-text pb-0 mb-0">Copyrights © 2022. All rights reserved by <a href=""
+          <p class="copyright-text pb-0 mb-0">Copyrights © {{ date('Y') }}. All rights reserved by <a href=""
               target="_blank">Britannica</a></p>
         </div>
         <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
@@ -110,7 +110,6 @@
 <!--bottom to top button start-->
 <button class="scroll-top scroll-to-target" data-target="html"><span class="ti-angle-up"></span></button>
 <!--bottom to top button end-->
-
 
 <!--jQuery-->
 <script src="{{ url('front/') }}/js/jquery-3.5.0.min.js"></script>
@@ -140,19 +139,19 @@
   jQuery(document).ready(function($) {
     var owl = $('.owl-carousel');
     owl.on('initialize.owl.carousel initialized.owl.carousel ' +
-    'initialize.owl.carousel initialize.owl.carousel ' +
-    'resize.owl.carousel resized.owl.carousel ' +
-    'refresh.owl.carousel refreshed.owl.carousel ' +
-    'update.owl.carousel updated.owl.carousel ' +
-    'drag.owl.carousel dragged.owl.carousel ' +
-    'translate.owl.carousel translated.owl.carousel ' +
-    'to.owl.carousel changed.owl.carousel',
-    function(e) {
-      $('.' + e.type).removeClass('secondary').addClass('success');
-      window.setTimeout(function() {
-        $('.' + e.type).removeClass('success').addClass('secondary');
-      }, 3000);
-    });
+      'initialize.owl.carousel initialize.owl.carousel ' +
+      'resize.owl.carousel resized.owl.carousel ' +
+      'refresh.owl.carousel refreshed.owl.carousel ' +
+      'update.owl.carousel updated.owl.carousel ' +
+      'drag.owl.carousel dragged.owl.carousel ' +
+      'translate.owl.carousel translated.owl.carousel ' +
+      'to.owl.carousel changed.owl.carousel',
+      function(e) {
+        $('.' + e.type).removeClass('secondary').addClass('success');
+        window.setTimeout(function() {
+          $('.' + e.type).removeClass('success').addClass('secondary');
+        }, 3000);
+      });
 
     $('#latest-info').owlCarousel({
       loop: true,
@@ -167,17 +166,17 @@
           items: 1
         },
         960: {
-          items:1,
+          items: 1,
         },
         1200: {
-          items:1
+          items: 1
         }
       }
     });
     $('#clientale').owlCarousel({
       loop: true,
       nav: false,
-      margin:15,
+      margin: 15,
       dots: true,
       autoplay: false,
       responsive: {
@@ -198,7 +197,7 @@
     $('#blog').owlCarousel({
       loop: true,
       nav: false,
-      margin:15,
+      margin: 15,
       dots: true,
       autoplay: false,
       responsive: {
@@ -219,7 +218,7 @@
     $('#gallery').owlCarousel({
       loop: true,
       nav: false,
-      margin:0,
+      margin: 0,
       dots: true,
       autoplay: false,
       responsive: {
@@ -259,12 +258,13 @@
 <script>
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this
+        .hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
           $('html,body').animate({
-            scrollTop: target.offset().top -60
+            scrollTop: target.offset().top - 60
           }, 500);
           return false;
         }
