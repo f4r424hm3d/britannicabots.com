@@ -33,10 +33,10 @@
     <div class="container">
       <div class="row wow fadeInUp animated" data-wow-duration="1.5s">
 
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+        <div class="col-md-3 col-sm-6 col-12 mb-4">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">50%</span>
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
@@ -45,10 +45,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+        <div class="col-md-3 col-sm-6 col-12 mb-4">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-shield icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-shield icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">100%</span>
             </div>
             <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
@@ -57,10 +57,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+        <div class="col-md-3 col-sm-6 col-12 mb-4">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-check-box icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-check-box icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">100%</span>
             </div>
             <p>If you don't see results, you can get your money back.</p>
@@ -69,10 +69,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+        <div class="col-md-3 col-sm-6 col-12 mb-4">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-headphone-alt icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-headphone-alt icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">FREE</span>
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>

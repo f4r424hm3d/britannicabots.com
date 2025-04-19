@@ -28,12 +28,14 @@
         @foreach ($rows as $row)
         <div class="col-md-4 col-lg-4">
           <div class="staff-member mb-4 shadow">
-            <div class="card pl-4 pr-4 pt-4 text-center">
+            <div class="card p-4 text-center">
               <div class="custom-port-col-image w-anuimation-image4">
+                <div class="team-images">
                 <img alt="{{ $row->name }}" src="{{ asset($row->profile_picture_path??'uploads/default.png') }}"
-                  class="img-fluid m-auto">
+                class="img-fluid m-auto">
+                </div>
               </div>
-              <div class="card-body">
+              <div class="card-body pb-0">
                 <h5 class="teacher mb-0">{{ $row->name }}</h5>
                 <span>{{ $row->designation }}</span>
               </div>

@@ -12,7 +12,7 @@
     style="background: url('{{ url('/front/') }}/img/header-bg-5.jpg')no-repeat center center / cover">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-7">
+        <div class="col-md-8 col-lg-10">
           <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
             <h1 class="text-white mb-0">{{ $page_title }}</h1>
             <div class="custom-breadcrumb">
@@ -33,7 +33,7 @@
     <div class="container">
       <div class="row">
         @foreach ($rows as $row)
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <div class="single-blog-card card border-0 shadow-sm">
             <div class="blog-img position-relative">
               <img src="{{ asset($row->thumbnail_path) }}" class="card-img-top" alt="blog">
@@ -51,6 +51,23 @@
                   class="ti-arrow-right"></span></a>
             </div>
           </div>
+        </div> -->
+        <div class="col-md-4 mb-4 ">
+        <a href="{{ url('blog/'.$row->title_slug) }}/" class="h-100 card border-0 shadow-sm text-decoration-none">
+    <div class="blog-img position-relative">
+        <img src="{{ asset($row->thumbnail_path) }}" class="card-img-top" alt="blog">
+        <div class="meta-date">
+            <strong>{{ getFormattedDate($row->created_at,'d') }}</strong>
+            <small>{{ getFormattedDate($row->created_at,'M') }}</small>
+        </div>
+    </div>
+    <div class="card-body">
+        <h3 class="h5 mb-2 card-title">{{ $row->title }}</h3>
+        <p class="card-text">{{ $row->shortnote }}</p>
+        <span class="detail-link">Read more <span class="ti-arrow-right"></span></span>
+    </div>
+</a>
+
         </div>
         @endforeach
 

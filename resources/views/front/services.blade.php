@@ -158,18 +158,18 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="static-website-designing.html"><strong>Static Website Designing</strong></a></li>
+                  href="{{ url('/') }}/static-website-designing/"><strong>Static Website Designing</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="dynamik-website-designing.html"><strong>Dynamic Website Designing</strong></a></li>
+                  href="{{ url('/') }}/dynamic-website-designing/"><strong>Dynamic Website Designing</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="landing-page-website-designing.html"><strong>Landing Page Website Designing</strong></a>
+                  href="{{ url('/') }}/landing-page-website-designing/"><strong>Landing Page Website Designing</strong></a>
                   </li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="website-re-designing.html"><strong>Website Re-Designing</strong></a></li>
+                  href="{{ url('/') }}/website-re-designing/"><strong>Website Re-Designing</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="website-maintenance.html"><strong>Website Maintenance</strong></a></li>
+                  href="{{ url('/') }}/website-maintenance/"><strong>Website Maintenance</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -206,15 +206,15 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="cms-web-development.html"><strong>CMS Web Development</strong></a></li>
+                  href="{{ url('/') }}/cms-web-development/"><strong>CMS Web Development</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="web-development.html"><strong>Web Development</strong></a></li>
+                  href="{{ url('/') }}/web-development/"><strong>Web Development</strong></a></li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="ecommerce-web-development.html"><strong>Ecommerce Web Development</strong></a></li>
+                  href="{{ url('/') }}/ecommerce-web-development/"><strong>Ecommerce Web Development</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="shopiefy-website-development.html"><strong>Shopify Website Development</strong></a></li>
+                  href="{{ url('/') }}/shopify-website-development/"><strong>Shopify Website Development</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -243,11 +243,11 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="android-app-development.html"><strong>Android App development</strong></a></li>
+                  href="{{ url('/') }}/android-app-development/"><strong>Android App development</strong></a></li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="ios-app-development.html"><strong>IOS App development</strong></a></li>
+                  href="{{ url('/') }}/ios-app-development/"><strong>IOS App development</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -257,6 +257,7 @@
           <div class="image-frame"><img src="{{ url('/front/') }}/img/services/app.jpg" alt="about us"
               class="img-fluid"></div>
         </div>
+
       </div>
     </div>
   </section>
@@ -285,11 +286,11 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="search-engine-optimization.html"><strong>Search Engine Optimization</strong></a></li>
+                  href="{{ url('/') }}/search-engine-optimization/"><strong>Search Engine Optimization</strong></a></li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="social-media-optimization.html"><strong>Social Media Optimization</strong></a></li>
+                  href="{{ url('/') }}/social-media-optimization/"><strong>Social Media Optimization</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -318,13 +319,13 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="logo-design.html"><strong>Logo Design</strong></a></li>
+                  href="{{ url('/') }}/logo-design/"><strong>Logo Design</strong></a></li>
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="brochure-design.html"><strong>Brochure Design</strong></a></li>
+                  href="{{ url('/') }}/brochure-design/"><strong>Brochure Design</strong></a></li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="social-creative.html"><strong>Social Creative</strong></a></li>
+                  href="{{ url('/') }}/social-creative/"><strong>Social Creative</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -364,11 +365,11 @@
               <div class="col-12">
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="payment-gateway-integration.html"><strong>Payment Gateway Integration</strong></a></li>
+                  href="{{ url('/') }}/payment-gateway-integration/"><strong>Payment Gateway Integration</strong></a></li>
                 </ul>
                 <ul class="list-unstyled tech-feature-list">
                   <li class="py-1"><span class="ti-control-forward mr-1 color-secondary"></span> <a
-                      href="api-development.html"><strong>API Development</strong></a></li>
+                  href="{{ url('/') }}/api-development/"><strong>API Development</strong></a></li>
                 </ul>
               </div>
             </div>

@@ -18,7 +18,7 @@
                 <p class="lead">Join the top digital marketing firm in Gurugram to grow your business. Our primary
                   objective is to provide your company with all the chances, innovations, and success it deserves.
                   With our ongoing innovations, we hope to increase the productivity of your business.</p>
-                <div class="action-btns mt-3"><a href="#" class="btn secondary-solid-btn">Start Now</a></div>
+                <div class="action-btns mt-3"><a href="http://127.0.0.1:8000/get-quote/" class="btn secondary-solid-btn">Start Now</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
@@ -35,33 +35,33 @@
   <!--hero section end-->
 
   <!--promo section start-->
-  <section class="promo-block ptb-100">
+  <section class="promo-block ptb-100"> 
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-3 promo-col">
-          <div class="promo-item">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/increase.svg" alt="prevention" width="75"></div>
             <h5>Increased Traffic</h5>
             <p>Wash your hands frequently more then 20s</p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 promo-col">
-          <div class="promo-item">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/interface.svg" alt="prevention" width="75"></div>
             <h5>Page Rankings</h5>
             <p>Wash your hands frequently more then 20s</p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 promo-col">
-          <div class="promo-item">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/search-engine.svg" alt="prevention" width="75">
             </div>
             <h5>Site Optimisation</h5>
             <p>If you have fever, cough and difficulty breathing, seek medical care early</p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 promo-col">
-          <div class="promo-item">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/consult.svg" alt="prevention" width="75"></div>
             <h5>Call For Expert</h5>
             <a href="tel:+919818560331" class="emergency-btn">+91 98185 60331</a>
@@ -179,8 +179,8 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-desktop icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Designing</h5>
             <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
@@ -189,8 +189,8 @@
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-cup icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Development</h5>
             <p class="mb-0">With experience in the agile development process and a user-friendly admin panel,
@@ -198,8 +198,8 @@
             <a href="web-development" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-brush icon-lg color-secondary d-block mb-4"></span>
             <h5>Graphic Designing</h5>
             <p class="mb-0">Britannica Bots creates amazing, ever-changing images that effectively communicate your
@@ -208,8 +208,8 @@
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-mobile icon-lg color-secondary d-block mb-4"></span>
             <h5>App Development</h5>
             <p class="mb-0">Britannica Bots is a leading Android and iOS app development firm that creates native,
@@ -218,8 +218,8 @@
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
             <h5>Digital Marketing</h5>
             <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
@@ -228,8 +228,8 @@
                 class="ti-arrow-right"></span></a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single single-serv  text-center">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Other Services</h5>
             <p class="mb-0">We are top Android & iOS App development company, designing and developing native

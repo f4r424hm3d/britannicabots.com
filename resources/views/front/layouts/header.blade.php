@@ -89,7 +89,7 @@
           <span class="ti-menu"></span>
         </button>
         <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto menu">
+          <ul class="navbar-nav ml-auto menu main-navbar">
             <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="javascript:void()" class="dropdown-toggle">About Bots</a>
               <ul class="sub-menu">

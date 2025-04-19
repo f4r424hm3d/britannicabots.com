@@ -32,9 +32,9 @@
     <div class="container">
       <div class="row wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mr-2 mb-3"></span>
               <span class="icon-md d-block font-weight-bold">50%</span>
             </div>
             <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
@@ -44,9 +44,9 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-shield icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-shield icon-lg color-secondary d-flex float-left mr-2 mb-3"></span>
               <span class="icon-md d-block font-weight-bold">100%</span>
             </div>
             <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
@@ -56,9 +56,9 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-check-box icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-check-box icon-lg color-secondary d-flex float-left mr-2 mb-3"></span>
               <span class="icon-md d-block font-weight-bold">100%</span>
             </div>
             <p>If you don't see results, you can get your money back.</p>
@@ -68,9 +68,9 @@
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-12">
-          <div class="promo-item pb-3 mt-0 single-promo-hover">
+          <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
-              <span class="ti-headphone-alt icon-lg color-secondary d-flex float-left mr-2"></span>
+              <span class="ti-headphone-alt icon-lg color-secondary d-flex float-left mr-2 mb-3"></span>
               <span class="icon-md d-block font-weight-bold">FREE</span>
             </div>
             <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
@@ -348,8 +348,8 @@
       <div class="row mt-5">
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
-            data-wow-duration="2s">
+            class="services-single text-center p-5  shadow-sm white-bg rounded "
+            data-wow-duration="0.5s">
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
             <p>Our designers are experts in UX/UI design and thus build sleek and appealing design layouts to capture
@@ -360,8 +360,8 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
-            data-wow-duration="2.5s">
+            class="services-single text-center p-5  shadow-sm white-bg rounded "
+            data-wow-duration="0.5s">
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
             <p>Because our system is CRM-enabled, you can simply check task status, directly communicate with task
@@ -372,8 +372,8 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
-            data-wow-duration="3s">
+            class="services-single text-center p-5  shadow-sm white-bg rounded "
+            data-wow-duration="0.5s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Maintenance and Lifetime Warranty</h5>
             <p>Our one-year free maintenance service and yearly dedicated maintenance service with lifetime code

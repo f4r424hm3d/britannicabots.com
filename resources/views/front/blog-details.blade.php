@@ -10,7 +10,7 @@
     style="background: url('{{ url('front') }}/img/header-bg-5.jpg')no-repeat center center / cover">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-7">
+        <div class="col-md-8 col-lg-10">
           <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
             <h1 class="text-white mb-0">{{ $row->title }}</h1>
             <div class="custom-breadcrumb">
@@ -33,7 +33,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <!-- Post-->
-          <article class="post">
+          <article class="post border-bx">
             @if ($row->thumbnail_path!=null)
             <div class="post-preview">
               <img src="{{ asset($row->thumbnail_path) }}" alt="article" class="img-fluid" />
@@ -61,19 +61,19 @@
 
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="sidebar-right pl-4">
+          <div class="sidebar-right  border-bx">
 
             <!-- Search widget-->
-            <aside class="widget widget-search">
+            <aside class="widget widget-search mb-4">
               <form>
-                <input class="form-control" type="search" placeholder="Type Search Words">
+                <input class="form-control pr-5" type="search" placeholder="Type Search Words">
                 <button class="search-button" type="submit"><span class="ti-search"></span></button>
               </form>
             </aside>
 
 
             <!-- Categories widget-->
-            <aside class="widget widget-categories">
+            <aside class="widget widget-categories main-categoriess mb-4">
               <div class="widget-title">
                 <h6>Categories</h6>
               </div>
@@ -86,7 +86,7 @@
             </aside>
 
             <!-- Recent entries widget-->
-            <aside class="widget widget-recent-entries-custom">
+            <aside class="widget widget-recent-entries-custom mb-4">
               <div class="widget-title">
                 <h6>Recent Posts</h6>
               </div>
@@ -99,36 +99,16 @@
                     </a>
                   </div>
                   <div class="wb">
-                    <a href="{{ url('blog/'.$rb->title_slug) }}">{{ $rb->shortnote }}</a>
+                    <a href="{{ url('blog/'.$rb->title_slug) }}">{{ $rb->shortnote }}
                     <span class="post-date">{{ getFormattedDate($row->created_at,'M d, Y') }}</span>
+                    </a>
+                    
                   </div>
                 </li>
                 @endforeach
 
               </ul>
             </aside>
-
-            <!-- Subscribe widget-->
-            {{-- <aside class="widget widget-categories">
-              <div class="widget-title">
-                <h6>Newsletter</h6>
-              </div>
-              <p>Enter your email address below to subscribe to my newsletter</p>
-              <form action="#" method="post" class="d-none d-md-block d-lg-block">
-                <input type="text" class="form-control input" id="email-footer" name="email"
-                  placeholder="info@yourdomain.com">
-                <button type="submit" class="btn secondary-solid-btn btn-block btn-not-rounded mt-3">Subscribe</button>
-              </form>
-            </aside> --}}
-
-            <!-- Tags widget-->
-            {{-- <aside class="widget widget-tag-cloud">
-              <div class="widget-title">
-                <h6>Tags</h6>
-              </div>
-              <div class="tag-cloud"><a href="#">e-commerce</a><a href="#">portfolio</a><a href="#">responsive</a><a
-                  href="#">bootstrap</a><a href="#">business</a><a href="#">corporate</a></div>
-            </aside> --}}
           </div>
         </div>
       </div>

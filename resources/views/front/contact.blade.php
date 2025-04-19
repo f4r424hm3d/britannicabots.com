@@ -16,9 +16,11 @@
             <div class="custom-breadcrumb text-white">
               <p class="lead mb-2">You are close to transforming your concept into a flawlessly attractive and
                 operational company strategy that will enable you to reach a larger customer. One forward step is the
-                first step in anything!</p>
-              <p class="lead mb-0">If you have any additional questions, get in touch with us, and we'll be pleased to
-                assist you.</p>
+                first step in anything! <br>
+                If you have any additional questions, get in touch with us, and we'll be pleased to
+                assist you.
+              </p>
+              <p class="lead mb-0"></p>
             </div>
           </div>
         </div>
@@ -83,10 +85,11 @@
         </div>
         <div class="col-lg-4 col-md-4">
           <div class="social-links-big">
-            <a href="javascript:void()"><span class="ti-facebook"></span></a>
-            <a href="javascript:void()"><span class="ti-pinterest"></span></a>
-            <a href="javascript:void()"><span class="ti-instagram"></span></a>
-            <a href="javascript:void()"><span class="ti-linkedin"></span></a>
+          <a href="https://www.facebook.com/britannicabots"><span class="ti-facebook"></span></a>
+              <a href="https://in.pinterest.com/Britannicabots/"><span class="ti-pinterest"></span></a>
+              <a href="https://www.instagram.com/britannicabots"><span class="ti-instagram"></span></a>
+              <a href="https://www.linkedin.com/company/britannicabots"><span class="ti-linkedin"></span></a>
+            
           </div>
         </div>
 

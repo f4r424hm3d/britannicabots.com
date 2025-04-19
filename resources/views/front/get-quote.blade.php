@@ -20,7 +20,7 @@
       <div class="row align-items-center">
         <div class="col-md-8">
           <p class="lead mb-0">REQUEST FOR A NO OBLIGATION QUOTATION</p>
-          <h2 class="font-weight-bold">Please Complete This Form</h2>
+          <h3 class="font-weight-bold">Please Complete This Form</h3>
           @if (session()->has('smsg'))
           <div class="alert alert-success alert-dismissable">
             {{ session()->get('smsg') }}
@@ -37,7 +37,7 @@
               <div class="form-row">
                 <div class="col-12 col-md-6">
                   <div class="form-group">
-                    <label class="pb-1">Your Name</label>
+                    <label class="pb-1">Full Name</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-user color-primary"></span></div>
                       <input name="name" type="text" class="form-control" placeholder="Enter full name"
@@ -53,7 +53,7 @@
 
                 <div class="col-12 col-md-6">
                   <div class="form-group">
-                    <label class="pb-1">Your Email</label>
+                    <label class="pb-1">Email</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-email color-primary"></span></div>
                       <input name="email" type="email" class="form-control" placeholder="Enter Email Address"
@@ -69,7 +69,7 @@
 
                 <div class="col-12 col-md-6">
                   <div class="form-group">
-                    <label class="pb-1">Your Mobile No.</label>
+                    <label class="pb-1">Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
                       <input name="mobile" type="number" class="form-control" placeholder="Phone No."
@@ -85,7 +85,7 @@
 
                 <div class="col-12 col-md-6">
                   <div class="form-group">
-                    <label class="pb-1">Your Website</label>
+                    <label class="pb-1">Website</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-link color-primary"></span></div>
                       <input name="website" type="url" class="form-control" value="{{ old('website') }}"
@@ -141,9 +141,9 @@
               can help you?</p>
 
             <hr class="my-4">
-
-            <h2 class="font-weight-bolder"><a href="tel:+60104306704" class="color-black">(+91) 9818 560 331</a></h2>
-
+            <h5 class="mb-1">Call Us</h5>
+            <p><a href="tel:+919818560331" class="color-black"><span class="ti-mobile color-secondary"></span> (+91) 9818 560 331</a></p>
+  
             <hr class="my-4">
 
             <h5 class="mb-1">Address</h5>
@@ -157,10 +157,10 @@
 
             <h5 class="mb-3">Follow us</h5>
             <div class="social-links">
-              <a href="javascript:void()"><span class="ti-facebook"></span></a>
-              <a href="javascript:void()"><span class="ti-pinterest"></span></a>
-              <a href="javascript:void()"><span class="ti-instagram"></span></a>
-              <a href="javascript:void()"><span class="ti-linkedin"></span></a>
+              <a href="https://www.facebook.com/britannicabots"><span class="ti-facebook"></span></a>
+              <a href="https://in.pinterest.com/Britannicabots/"><span class="ti-pinterest"></span></a>
+              <a href="https://www.instagram.com/britannicabots"><span class="ti-instagram"></span></a>
+              <a href="https://www.linkedin.com/company/britannicabots"><span class="ti-linkedin"></span></a>
             </div>
 
             {{-- <div class="mt-4"><a href="#" class="btn outline-btn align-items-center">Get Directions <span
