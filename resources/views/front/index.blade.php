@@ -191,11 +191,12 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div class="services-single single-serv  text-center">
-            <span class="ti-cup icon-lg color-secondary d-block mb-4"></span>
+            <span class="ti-files icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Development</h5>
             <p class="mb-0">With experience in the agile development process and a user-friendly admin panel,
               Britannica...</p>
-            <a href="web-development" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+            <a href="web-development" class="detail-link mt-4">Read more
+               <span class="ti-arrow-right"></span></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">

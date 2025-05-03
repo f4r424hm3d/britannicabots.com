@@ -6,47 +6,47 @@
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-9">
           <div class="row footer-top-wrap">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-6 col-sm-6">
               <div class="footer-nav-wrap text-white">
                 <img src="{{ url('/front/') }}/img/logo-white.png" alt="logo" class="mb-2">
                 <p>Continually myocardinate inexpensive catalysts for change with seamless initiatives.</p>
                 <div class="social-nav mt-4">
                   <ul class="list-unstyled social-list mb-0">
-                    <li class="list-inline-item tooltip-hover"><a href="javascript:void()" class="rounded"><span
+                    <li class="list-inline-item tooltip-hover"><a href="https://www.facebook.com/britannicabots" class="rounded"><span
                           class="ti-facebook"></span></a>
                       <div class="tooltip-item">Facebook</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="javascript:void()" class="rounded"><span
-                          class="ti-twitter"></span></a>
-                      <div class="tooltip-item">Twitter</div>
+                    <li class="list-inline-item tooltip-hover"><a href="https://in.pinterest.com/Britannicabots/" class="rounded"><span
+                          class="ti-pinterest"></span></a>
+                      <div class="tooltip-item">Pinterest</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="javascript:void()" class="rounded"><span
+                    <li class="list-inline-item tooltip-hover"><a href="https://www.linkedin.com/company/britannicabots/" class="rounded"><span
                           class="ti-linkedin"></span></a>
                       <div class="tooltip-item">Linkedin</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="javascript:void()" class="rounded"><span
-                          class="ti-dribbble"></span></a>
-                      <div class="tooltip-item">Dribbble</div>
+                    <li class="list-inline-item tooltip-hover"><a href="https://www.instagram.com/britannicabots" class="rounded"><span
+                          class="ti-instagram"></span></a>
+                      <div class="tooltip-item">Instagram</div>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
               <div class="footer-nav-wrap text-white">
                 <h4 class="text-white">COMPANY</h4>
                 <ul class="nav flex-column">
-                  <li class="nav-item"><a class="nav-link" href="{{ url('services') }}">About Our Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('services') }}">Our Services</a></li>
                   {{-- <li class="nav-item"><a class="nav-link" href="javascript:void()">Our Affiliates Program</a></li>
                   --}}
-                  <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}">View Our Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ url('career') }}">Check Our Careers</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}">Our Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{{ url('career') }}">Our Careers</a></li>
                 </ul>
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-3 col-sm-6">
               <div class="footer-nav-wrap text-white">
                 <h4 class="text-white">LEGAL</h4>
                 <ul class="nav flex-column">
@@ -91,16 +91,16 @@
   <div class="footer-bottom gray-light-bg py-2">
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-md-5 col-lg-5">
+        <div class="col-md-12 col-lg-12 text-center">
           <p class="copyright-text pb-0 mb-0">Copyrights © {{ date('Y') }}. All rights reserved by <a href=""
               target="_blank">Britannica</a></p>
         </div>
-        <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+        <!-- <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
           <ul class="list-inline policy-nav text-right social-list">
             <li class="list-inline-item"><a href="{{ url('/privacy-disclaimer/') }}">Privacy & Disclaimer</a></li>
             <li class="list-inline-item"><a href="{{ url('/terms-of-use/') }}">Terms of Use</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

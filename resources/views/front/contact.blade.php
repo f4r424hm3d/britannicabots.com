@@ -30,7 +30,7 @@
   <!--header section end-->
 
   <!--contact us promo start-->
-  <section class="contact-us-promo ptb-70">
+  <section class="contact-us-promo mt-5 ">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6">
@@ -77,7 +77,7 @@
   </section>
   <!--contact us promo end-->
 
-  <section class="contact-us-promo ptb-70 gray-light-bg">
+  <!-- <section class="contact-us-promo ptb-70 gray-light-bg">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-8">
@@ -95,7 +95,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!--contact us section start-->
   <section class="contact-us-section ptb-70">

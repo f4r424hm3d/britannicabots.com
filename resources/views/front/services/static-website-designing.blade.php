@@ -134,7 +134,7 @@
         <div class="col-md-7 col-lg-7">
           <div class="why-choose-us-wrap wow zoomInDown animated" data-wow-duration="2s">
             <div class="row">
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
@@ -161,7 +161,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
@@ -410,8 +410,8 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+          <div class="signlessz services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Provide a Seamless Experience</h5>
             <p>Your visitors should have an easy time surfing your website. If your visitors have trouble getting to the
@@ -420,8 +420,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+          <div class="signlessz services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <h5 class="mb-2">Aesthetic Website Layouts</h5>
             <p>It is essential for businesses to have their websites developed with appealing layouts and exciting
@@ -432,8 +432,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+          <div class="signlessz services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
             <h5 class="mb-2">A Responsive Website</h5>
             <p>In today's competitive environment, the simplicity of use of a website determines its success. As a
@@ -443,8 +443,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+          <div class="signlessz services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
             <h5 class="mb-2">You Can Effectively Target Your Audience</h5>
             <p>Everything starts with a fantastic design since a visitor who is comfortable with the look and navigation

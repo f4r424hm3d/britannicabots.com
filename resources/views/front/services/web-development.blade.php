@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="image-wrap wow fadeInRight animated" data-wow-duration="2s">
-            <img src="{{url('front')}}/img/web-development.svg" class="img-fluid float-ani" alt="hero">
+            <img src="{{url('front')}}/img/api-development.png" class="img-fluid float-ani" alt="hero">
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@
         <div class="col-md-7 col-lg-7">
           <div class="why-choose-us-wrap wow zoomInDown animated" data-wow-duration="2s">
             <div class="row">
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
@@ -160,7 +160,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">

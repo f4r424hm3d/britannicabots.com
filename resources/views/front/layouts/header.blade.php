@@ -82,8 +82,8 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top white-bg shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/img/logo-color.png"
-            alt="logo" class="img-fluid" /></a>
+        <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/img/bots-transparent.png"
+            alt="logo" class="brand-image" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu"></span>
@@ -101,102 +101,102 @@
               <ul class="sub-menu mega-dropdown-menu">
                 <div class="container">
                   <div class="row">
-                    <li class="col-md-1 col-xs-2 hidden-xs"><span
-                        class="ti-desktop icon-xl color-secondary d-block"></span></li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>Website Designing</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/static-website-designing/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                    <!-- <li class="col-md-1 col-xs-2 hidden-xs"><span
+                        class="ti-desktop icon-xl color-secondary d-block"></span></li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >Website Designing</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/static-website-designing/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Static Website Designing</a>
-                        <a href="{{ url('/') }}/dynamic-website-designing/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/dynamic-website-designing/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Dynamic Website Designing</a>
-                        <a href="{{ url('/') }}/landing-page-website-designing/"><span
-                            class="ti-arrow-right color-secondary"></span> Landing Page Website Designing</a>
-                        <a href="{{ url('/') }}/website-re-designing/"><span
-                            class="ti-arrow-right color-secondary"></span> Website
+                        <a href="{{ url('/') }}/landing-page-website-designing/"><i class="fa fa-circle" aria-hidden="true"></i>
+ Landing Page Website Designing</a>
+                        <a href="{{ url('/') }}/website-re-designing/"><i class="fa fa-circle" aria-hidden="true"></i>
+ Website
                           Re-Designing</a>
-                        <a href="{{ url('/') }}/website-maintenance/"><span
-                            class="ti-arrow-right color-secondary"></span> Website
+                        <a href="{{ url('/') }}/website-maintenance/"><i class="fa fa-circle" aria-hidden="true"></i>
+ Website
                           Maintenance</a>
                       </div>
                     </li>
-                    <li class="col-md-1 col-xs-2 hidden-xs"><span class="ti-cup icon-xl color-secondary d-block"></span>
-                    </li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>Website Development</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/cms-web-development/"><span
-                            class="ti-arrow-right color-secondary"></span> CMS Web
+                    <!-- <li class="col-md-1 col-xs-2 hidden-xs"><span class="ti-cup icon-xl color-secondary d-block"></span>
+                    </li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >Website Development</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/cms-web-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+                        CMS Web
                           Development</a>
-                        <a href="{{ url('/') }}/web-development/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/web-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Web
                           Development</a>
-                        <a href="{{ url('/') }}/ecommerce-web-development/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/ecommerce-web-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Ecommerce Web Development</a>
-                        <a href="{{ url('/') }}/shopify-website-development/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/shopify-website-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Shopify Website Development</a>
                       </div>
                     </li>
-                    <li class="col-md-1 col-xs-2 hidden-xs"><span
-                        class="ti-brush icon-xl color-secondary d-block"></span></li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>Graphic Designing</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/logo-design/"><span class="ti-arrow-right color-secondary"></span>
+                    <!-- <li class="col-md-1 col-xs-2 hidden-xs"><span
+                        class="ti-brush icon-xl color-secondary d-block"></span></li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >Graphic Designing</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/logo-design/"><i class="fa fa-circle" aria-hidden="true"></i>
                           Logo Design</a>
-                        <a href="{{ url('/') }}/brochure-design/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/brochure-design/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Brochure
                           Design</a>
-                        <a href="{{ url('/') }}/social-creative/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/social-creative/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Social
                           Creative</a>
                       </div>
                     </li>
-                    <li class="col-md-12 hidden-xs" style="height:30px"></li>
+                    <!-- <li class="col-md-12 hidden-xs" style="height:30px"></li>
                     <li class="col-md-1 col-xs-2 hidden-xs"><span
-                        class="ti-mobile icon-xl color-secondary d-block"></span></li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>App Development</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/android-app-development/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        class="ti-mobile icon-xl color-secondary d-block"></span></li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >App Development</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/android-app-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Android App development</a>
-                        <a href="{{ url('/') }}/ios-app-development/"><span
-                            class="ti-arrow-right color-secondary"></span> IOS App
+                        <a href="{{ url('/') }}/ios-app-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+ IOS App
                           development</a>
                       </div>
                     </li>
-                    <li class="col-md-1 col-xs-2 hidden-xs"><span
-                        class="ti-announcement icon-xl color-secondary d-block"></span></li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>Digital Marketing</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/search-engine-optimization/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                    <!-- <li class="col-md-1 col-xs-2 hidden-xs"><span
+                        class="ti-announcement icon-xl color-secondary d-block"></span></li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >Digital Marketing</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/search-engine-optimization/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Search Engine Optimization</a>
-                        <a href="{{ url('/') }}/social-media-optimization/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/social-media-optimization/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Social Media Optimization</a>
                       </div>
                     </li>
 
-                    <li class="col-md-1 col-xs-2 hidden-xs"><span
-                        class="ti-settings icon-xl color-secondary d-block"></span></li>
-                    <li class="col-md-3 col-sm-10">
-                      <h3>Other Services</h3>
-                      <div class="mega-link">
-                        <a href="{{ url('/') }}/payment-gateway-integration/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                    <!-- <li class="col-md-1 col-xs-2 hidden-xs"><span
+                        class="ti-settings icon-xl color-secondary d-block"></span></li> -->
+                    <li class="col-md-3 col-sm-10 mb-4 ">
+                      <h3 class="designings-headings" >Other Services</h3>
+                      <div class="mega-link update-llinks">
+                        <a href="{{ url('/') }}/payment-gateway-integration/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           Payment Gateway Integration</a>
-                        <a href="{{ url('/') }}/api-development/"><span
-                            class="ti-arrow-right color-secondary"></span>
+                        <a href="{{ url('/') }}/api-development/"><i class="fa fa-circle" aria-hidden="true"></i>
+
                           API
                           Development</a>
                       </div>

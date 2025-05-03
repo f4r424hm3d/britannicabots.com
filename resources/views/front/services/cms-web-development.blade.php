@@ -156,7 +156,7 @@
         <div class="col-md-7 col-lg-7">
           <div class="why-choose-us-wrap wow zoomInDown animated" data-wow-duration="2s">
             <div class="row">
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Secure</h5>
                   <div class="promo-bottom-shape">
@@ -183,7 +183,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6 col-sm-6 promo-col">
+              <div class="col-md-6 col-sm-6 promo-col-col">
                 <div class="promo-item pb-2">
                   <h5 class="mb-4">Flexible</h5>
                   <div class="promo-bottom-shape">
@@ -339,7 +339,7 @@
       <div class="row mt-5">
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
+            class=" signlessz services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
             data-wow-duration="2s">
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Less time and effort required</h5>
@@ -351,7 +351,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
+            class="signlessz services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
             data-wow-duration="2.5s">
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Customization</h5>
@@ -362,7 +362,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-6">
           <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
+            class=" signlessz services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown  animated"
             data-wow-duration="3s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Analytics for the Web</h5>
@@ -388,7 +388,7 @@
 
       <div class="row mt-5">
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
             data-wow-duration="2s">
             <h5 class="mb-2">Analysis and research</h5>
             <p>Everything, whether custom development or CMS development, demands thorough study and
@@ -397,7 +397,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
             data-wow-duration="2.5s">
             <h5 class="mb-2">Understanding of the Project</h5>
             <p>When you connect and contract with us for your company transaction, the first thing our experts plan to
@@ -406,7 +406,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
             data-wow-duration="3s">
             <h5 class="mb-2">Implementation</h5>
             <p>Regardless of the nature, size, or density of the business, execution and reporting are essential. In our
@@ -415,7 +415,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown  animated"
             data-wow-duration="3.5s">
             <h5 class="mb-2">Excellent Outcomes</h5>
             <p>Last but not least, great results are the ultimate goal for your company and ourselves. Our agile and
@@ -593,7 +593,7 @@
 
       <div class="row mt-5">
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <h5 class="mb-2">They Create Seamless Experience</h5>
             <p>The experience of navigating on your website should be seamless for your visitors. If your visitors find
@@ -603,7 +603,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <h5 class="mb-2">Your Website Will Have Aesthetic Layouts</h5>
             <p>It is important for businesses to get their website designed with aesthetic layouts and amazing features.
@@ -613,7 +613,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
             <h5 class="mb-2">You Will Get A Responsive Website</h5>
             <p>In this competitive world, the ease of use decides the success of a website. Hence, a website should be
@@ -624,7 +624,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
+          <div class=" services-single p-5 my-md-3 my-lg-3 my-sm-0 shadow-lg white-bg rounded wow zoomInDown animated"
             data-wow-duration="3.5s">
             <h5 class="mb-2">You Can Target Your Audience Effectively</h5>
             <p>Everything starts with a great design because the visitor, who is comfortable with the design of your

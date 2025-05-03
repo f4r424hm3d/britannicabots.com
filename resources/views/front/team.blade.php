@@ -32,7 +32,7 @@
               <div class="custom-port-col-image w-anuimation-image4">
                 <div class="team-images">
                 <img alt="{{ $row->name }}" src="{{ asset($row->profile_picture_path??'uploads/default.png') }}"
-                class="img-fluid m-auto">
+                class="img-fluid">
                 </div>
               </div>
               <div class="card-body pb-0">
