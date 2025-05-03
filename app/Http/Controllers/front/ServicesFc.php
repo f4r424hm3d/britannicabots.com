@@ -11,6 +11,10 @@ class ServicesFc extends Controller
   {
     return view('front.services');
   }
+  public function details($service_slug, Request $request)
+  {
+    return view('front.service-detail');
+  }
   public function subServices(Request $request)
   {
     $pageName = $request->segment(1);

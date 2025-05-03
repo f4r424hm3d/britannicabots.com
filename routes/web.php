@@ -114,10 +114,13 @@ Route::get('/testimonials', [TestimonialFc::class, 'index']);
 Route::get('/portfolio', [PortfolioFc::class, 'index']);
 Route::get('/career', [CareerFc::class, 'index']);
 Route::post('/apply-job', [CareerFc::class, 'applyJob']);
-Route::get('/services', [ServicesFc::class, 'index']);
 Route::get('/team', [TeamFc::class, 'index']);
 Route::get('/terms-of-use', [HomeFc::class, 'termsConditions']);
 Route::get('/privacy-disclaimer', [HomeFc::class, 'privacyPolicy']);
+
+
+Route::get('/services', [ServicesFc::class, 'index']);
+Route::get('/services/{service_slug}', [ServicesFc::class, 'details']);
 
 /* ADMIN ROUTES BEFORE LOGIN */
 $serv = ['android-app-development', 'static-website-designing', 'dynamic-website-designing', 'landing-page-website-designing', 'website-re-designing', 'website-maintenance', 'ios-app-development', 'cms-web-development', 'web-development', 'ecommerce-web-development', 'shopify-website-development', 'search-engine-optimization', 'social-media-optimization', 'logo-design', 'brochure-design', 'social-creative', 'payment-gateway-integration', 'api-development'];
