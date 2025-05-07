@@ -272,6 +272,17 @@
     });
   });
 </script>
+<!-- header hire rescours js  start -->
+<script>
+  $(document).ready(function(){
+    $('.mainlinks').on('mouseenter', function () {
+      $(this).tab('show');
+    });
+  });
+</script>    
+<!-- header hire rescours js  end -->
+
+
 <link rel="stylesheet" href="{{ url('front/') }}/fancybox/jquery.fancybox.min.css" />
 <script src="{{ url('front/') }}/fancybox/jquery.fancybox.min.js"></script>
 </body>
