@@ -146,7 +146,17 @@ foreach ($allBlogCat as $cat) {
 Route::get('blog/{slug}', [BlogFc::class, 'blogDetails']);
 
 
+Route::get('hire-resources', function () {
+  return view('front.hire-resources');
+});
 
+Route::get('hire-resources/{category_slug}', function ($category_slug) {
+  return view('front.hire-resources-category', compact('category_slug'));
+});
+
+Route::get('hire-resources/{category_slug}/{sub_category_slug}', function ($category_slug, $sub_category_slug) {
+  return view('front.hire-resources-sub-category', compact('category_slug', 'sub_category_slug'));
+});
 
 /* ADMIN ROUTES BEFORE LOGIN */
 
