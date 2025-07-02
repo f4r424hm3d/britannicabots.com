@@ -67,7 +67,7 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!--loader start-->
-  <div id="preloader">
+  <!-- <div id="preloader">
     <div class="loader1">
       <span></span>
       <span></span>
@@ -75,7 +75,7 @@
       <span></span>
       <span></span>
     </div>
-  </div>
+  </div> -->
   <!--loader end-->
 
   <!--header section start-->
@@ -84,26 +84,35 @@
       <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/img/bots-transparent.png"
             alt="logo" class="brand-image" /></a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu"></span>
         </button>
+
         <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto menu main-navbar new-added">
-            <!-- <li><a href="{{ url('/') }}">Home</a></li>       -->
-            <li><a href="javascript:void()" class="dropdown-toggle">About Bots</a>
-              <ul class="sub-menu">
-                <li><a href="{{ url('/about/') }}/">Who we are</a></li>
-                <li><a href="{{ url('/team/') }}/">Our Team</a></li>
+          <ul class="navbar-nav ml-auto main-navbar new-added">
+           
+            <li class="nav-item dropdown main-shows  ">
+              <a class="nav-link libox dropdown-toggle" id="one" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         About Bots
+        </a>
+             <ul class="dropdown-menu" aria-labelledby="one">
+                <li><a class="px-2"  href="{{ url('/about/') }}/">Who we are</a></li>
+                <li><a class="px-2"  href="{{ url('/team/') }}/">Our Team</a></li>
               </ul>
             </li>
-            <li class="mega-dropdown"><a class="dropdown-toggle">Services</a>
-            <!-- href="{{ url('/services/') }}//" -->
-              <ul class="sub-menu mega-dropdown-menu">
-                <div class="container">
-                  <div class="row my-5">
+            <li class="nav-item dropdown  main-bots">
+              <a class="nav-link libox dropdown-toggle" id="two" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Services
+        </a>
+            
+               <ul class="dropdown-menu" aria-labelledby="two">
+               <li class="main-servicess">
+                 <div class="container">
+                  <div class="row ">
                    
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >Website Designing</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/static-website-designing/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -121,9 +130,9 @@
  Website
                           Maintenance</a>
                       </div>
-                    </li>
+  </div>
                   
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >Website Development</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/cms-web-development/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -140,9 +149,9 @@
 
                           Shopify Website Development</a>
                       </div>
-                    </li>
+  </div>
                     
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >Graphic Designing</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/logo-design/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -156,9 +165,9 @@
                           Social
                           Creative</a>
                       </div>
-                    </li>
+  </div>
                    
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >App Development</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/android-app-development/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -168,9 +177,9 @@
  IOS App
                           development</a>
                       </div>
-                    </li>
+  </div>
                   
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >Digital Marketing</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/search-engine-optimization/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -180,10 +189,10 @@
 
                           Social Media Optimization</a>
                       </div>
-                    </li>
+  </div>
 
                     
-                    <li class="col-md-3 col-sm-10 mb-4 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3 ">
                       <h3 class="designings-headings" >Other Services</h3>
                       <div class="mega-link update-llinks">
                         <a href="{{ url('/') }}/payment-gateway-integration/"><i class="fa fa-circle" aria-hidden="true"></i>
@@ -194,55 +203,57 @@
                           API
                           Development</a>
                       </div>
-                    </li>
+  </div>
                   </div>
                 </div>
+               </li>
               </ul>
-            </li>
-            <!-- <li><a href="{{ url('/portfolio') }}/">Our Work</a></li> -->
-           
-            
-            <li class="mega-dropdown" ><a href="javascript:void()" class="dropdown-toggle"> HIRE RESOURCES
-            </a>
+  </li>
+          
+           <li class="nav-item dropdown  main-botsone">
+            <a class="nav-link libox dropdown-toggle" id="three" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         HIRE RESOURCES
+        </a>
 
-              <ul class="sub-menu mega-dropdown-menu">
-                <li>
-                <div class="container">
-                <div class="row">
-  <div class="col-12 col-sm-4">
+               <ul class="dropdown-menu" aria-labelledby="three">
+                <li class="main-servicess p-0" >
+                <div class="container-fluid">
+      <div class="deskotp-services">
+                  <div class="row">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-4">
 
-  <div class="mobile-dropdowns">
-  <div class="mobile-show-resources">
+   <div class="mobile-show-resources">
    <div class="nav flex-column mains-pills nav-pills" id="main-hired" role="tablist" aria-orientation="vertical">
-      <a class="nav-link mainlinks" id="hiring-user-tab" data-toggle="pill" href="#hiring-user" role="tab" aria-controls="hiring-user" aria-selected="false">
-        <span>Hire App Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <a class="nav-link mainlinks" id="hiring-user-tab"  href="#hiring-user" role="tab" aria-controls="hiring-user" aria-selected="false">
+        <span>Hire App Developers 1 <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Code your destiny</p>
       </a>
-      <a class="nav-link mainlinks" id="hiring-user-two-tab" data-toggle="pill" href="#hiring-user-two" role="tab" aria-controls="hiring-user-two" aria-selected="false">   <span>Hire Frontend Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <a class="nav-link mainlinks" id="hiring-user-two-tab"  href="#hiring-user-two" role="tab" aria-controls="hiring-user-two" aria-selected="false">   <span>Hire Frontend Developers 2 <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Curate pixel-perfect experiences</p></a>
-      <a class="nav-link mainlinks active" id="hiring-user-three-tab" data-toggle="pill" href="#hiring-user-three" role="tab" aria-controls="hiring-user-three" aria-selected="true">   <span>Hire App Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <a class="nav-link mainlinks active" id="hiring-user-three-tab"  href="#hiring-user-three" role="tab" aria-controls="hiring-user-three" aria-selected="true">   <span>Hire App Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Code your destiny</p></a>
-      <a class="nav-link mainlinks" id="hiring-user-four-tab" data-toggle="pill" href="#hiring-user-four" role="tab" aria-controls="hiring-user-four" aria-selected="false">   <span>Hire Backend Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <a class="nav-link mainlinks" id="hiring-user-four-tab"  href="#hiring-user-four" role="tab" aria-controls="hiring-user-four" aria-selected="false">   <span>Hire Backend Developers <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Find geniuses beyond coding.</p></a>
     </div>
    </div>
-  </div>
+
+
 
 
   </div>
-  <div class="col-12 col-sm-8">
+  <div class="col-12 col-sm-12 col-md-12 col-lg-8">
     <div class="tab-content" id="main-hiredContent">
       <div class="tab-pane fade active show" id="hiring-user" role="tabpanel" aria-labelledby="hiring-user-tab">
      <div class="mainehired">
-     <h4>Hire App Developers</h4>
+     <h4><a href="https://britannicabots.com/hire-resources/category">Hire App Developers 1</a>  </h4>
 <p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
 <hr>
 <div class="row">
-  <div class="col-lg-6"><a class="developers">Hire Android Developers</a></div>
+  <div class="col-lg-6"><a href="https://britannicabots.com/hire-resources/category/sub-category" class="developers">Hire Android Developers</a></div>
   <div class="col-lg-6"><a class="developers">Hire iOS Developers</a></div>
   <div class="col-lg-6"><a class="developers">Hire iPhone App Developers</a></div>
   <div class="col-lg-6"><a class="developers">Hire iPad Developers</a></div>
@@ -258,9 +269,9 @@
 
      </div>
       </div>
-      <div class="tab-pane fade active show" id="hiring-user-two" role="tabpanel" aria-labelledby="hiring-user-two-tab">
+      <div class="tab-pane fade" id="hiring-user-two" role="tabpanel" aria-labelledby="hiring-user-two-tab">
       <div class="mainehired">
-     <h4>Hire Frontend Developers</h4>
+     <h4>Hire Frontend Developers 2</h4>
 <p>Break the binaries, and hire a hero with Hyperlink InfoSystem. Our front-end developers are ready to unleash your potential to its maximum capacity.</p>
 <hr>
 <div class="row">
@@ -271,9 +282,9 @@
 
      </div>
       </div>
-      <div class="tab-pane fade active show" id="hiring-user-three" role="tabpanel" aria-labelledby="hiring-user-three-tab">
+      <div class="tab-pane fade" id="hiring-user-three" role="tabpanel" aria-labelledby="hiring-user-three-tab">
       <div class="mainehired">
-     <h4>Hire App Developers</h4>
+     <h4>Hire App Developers 3</h4>
 <p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
 <hr>
 <div class="row">
@@ -290,7 +301,7 @@
       </div>
       <div class="tab-pane fade" id="hiring-user-four" role="tabpanel" aria-labelledby="hiring-user-four-tab">
       <div class="mainehired">
-     <h4>Hire App Developers</h4>
+     <h4>Hire App Developers 4</h4>
 <p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
 <hr>
 <div class="row">
@@ -313,17 +324,116 @@
     </div>
   </div>
 </div>
+      </div>
+      <div class="mobile-services">
+        <div class="main-mobiles">
+  <div class="accordion" id="show-cardss">
+  <div class="card">
+    <div class="card-header p-0" id="onecard">
+      <h2 class="mb-0">
+        <button class="btn btn-link ">
+          Hire App Developers  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
+        </button>
+      </h2>
+    </div>
+
+    <div>
+      <div class="card-body">
+       <div class="mainehired">
+     <h4>Hire App Developers 3</h4>
+<p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
+<hr>
+<div class="row">
+  <div class="col-lg-12"><a class="developers">Hire Android Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iOS Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPhone App Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPad Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire Flutter Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire React Native Developers</a></div>
+
+</div>
+
+     </div>
+      </div>
+    </div>
+  </div>
+    <div class="card">
+    <div class="card-header p-0" id="two-card">
+      <h2 class="mb-0">
+        <button class="btn btn-link" >
+          Hire Frontend Developers <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
+        </button>
+      </h2>
+    </div>
+    <div>
+      <div class="card-body">
+        <div class="mainehired">
+     <h4>Hire App Developers 3</h4>
+<p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
+<hr>
+<div class="row">
+  <div class="col-lg-12"><a class="developers">Hire Android Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iOS Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPhone App Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPad Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire Flutter Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire React Native Developers</a></div>
+
+</div>
+
+     </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header p-0" id="three-card">
+      <h2 class="mb-0">
+        <button class="btn btn-link " >
+          Hire App Developers <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
+        </button>
+      </h2>
+    </div>
+    <div>
+      <div class="card-body">
+       <div class="mainehired">
+     <h4>Hire App Developers 3</h4>
+<p>On the lookout for a coding wizard? Hire a developer from Hyperlink InfoSystem and build brilliance together.</p>
+<hr>
+<div class="row">
+  <div class="col-lg-12"><a class="developers">Hire Android Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iOS Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPhone App Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire iPad Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire Flutter Developers</a></div>
+  <div class="col-lg-12"><a class="developers">Hire React Native Developers</a></div>
+
+</div>
+
+     </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+      </div>
                 </div>
                 </li>
                
               </ul>
             </li>
-            <li class="mega-dropdown" >
-            <a href="javascript:void()" class="dropdown-toggle"> RESOURCES
-            </a>
+            <li class="nav-item dropdown  main-botstwo">
+           
+            <a class="nav-link libox dropdown-toggle" id="four" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        RESOURCES
+        </a>
             
-              <ul class="sub-menu mega-dropdown-menu">
-                <li>
+              <ul class="dropdown-menu" aria-labelledby="four">
+                  <li class="main-servicess" >
                 <div class="container">
                 <div class="row">
 
@@ -336,8 +446,44 @@
 </div>
 <div class="main-resources">
 <div class="row">
-  <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks" >
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/" >
+        <span> Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </span>
+        <p>Discover brief insights and articles.
+
+</p>
+      </a>
+  </div>
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+  <a class=" mainlinks" href="{{ url('/career') }}/">
+        <span> Career <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </span>
+        <p>Discover brief insights and articles.
+
+</p>
+      </a>
+  </div>
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+  <a class=" mainlinks" href="{{ url('/portfolio') }}/">
+        <span>Portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </span>
+        <p>Discover brief insights and articles.
+
+</p>
+      </a>
+  </div>
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/" >
+        <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </span>
+        <p>Discover brief insights and articles.
+
+</p>
+      </a>
+  </div>
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/">
         <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Discover brief insights and articles.
@@ -346,7 +492,7 @@
       </a>
   </div>
   <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/">
         <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Discover brief insights and articles.
@@ -355,7 +501,7 @@
       </a>
   </div>
   <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/" >
         <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Discover brief insights and articles.
@@ -364,7 +510,7 @@
       </a>
   </div>
   <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks" >
+  <a class=" mainlinks" href="{{ url('/blogs') }}/">
         <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Discover brief insights and articles.
@@ -373,43 +519,7 @@
       </a>
   </div>
   <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
-        <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </span>
-        <p>Discover brief insights and articles.
-
-</p>
-      </a>
-  </div>
-  <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
-        <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </span>
-        <p>Discover brief insights and articles.
-
-</p>
-      </a>
-  </div>
-  <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks" >
-        <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </span>
-        <p>Discover brief insights and articles.
-
-</p>
-      </a>
-  </div>
-  <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
-        <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        </span>
-        <p>Discover brief insights and articles.
-
-</p>
-      </a>
-  </div>
-  <div class="col-12 col-sm-4 col-md-4">
-  <a class=" mainlinks">
+  <a class=" mainlinks" href="{{ url('/blogs') }}/" href="{{ url('/blogs') }}/" >
         <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </span>
         <p>Discover brief insights and articles.
@@ -433,10 +543,8 @@
                
               </ul>
             </li>
-            <!-- <li><a href="{{ url('/career') }}/">Career</a></li> -->
-            <!-- <li><a href="{{ url('/blogs') }}/">Blog</a></li> -->
-            <!-- <li><a href="{{ url('/contact') }}/">Contact</a></li> -->
-            <li><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn check-btn"><span
+            <li class="nav-item dropdown">
+              <a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn check-btn"><span
                   class="ti-pencil-alt mr-1"></span> Get Quote</a></li>
           </ul>
         </div>
