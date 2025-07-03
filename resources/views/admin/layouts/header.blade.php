@@ -27,7 +27,6 @@
   <link href="{{ url('backend/') }}/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css"
     rel="stylesheet" type="text/css" />
 
-
   <!-- Bootstrap Css -->
   <link href="{{ url('backend/') }}/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet"
     type="text/css" />
@@ -37,6 +36,7 @@
   <link href="{{ url('backend/') }}/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
   <script src="{{ url('/') }}/ckeditor/ckeditor.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <style>
     .hide-this {
       display: none;
@@ -167,8 +167,6 @@
             </div>
           </div>
 
-
-
           <div class="dropdown d-inline-block">
             <button type="button" class="btn header-item bg-soft-light border-start border-end"
               id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -212,7 +210,8 @@
                 </a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Portfolios
@@ -221,19 +220,20 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-more">
                   <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('portfolio') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('portfolio') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Portfolio</span>
                     </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('digital-marketing-portfolio') }}"
-                      id="topnav-auth" role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none"
+                      href="{{ aurl('digital-marketing-portfolio') }}" id="topnav-auth" role="button">
                       <span data-key="t-authentication">Digital Marketing Portfolio</span>
                     </a>
                   </div>
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Services
@@ -242,8 +242,8 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-more">
                   <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('services') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('services') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Services</span>
                     </a>
                     <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('sub-services') }}"
@@ -254,7 +254,8 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Inquiry
@@ -263,19 +264,20 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="topnav-more">
                   <div class="dropdown">
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('contact-us') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('contact-us') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Contact Us</span>
                     </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('get-quote') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('get-quote') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Get Quote</span>
                     </a>
                   </div>
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Career
@@ -288,8 +290,8 @@
                       id="topnav-auth" role="button">
                       <span data-key="t-authentication">Designation</span>
                     </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('vacancy') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('vacancy') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Vacancy</span>
                     </a>
                     <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('job-application') }}"
@@ -300,7 +302,8 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Blogs
@@ -321,13 +324,14 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('testimonial') }}" id="topnav-dashboard"
-                  role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('testimonial') }}"
+                  id="topnav-dashboard" role="button">
                   <i data-feather="users"></i><span data-key="t-dashboards">Testimonial</span>
                 </a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more" role="button">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
                   <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     SEO
@@ -340,8 +344,8 @@
                       id="topnav-auth" role="button">
                       <span data-key="t-authentication">Static Page</span>
                     </a>
-                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('dynamic-page-seo') }}" id="topnav-auth"
-                      role="button">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('dynamic-page-seo') }}"
+                      id="topnav-auth" role="button">
                       <span data-key="t-authentication">Dynamic Page</span>
                     </a>
                   </div>

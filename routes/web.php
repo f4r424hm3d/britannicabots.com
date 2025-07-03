@@ -7,6 +7,7 @@ use App\Http\Controllers\admin\BlogsC;
 use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
+use App\Http\Controllers\admin\HireResourcesCategoryC;
 use App\Http\Controllers\admin\JobApplicationC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
@@ -22,6 +23,7 @@ use App\Http\Controllers\front\BlogFc;
 use App\Http\Controllers\front\CareerFc;
 use App\Http\Controllers\front\ContactFc;
 use App\Http\Controllers\front\GetQuoteFc;
+use App\Http\Controllers\front\HireResourcesFc;
 use App\Http\Controllers\front\HomeFc;
 use App\Http\Controllers\front\PortfolioFc;
 use App\Http\Controllers\front\ServicesFc;
@@ -44,65 +46,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-  return view('welcome');
-});
-//Clear Cache facade value:
-Route::get('/clear-cache', function () {
-  $exitCode = Artisan::call('cache:clear');
-  return '<h1>Cache facade value cleared</h1>';
-});
-
-//Reoptimized class loader:
-Route::get('/optimize', function () {
-  $exitCode = Artisan::call('optimize');
-  return '<h1>Reoptimized class loader</h1>';
-});
-Route::get('/f/optimize', function () {
-  $exitCode = Artisan::call('optimize');
-  return true;
-});
-
-//Route cache:
-Route::get('/route-cache', function () {
-  $exitCode = Artisan::call('route:cache');
-  return '<h1>Routes cached</h1>';
-});
-
-//Clear Route cache:
-Route::get('/route-clear', function () {
-  $exitCode = Artisan::call('route:clear');
-  return '<h1>Route cache cleared</h1>';
-});
-
-//Clear View cache:
-Route::get('/view-clear', function () {
-  $exitCode = Artisan::call('view:clear');
-  return '<h1>View cache cleared</h1>';
-});
-
-//Clear Config cache:
-Route::get('/config-cache', function () {
-  $exitCode = Artisan::call('config:cache');
-  return '<h1>Clear Config cleared</h1>';
-});
-
-//For MIgrate:
-Route::get('/migrate', function () {
-  $exitCode = Artisan::call('migrate');
-  return '<h1>Migrated</h1>';
-});
-Route::get('/f/migrate', function () {
-  $exitCode = Artisan::call('migrate');
-  return true;
-});
-
-Route::get('/db-seed', function () {
-  $exitCode = Artisan::call('db:seed');
-  return $exitCode . '<br><h1>Database seeding completed successfully.</h1>';
-});
-
 /* FRONT ROUTES */
+
 Route::get('/', [HomeFc::class, 'index']);
 Route::get('/home', [HomeFc::class, 'index']);
 Route::get('/about', [AboutFc::class, 'index']);
@@ -145,18 +90,11 @@ foreach ($allBlogCat as $cat) {
 }
 Route::get('blog/{slug}', [BlogFc::class, 'blogDetails']);
 
+Route::get('hire-resources', [HireResourcesFc::class, 'index'])->name('hire.resources');
+Route::get('hire-resources/{category_slug}', [HireResourcesFc::class, 'category'])->name('hire.resources.category');
+Route::get('hire-resources/{category_slug}/{sub_category_slug}', [HireResourcesFc::class, 'subCategory'])->name('hire.resources.subcategory');
 
-Route::get('hire-resources', function () {
-  return view('front.hire-resources');
-});
 
-Route::get('hire-resources/{category_slug}', function ($category_slug) {
-  return view('front.hire-resources-category', compact('category_slug'));
-});
-
-Route::get('hire-resources/{category_slug}/{sub_category_slug}', function ($category_slug, $sub_category_slug) {
-  return view('front.hire-resources-sub-category', compact('category_slug', 'sub_category_slug'));
-});
 
 /* ADMIN ROUTES BEFORE LOGIN */
 
@@ -171,11 +109,23 @@ Route::middleware(['adminLoggedIn'])->group(function () {
     session()->forget('adminLoggedIn');
     return redirect('admin/login');
   });
+
   Route::prefix('/admin')->group(function () {
+
     Route::get('/', [AdminDashboard::class, 'index']);
     Route::get('/dashboard', [AdminDashboard::class, 'index']);
     Route::get('/profile', [AdminDashboard::class, 'profile']);
     Route::post('/update-profile', [AdminDashboard::class, 'updateProfile']);
+
+
+    Route::get('/run-command/{cmd}', function ($cmd) {
+      try {
+        Artisan::call($cmd);
+        return "Command '$cmd' ran successfully.";
+      } catch (\Exception $e) {
+        return "Error: " . $e->getMessage();
+      }
+    });
 
     Route::prefix('/designations')->group(function () {
       Route::get('', [DesignationC::class, 'index']);
@@ -272,6 +222,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/delete/{id}', [StaticPageSeoC::class, 'delete']);
       Route::get('/update/{id}', [StaticPageSeoC::class, 'index']);
       Route::post('/update/{id}', [StaticPageSeoC::class, 'update']);
+    });
+    Route::prefix('/hire-resources-categories')->group(function () {
+      Route::get('/', [HireResourcesCategoryC::class, 'index']);
+      Route::post('/store', [HireResourcesCategoryC::class, 'store']);
+      Route::get('/update/{id}', [HireResourcesCategoryC::class, 'index']);
+      Route::post('/update/{id}', [HireResourcesCategoryC::class, 'update']);
+      Route::get('/delete/{id}', [HireResourcesCategoryC::class, 'delete']);
     });
   });
 });
