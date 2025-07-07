@@ -140,6 +140,7 @@
                     <th>Sr. No.</th>
                     <th>Category Name</th>
                     <th>Images</th>
+                    <th>Clients Logo</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -147,7 +148,7 @@
                   @forelse ($rows as $index => $row)
                     <tr id="row{{ $row->id }}">
                       <td>{{ $index + 1 }}</td>
-                      <td><a href="{{ route('hire.resources', ['category' => $row->category_slug]) }}"
+                      <td><a href="{{ route('hire.resources.category', ['category_slug' => $row->category_slug]) }}"
                           target="_blank">{{ $row->category_name }}</a></td>
                       <td>
                         @if ($row->section2_image)
@@ -155,6 +156,9 @@
                         @else
                           N/A
                         @endif
+                      </td>
+                      <td>
+                        <x-custom-button :url="url('admin/hire-resources-category-clients/' . $row->id)" :label="'Clients Logo'" />
                       </td>
                       <td>
                         <x-delete-button :id="$row->id" />

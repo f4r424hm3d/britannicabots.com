@@ -112,13 +112,69 @@ class HireResourcesCategoryC extends Controller
 
   public function update($id, Request $request)
   {
-    $request->validate(
-      [
-        'category_name' => 'required',
-      ]
-    );
+    // Slugify the input before validation
+    $request->merge([
+      'category_slug' => slugify($request->category_slug)
+    ]);
+    $request->validate([
+      'category_name' => 'required|unique:hire_resources_categories,category_name,' . $id,
+      'category_slug' => 'required|unique:hire_resources_categories,category_slug,' . $id,
+      'banner_title' => 'nullable|string',
+      'banner_shortnote' => 'nullable|string',
+      'hourly_price' => 'nullable|string',
+      'year_of_experience' => 'nullable|string|max:50',
+      'developers' => 'nullable|string|max:50',
+      'clients' => 'nullable|string|max:50',
+      'banner_image' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+      'title' => 'nullable|string',
+      'description' => 'nullable|string',
+      'section2_title' => 'nullable|string',
+      'section2_description' => 'nullable|string',
+      'section2_image' => 'nullable|image|mimes:jpg,jpeg,png,webp|max:2048',
+    ]);
+
     $field = HireResourcesCategory::find($id);
-    $field->category_name = $request['category_name'];
+    $field->category_name = $request->category_name;
+    $field->category_slug = slugify($request->category_slug);
+    $field->banner_title = $request->banner_title;
+    $field->banner_shortnote = $request->banner_shortnote;
+    $field->hourly_price = $request->hourly_price;
+    $field->year_of_experience = $request->year_of_experience;
+    $field->developers = $request->developers;
+    $field->clients = $request->clients;
+    $field->title = $request->title;
+    $field->description = $request->description;
+    $field->section2_title = $request->section2_title;
+    $field->section2_description = $request->section2_description;
+    $field->status = $request->status ?? 1;
+    $field->created_by = auth()->id();
+
+    // Handle banner image upload
+    if ($request->hasFile('banner_image')) {
+      $fileOriginalName = $request->file('banner_image')->getClientOriginalName();
+      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
+      $file_name_slug = slugify($fileNameWithoutExtention);
+      $fileExtention = $request->file('banner_image')->getClientOriginalExtension();
+      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
+      $move = $request->file('banner_image')->move('uploads/resources/', $file_name);
+      if ($move) {
+        $field->banner_image = 'uploads/resources/' . $file_name;
+      }
+    }
+
+
+    // Handle section2 image upload
+    if ($request->hasFile('section2_image')) {
+      $fileOriginalName = $request->file('section2_image')->getClientOriginalName();
+      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
+      $file_name_slug = slugify($fileNameWithoutExtention);
+      $fileExtention = $request->file('section2_image')->getClientOriginalExtension();
+      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
+      $move = $request->file('section2_image')->move('uploads/resources/', $file_name);
+      if ($move) {
+        $field->section2_image = 'uploads/resources/' . $file_name;
+      }
+    }
     $field->save();
     session()->flash('smsg', 'Record has been updated successfully.');
     return redirect('admin/' . $this->page_route);

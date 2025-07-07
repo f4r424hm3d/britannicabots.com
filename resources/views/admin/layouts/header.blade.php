@@ -351,6 +351,24 @@
                   </div>
                 </div>
               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
+                  <i data-feather="file-text"></i>
+                  <span data-key="t-extra-pages">
+                    Hire Resources
+                  </span>
+                  <div class="arrow-down"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="topnav-more">
+                  <div class="dropdown">
+                    <a class="dropdown-item dropdown-toggle arrow-none"
+                      href="{{ aurl('hire-resources-categories') }}" id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Categories</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </nav>

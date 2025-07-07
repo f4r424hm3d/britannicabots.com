@@ -8,6 +8,7 @@ use App\Http\Controllers\admin\ContactInquiryC;
 use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
 use App\Http\Controllers\admin\HireResourcesCategoryC;
+use App\Http\Controllers\admin\HireResourcesCategoryClientC;
 use App\Http\Controllers\admin\JobApplicationC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
@@ -229,6 +230,14 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/update/{id}', [HireResourcesCategoryC::class, 'index']);
       Route::post('/update/{id}', [HireResourcesCategoryC::class, 'update']);
       Route::get('/delete/{id}', [HireResourcesCategoryC::class, 'delete']);
+    });
+    Route::prefix('/hire-resources-category-clients')->group(function () {
+      Route::get('/get-data', [HireResourcesCategoryClientC::class, 'getData']);
+      Route::get('/delete/{id}', [HireResourcesCategoryClientC::class, 'delete']);
+      Route::post('/store', [HireResourcesCategoryClientC::class, 'store']);
+      Route::get('/{category_id}/', [HireResourcesCategoryClientC::class, 'index']);
+      Route::get('{category_id}/update/{id}', [HireResourcesCategoryClientC::class, 'index']);
+      Route::post('{category_id}/update/{id}', [HireResourcesCategoryClientC::class, 'update']);
     });
   });
 });
