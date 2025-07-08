@@ -198,21 +198,8 @@
           <div class="collapse navbar-collapse" id="topnav-menu-content">
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ url('admin') }}" id="topnav-dashboard"
-                  role="button">
-                  <i data-feather="home"></i><span data-key="t-dashboards">Dashboard</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('team') }}" id="topnav-dashboard"
-                  role="button">
-                  <i data-feather="users"></i><span data-key="t-dashboards">Team</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Portfolios
                   </span>
@@ -234,7 +221,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Services
                   </span>
@@ -256,7 +242,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Inquiry
                   </span>
@@ -278,7 +263,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Career
                   </span>
@@ -304,7 +288,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Blogs
                   </span>
@@ -324,15 +307,8 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle arrow-none" href="{{ aurl('testimonial') }}"
-                  id="topnav-dashboard" role="button">
-                  <i data-feather="users"></i><span data-key="t-dashboards">Testimonial</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     SEO
                   </span>
@@ -354,7 +330,6 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
                   role="button">
-                  <i data-feather="file-text"></i>
                   <span data-key="t-extra-pages">
                     Hire Resources
                   </span>
@@ -365,6 +340,27 @@
                     <a class="dropdown-item dropdown-toggle arrow-none"
                       href="{{ aurl('hire-resources-categories') }}" id="topnav-auth" role="button">
                       <span data-key="t-authentication">Categories</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle arrow-none" href="javascript:void()" id="topnav-more"
+                  role="button">
+                  <span data-key="t-extra-pages">
+                    More
+                  </span>
+                  <div class="arrow-down"></div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="topnav-more">
+                  <div class="dropdown">
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('testimonial') }}"
+                      id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Testimonials</span>
+                    </a>
+                    <a class="dropdown-item dropdown-toggle arrow-none" href="{{ aurl('team') }}" id="topnav-auth"
+                      role="button">
+                      <span data-key="t-authentication">Team</span>
                     </a>
                   </div>
                 </div>
