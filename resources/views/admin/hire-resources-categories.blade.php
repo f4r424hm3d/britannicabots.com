@@ -143,6 +143,7 @@
                     <th>Category Name</th>
                     <th>Images</th>
                     <th>Clients Logo</th>
+                    <th>SEO</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -160,7 +161,11 @@
                         @endif
                       </td>
                       <td>
-                        <x-custom-button :url="url('admin/hire-resources-category-clients/' . $row->id)" :label="'Clients Logo'" />
+                        <x-custom-button :url="url('admin/hire-resources-category-clients/' . $row->id)" label="Clients Logo" btnSize="btn-sm"
+                          btnColor="btn-outline-info" badgeClass="bg-danger" :count="$row->clientsLogo->count()" />
+                      </td>
+                      <td>
+                        <x-seo-view-model :row="$row" />
                       </td>
                       <td>
                         <x-delete-button :id="$row->id" />

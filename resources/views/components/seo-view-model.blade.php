@@ -18,8 +18,8 @@
           <p>{!! $row->meta_keyword !!}</p>
           <h4>Meta Description</h4>
           <p>{!! $row->meta_description !!}</p>
-          <h4>Page Content</h4>
-          <p>{!! $row->page_content !!}</p>
+          {{-- <h4>Page Content</h4>
+          <p>{!! $row->page_content !!}</p> --}}
           <h4>Seo Rating</h4>
           <p>Rating : {{ $row->seo_rating }} | Best Rating : {{ $row->best_rating }} | Number of
             Review : {{ $row->review_number }}</p>

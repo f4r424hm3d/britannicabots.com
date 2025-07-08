@@ -107,7 +107,7 @@ class HireResourcesCategoryC extends Controller
 
     $field->meta_title = $request->meta_title;
     $field->meta_description = $request->meta_description;
-    $field->meta_keywords = $request->meta_keywords;
+    $field->meta_keyword = $request->meta_keyword;
     $field->seo_rating = $request->seo_rating;
     $field->review_number = $request->review_number;
     $field->best_rating = $request->best_rating;
@@ -196,7 +196,7 @@ class HireResourcesCategoryC extends Controller
 
     $field->meta_title = $request->meta_title;
     $field->meta_description = $request->meta_description;
-    $field->meta_keywords = $request->meta_keywords;
+    $field->meta_keyword = $request->meta_keyword;
     $field->seo_rating = $request->seo_rating;
     $field->review_number = $request->review_number;
     $field->best_rating = $request->best_rating;
