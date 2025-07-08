@@ -115,6 +115,8 @@
                       :ft="$ft" :sd="$sd" />
                   </div>
                 </div>
+                <hr>
+                <x-seo-field :ft="$ft" :sd="$sd" />
 
                 @if ($ft == 'add')
                   <button type="reset" class="btn btn-sm btn-warning  mr-1"><i class="ti-trash"></i>

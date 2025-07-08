@@ -15,13 +15,8 @@ return new class extends Migration
   {
     Schema::table('hire_resources_categories', function (Blueprint $table) {
       $table->after('created_by', function (Blueprint $table) {
-        $table->text('meta_title')->nullable();
-        $table->text('meta_keyword')->nullable();
-        $table->text('meta_description')->nullable();
-        $table->decimal('seo_rating', 2, 1)->nullable();
-        $table->integer('review_number')->nullable();
-        $table->decimal('best_rating', 2, 1)->nullable();
-        $table->text('og_image_path')->nullable();
+        $table->string('left_note')->nullable();
+        $table->string('right_note')->nullable();
       });
     });
   }
@@ -35,13 +30,8 @@ return new class extends Migration
   {
     Schema::table('hire_resources_categories', function (Blueprint $table) {
       $table->dropColumn([
-        'meta_title',
-        'meta_keyword',
-        'meta_description',
-        'seo_rating',
-        'review_number',
-        'best_rating',
-        'og_image_path'
+        'left_note',
+        'right_note'
       ]);
     });
   }

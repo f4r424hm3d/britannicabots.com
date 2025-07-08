@@ -105,6 +105,24 @@ class HireResourcesCategoryC extends Controller
       }
     }
 
+    $field->meta_title = $request->meta_title;
+    $field->meta_description = $request->meta_description;
+    $field->meta_keywords = $request->meta_keywords;
+    $field->seo_rating = $request->seo_rating;
+    $field->review_number = $request->review_number;
+    $field->best_rating = $request->best_rating;
+    if ($request->hasFile('og_image')) {
+      $fileOriginalName = $request->file('og_image')->getClientOriginalName();
+      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
+      $file_name_slug = slugify($fileNameWithoutExtention);
+      $fileExtention = $request->file('og_image')->getClientOriginalExtension();
+      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
+      $move = $request->file('og_image')->move('uploads/og/', $file_name);
+      if ($move) {
+        $field->og_image_path = 'uploads/og/' . $file_name;
+      }
+    }
+
     $field->save();
     session()->flash('smsg', 'Record has been inserted successfully.');
     return redirect('admin/' . $this->page_route);
@@ -175,6 +193,25 @@ class HireResourcesCategoryC extends Controller
         $field->section2_image = 'uploads/resources/' . $file_name;
       }
     }
+
+    $field->meta_title = $request->meta_title;
+    $field->meta_description = $request->meta_description;
+    $field->meta_keywords = $request->meta_keywords;
+    $field->seo_rating = $request->seo_rating;
+    $field->review_number = $request->review_number;
+    $field->best_rating = $request->best_rating;
+    if ($request->hasFile('og_image')) {
+      $fileOriginalName = $request->file('og_image')->getClientOriginalName();
+      $fileNameWithoutExtention = pathinfo($fileOriginalName, PATHINFO_FILENAME);
+      $file_name_slug = slugify($fileNameWithoutExtention);
+      $fileExtention = $request->file('og_image')->getClientOriginalExtension();
+      $file_name = $file_name_slug . '_' . time() . '.' . $fileExtention;
+      $move = $request->file('og_image')->move('uploads/og/', $file_name);
+      if ($move) {
+        $field->og_image_path = 'uploads/og/' . $file_name;
+      }
+    }
+
     $field->save();
     session()->flash('smsg', 'Record has been updated successfully.');
     return redirect('admin/' . $this->page_route);
@@ -183,11 +220,14 @@ class HireResourcesCategoryC extends Controller
   {
     if ($id) {
       $row = HireResourcesCategory::findOrFail($id);
-      if ($row->banner_image != null) {
+      if ($row->banner_image != null && file_exists($row->banner_image)) {
         unlink($row->banner_image);
       }
-      if ($row->section2_image != null) {
+      if ($row->section2_image != null && file_exists($row->section2_image)) {
         unlink($row->section2_image);
+      }
+      if ($row->og_image_path != null && file_exists($row->og_image_path)) {
+        unlink($row->og_image_path);
       }
       $result = $row->delete();
       return response()->json(['success' => true]);

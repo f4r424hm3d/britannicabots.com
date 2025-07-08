@@ -95,8 +95,6 @@ Route::get('hire-resources', [HireResourcesFc::class, 'index'])->name('hire.reso
 Route::get('hire-resources/{category_slug}', [HireResourcesFc::class, 'category'])->name('hire.resources.category');
 Route::get('hire-resources/{category_slug}/{sub_category_slug}', [HireResourcesFc::class, 'subCategory'])->name('hire.resources.subcategory');
 
-
-
 /* ADMIN ROUTES BEFORE LOGIN */
 
 /* ADMIN ROUTES BEFORE LOGIN */

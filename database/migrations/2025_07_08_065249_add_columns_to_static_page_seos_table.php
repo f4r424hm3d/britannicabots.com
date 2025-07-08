@@ -13,15 +13,11 @@ return new class extends Migration
    */
   public function up()
   {
-    Schema::table('hire_resources_categories', function (Blueprint $table) {
-      $table->after('created_by', function (Blueprint $table) {
-        $table->text('meta_title')->nullable();
-        $table->text('meta_keyword')->nullable();
-        $table->text('meta_description')->nullable();
+    Schema::table('static_page_seos', function (Blueprint $table) {
+      $table->after('page_content', function (Blueprint $table) {
         $table->decimal('seo_rating', 2, 1)->nullable();
         $table->integer('review_number')->nullable();
         $table->decimal('best_rating', 2, 1)->nullable();
-        $table->text('og_image_path')->nullable();
       });
     });
   }
@@ -33,15 +29,11 @@ return new class extends Migration
    */
   public function down()
   {
-    Schema::table('hire_resources_categories', function (Blueprint $table) {
+    Schema::table('static_page_seos', function (Blueprint $table) {
       $table->dropColumn([
-        'meta_title',
-        'meta_keyword',
-        'meta_description',
-        'seo_rating',
         'review_number',
         'best_rating',
-        'og_image_path'
+        'seo_rating',
       ]);
     });
   }

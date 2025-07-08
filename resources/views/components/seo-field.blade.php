@@ -34,7 +34,7 @@
       </span>
     </div>
   </div>
-  <div class="col-md-12 col-sm-12 hide-thi">
+  <div class="col-md-12 col-sm-12 hide-this">
     <div class="form-group mb-3">
       <label>Page Content</label>
       <input name="page_content" type="text" class="form-control" placeholder="Page Content"
