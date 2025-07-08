@@ -13,4 +13,8 @@ class HireResourcesCategory extends Model
   {
     return $this->hasMany(HireResourcesCategoryClient::class, 'category_id', 'id');
   }
+  public function subCategories()
+  {
+    return $this->hasMany(HireResourcesSubCategory::class, 'category_id', 'id');
+  }
 }
