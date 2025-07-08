@@ -9,6 +9,8 @@ use App\Http\Controllers\admin\DesignationC;
 use App\Http\Controllers\admin\GetQuoteInquiryC;
 use App\Http\Controllers\admin\HireResourcesCategoryC;
 use App\Http\Controllers\admin\HireResourcesCategoryClientC;
+use App\Http\Controllers\admin\HireResourcesSubCategoryC;
+use App\Http\Controllers\admin\HireResourcesSubCategoryClientC;
 use App\Http\Controllers\admin\JobApplicationC;
 use App\Http\Controllers\admin\PortfolioC;
 use App\Http\Controllers\admin\PortfolioImagesC;
@@ -31,6 +33,7 @@ use App\Http\Controllers\front\ServicesFc;
 use App\Http\Controllers\front\TeamFc;
 use App\Http\Controllers\front\TestimonialFc;
 use App\Models\BlogCategory;
+use App\Models\HireResourcesSubCategoryClient;
 use App\Models\Portfolio;
 use App\Models\Services;
 use Illuminate\Support\Facades\Artisan;
@@ -229,6 +232,13 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::post('/update/{id}', [HireResourcesCategoryC::class, 'update']);
       Route::get('/delete/{id}', [HireResourcesCategoryC::class, 'delete']);
     });
+    Route::prefix('/hire-resources-sub-categories')->group(function () {
+      Route::get('/', [HireResourcesSubCategoryC::class, 'index']);
+      Route::post('/store', [HireResourcesSubCategoryC::class, 'store']);
+      Route::get('/update/{id}', [HireResourcesSubCategoryC::class, 'index']);
+      Route::post('/update/{id}', [HireResourcesSubCategoryC::class, 'update']);
+      Route::get('/delete/{id}', [HireResourcesSubCategoryC::class, 'delete']);
+    });
     Route::prefix('/hire-resources-category-clients')->group(function () {
       Route::get('/get-data', [HireResourcesCategoryClientC::class, 'getData']);
       Route::get('/delete/{id}', [HireResourcesCategoryClientC::class, 'delete']);
@@ -236,6 +246,14 @@ Route::middleware(['adminLoggedIn'])->group(function () {
       Route::get('/{category_id}/', [HireResourcesCategoryClientC::class, 'index']);
       Route::get('{category_id}/update/{id}', [HireResourcesCategoryClientC::class, 'index']);
       Route::post('{category_id}/update/{id}', [HireResourcesCategoryClientC::class, 'update']);
+    });
+    Route::prefix('/hire-resources-sub-category-clients')->group(function () {
+      Route::get('/get-data', [HireResourcesSubCategoryClientC::class, 'getData']);
+      Route::get('/delete/{id}', [HireResourcesSubCategoryClientC::class, 'delete']);
+      Route::post('/store', [HireResourcesSubCategoryClientC::class, 'store']);
+      Route::get('/{sub_category_id}/', [HireResourcesSubCategoryClientC::class, 'index']);
+      Route::get('{sub_category_id}/update/{id}', [HireResourcesSubCategoryClientC::class, 'index']);
+      Route::post('{sub_category_id}/update/{id}', [HireResourcesSubCategoryClientC::class, 'update']);
     });
   });
 });

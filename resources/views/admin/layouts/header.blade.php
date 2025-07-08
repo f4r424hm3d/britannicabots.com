@@ -341,6 +341,10 @@
                       href="{{ aurl('hire-resources-categories') }}" id="topnav-auth" role="button">
                       <span data-key="t-authentication">Categories</span>
                     </a>
+                    <a class="dropdown-item dropdown-toggle arrow-none"
+                      href="{{ aurl('hire-resources-sub-categories') }}" id="topnav-auth" role="button">
+                      <span data-key="t-authentication">Sub Categories</span>
+                    </a>
                   </div>
                 </div>
               </li>
