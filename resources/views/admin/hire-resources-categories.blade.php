@@ -114,6 +114,14 @@
                     <x-textarea-field label="Section 2 Description" name="section2_description" id="section2_description"
                       :ft="$ft" :sd="$sd" />
                   </div>
+                  <div class="col-md-6 col-sm-12 mb-3">
+                    <x-input-field type="text" label="Left Note (For Menu)" name="left_note" id="left_note"
+                      :ft="$ft" :sd="$sd" />
+                  </div>
+                  <div class="col-md-6 col-sm-12 mb-3">
+                    <x-input-field type="text" label="Right Note (For Menu)" name="right_note" id="right_note"
+                      :ft="$ft" :sd="$sd" />
+                  </div>
                 </div>
                 <hr>
                 <x-seo-field :ft="$ft" :sd="$sd" />

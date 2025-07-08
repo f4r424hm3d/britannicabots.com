@@ -77,6 +77,8 @@ class HireResourcesCategoryC extends Controller
     $field->section2_description = $request->section2_description;
     $field->status = $request->status ?? 1;
     $field->created_by = auth()->id();
+    $field->left_note = $request->left_note;
+    $field->right_note = $request->right_note;
 
     // Handle banner image upload
     if ($request->hasFile('banner_image')) {
@@ -166,6 +168,8 @@ class HireResourcesCategoryC extends Controller
     $field->section2_description = $request->section2_description;
     $field->status = $request->status ?? 1;
     $field->created_by = auth()->id();
+    $field->left_note = $request->left_note;
+    $field->right_note = $request->right_note;
 
     // Handle banner image upload
     if ($request->hasFile('banner_image')) {
