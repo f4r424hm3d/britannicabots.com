@@ -46,7 +46,8 @@ class HireResourcesFc extends Controller
   }
   public function subCategory(Request $request, $category_slug, $sub_category_slug)
   {
-    $cat = HireResourcesSubCategory::where(['sub_category_slug' => $sub_category_slug])->firstOrFail();
+    $hrc = HireResourcesCategory::where(['category_slug' => $category_slug])->firstOrFail();
+    $cat = HireResourcesSubCategory::where('category_id', $hrc->id)->where('sub_category_slug', $sub_category_slug)->firstOrFail();
     $page_title = $cat->banner_title;
 
     $title = $cat->banner_title;

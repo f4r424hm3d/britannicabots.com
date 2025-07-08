@@ -50,7 +50,7 @@
                         <span class="">{{ $cat->hourly_price }}/<small class="">Hour</small></span>
                       </div>
                     </div>
-                    <button class="btn btn-outline-primary rounded-pill px-3">{{ $cat->category_name }}</button>
+                    <button class="btn btn-outline-primary rounded-pill px-3">{{ $cat->sub_category_name }}</button>
                   </div>
                 </div>
               </div>
@@ -82,7 +82,7 @@
               <h2 class="exper-hires">
                 {{ $cat->title }}
               </h2>
-              <button type="button" class="btn btn-outline-primary rounded-pill">{{ $cat->category_name }}</button>
+              <button type="button" class="btn btn-outline-primary rounded-pill">{{ $cat->sub_category_name }}</button>
             </div>
 
           </div>

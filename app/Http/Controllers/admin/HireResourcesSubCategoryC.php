@@ -140,8 +140,8 @@ class HireResourcesSubCategoryC extends Controller
     ]);
     $request->validate([
       'category_id' => 'required|exists:hire_resources_categories,id',
-      'sub_category_name' => 'required|unique:hire_resources_categories,sub_category_name,' . $id,
-      'sub_category_slug' => 'required|unique:hire_resources_categories,sub_category_slug,' . $id,
+      'sub_category_name' => 'required|unique:hire_resources_sub_categories,sub_category_name,' . $id,
+      'sub_category_slug' => 'required|unique:hire_resources_sub_categories,sub_category_slug,' . $id,
       'banner_title' => 'nullable|string',
       'banner_shortnote' => 'nullable|string',
       'hourly_price' => 'nullable|string',
