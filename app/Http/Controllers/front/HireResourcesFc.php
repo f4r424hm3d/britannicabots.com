@@ -15,7 +15,7 @@ class HireResourcesFc extends Controller
   }
   public function category(Request $request, $category_slug)
   {
-    $cat = HireResourcesCategory::where(['category_slug' => $category_slug])->first();
+    $cat = HireResourcesCategory::where(['category_slug' => $category_slug])->firstOrFail();
     $page_title = $cat->banner_title;
 
     $title = $cat->banner_title;
