@@ -9,6 +9,10 @@ use Illuminate\Http\Request;
 
 class HomeFc extends Controller
 {
+  public function index2(Request $request)
+  {
+    return view('front.under-construction');
+  }
   public function index(Request $request)
   {
     $testimonial = Testimonial::where(['status' => 1])->limit(10)->get();

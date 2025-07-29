@@ -42,14 +42,15 @@
           <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/increase.svg" alt="prevention" width="75"></div>
             <h5>Increased Traffic</h5>
-            <p>Wash your hands frequently more then 20s</p>
+            <p>Boosts visitors to your site, improving visibility, engagement, and potential conversions.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/interface.svg" alt="prevention" width="75"></div>
             <h5>Page Rankings</h5>
-            <p>Wash your hands frequently more then 20s</p>
+            <p>Measure your website’s SEO performance and track search engine rankings for better visibility.
+</p>    
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
@@ -57,7 +58,7 @@
             <div class="promo-img"><img src="{{ url('front/') }}/img/search-engine.svg" alt="prevention" width="75">
             </div>
             <h5>Site Optimisation</h5>
-            <p>If you have fever, cough and difficulty breathing, seek medical care early</p>
+            <p>Boost website speed, performance, and SEO for better user experience and higher rankings.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">

@@ -52,7 +52,7 @@ use Illuminate\Support\Facades\Route;
 
 /* FRONT ROUTES */
 
-Route::get('/', [HomeFc::class, 'index']);
+Route::get('/', [HomeFc::class, 'index2']);
 Route::get('/home', [HomeFc::class, 'index']);
 Route::get('/about', [AboutFc::class, 'index']);
 Route::get('/contact', [ContactFc::class, 'index']);
