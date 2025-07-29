@@ -8,7 +8,7 @@
 
     <section class="hire-resources">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center ">
           <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
             <div class="all-resources">
               <h2>{{ $cat->banner_title }}</h2>
@@ -220,9 +220,9 @@
                 <tbody>
                   <tr>
                     <td class="title-zones">Approx Cost</td>
-                    <td>$18</td>
-                    <td>$23</td>
-                    <td>$30</td>
+                    <td>₹18</td>
+                    <td>₹23</td>
+                    <td>₹30</td>
                   </tr>
                   <tr>
                     <td class="title-zones">Years of Experience</td>

@@ -370,18 +370,18 @@
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
-                                <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <span>Tech news <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 </span>
-                                <p>Discover brief insights and articles.
+                                <p>Stay alert on latest tech happenings.
 
                                 </p>
                               </a>
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
-                                <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                <span>Download brochure <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 </span>
-                                <p>Discover brief insights and articles.
+                                <p>Everything You Need to Know – Just a Click Away
 
                                 </p>
                               </a>

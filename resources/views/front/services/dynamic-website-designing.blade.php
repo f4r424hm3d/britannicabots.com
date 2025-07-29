@@ -12,7 +12,7 @@
       <div class="row align-items-center">
         <div class="col-md-12 col-lg-7">
           <div class="hero-slider-content text-white">
-            <h1 class="text-white">BEST DYNAMIK WEBSITE DESIGNING COMPANY IN GURUGRAM</h1>
+            <h1 class="text-white">BEST DYNAMIC WEBSITE DESIGNING COMPANY IN GURUGRAM</h1>
             <p class="lead">Britannica Bots is widely recognised as the best Dynamic Designing Company in Gurugram in
               2022, and we have worked with over 100 firms globally. We prioritise customer relationships above
               high-ticket proposals.</p>
@@ -92,7 +92,7 @@
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-7">
           <div class="about-us-content-wrap pr-4">
-            <h2><span class="color-secondary">Dynamik Website Designing</span> Company in Gurugram</h2>
+            <h2><span class="color-secondary">Dynamic Website Designing</span> Company in Gurugram</h2>
             <span class="animate-border mb-4"></span>
             <p>Britannica Bots is a dynamic website design firm situated in Gurugram that offers dynamic website design,
               responsive web design, and ecommerce development in India.</p>
@@ -305,7 +305,7 @@
       <div class="row d-flex align-items-center">
         <div class="col-md-12 col-lg-12">
           <div class="about-us-content-wrap pr-4 wow fadeInUp animated" data-wow-duration="1.5s">
-            <h2>Importance of <span class="color-secondary">Dynamik Website Designing Company</span></h2>
+            <h2>Importance of <span class="color-secondary">Dynamic Website Designing Company</span></h2>
             <span class="animate-border mb-4"></span>
             <p class="lead">Gurugram is a massive metropolitan area in India's north. Gurugram is considered as the core
               of India and one of the main business hubs in the country. The majority of the products and services are
