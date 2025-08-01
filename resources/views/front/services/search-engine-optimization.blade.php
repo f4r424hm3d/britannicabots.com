@@ -513,8 +513,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Austin Cesar</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Aarav Sharma</h5>
+                  <p class="mb-0">Sahyadri Industries</p>
                 </div>
               </div>
             </div>
@@ -542,8 +542,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Pirtle Karol</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Neha Deshmukh</h5>
+                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
                 </div>
               </div>
             </div>
@@ -571,8 +571,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Aminul Islam</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Arjun Nair</h5>
+                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
                 </div>
               </div>
             </div>
@@ -599,9 +599,9 @@
                   <img src="{{url('front')}}/img/client-4.jpg" alt="client" width="60"
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
-                <div class="client-info">
-                  <h5 class="mb-0">Pirtle Karol</h5>
-                  <p class="mb-0">ThemeTags</p>
+                 <div class="client-info">
+                  <h5 class="mb-0">Rahul Sharma</h5>
+                  <p class="mb-0">Bright Future Solutions</p>
                 </div>
               </div>
             </div>

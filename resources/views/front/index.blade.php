@@ -64,7 +64,7 @@
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/consult.svg" alt="prevention" width="75"></div>
-            <h5>Call For Expert</h5>
+            <h5>Need Help? Call Now</h5>
             <a href="tel:+919818560331" class="emergency-btn">+91 98185 60331</a>
           </div>
         </div>
@@ -122,11 +122,9 @@
               </li>
               <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Manage your financial
                 resources</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Britannica Overseas10:10 AM
-              </li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Rank better with</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> our search engine</li>
-              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> optimization (SEO) service
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Rank better with us</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Our search engine</li>
+              <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Optimization (SEO) service
               </li>
               <li class="py-1"><span class="ti-control-forward mr-2 color-secondary"></span> Get organic traffic from
                 the best
@@ -168,13 +166,12 @@
   <section class="services-section ptb-100">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <div class="section-heading text-center mb-5">
             <strong class="color-secondary">Services</strong>
             <h2>What We Do</h2>
             <span class="animate-border mr-auto ml-auto mb-4"></span>
-            <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas. Dynamically
-              foster tactical solutions without enabled value.</p>
+            <p class="lead">We help businesses grow online through result-driven digital marketing, SEO, and custom website development solutions tailored to boost visibility, engagement, and conversions.</p>
           </div>
         </div>
       </div>
@@ -224,8 +221,7 @@
           <div class="services-single single-serv  text-center">
             <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
             <h5>Digital Marketing</h5>
-            <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
-              cutting-edge web...</p>
+            <p class="mb-0">Boost audience, reach & traffic with SMO on Facebook, Instagram & more. Britannica Bots builds strong brands....</p>
             <a href="{{ url('social-media-optimization') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
@@ -234,8 +230,7 @@
           <div class="services-single single-serv  text-center">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Other Services</h5>
-            <p class="mb-0">We are top Android & iOS App development company, designing and developing native
-              applications...</p>
+            <p class="mb-0">Integrate multiple payment gateways to process online orders securely. Trusted services in Gurugram...</p>
             <a href="{{ url('payment-gateway-integration') }}" class="detail-link mt-4">Read more <span
                 class="ti-arrow-right"></span></a>
           </div>
@@ -323,22 +318,30 @@
         <div class="col-md-6 col-lg-5">
           <div class="why-choose-us-wrap">
             <strong class="color-secondary">Why Choose Us</strong>
-            <h3>Best Agency For Grow Your Business</h3>
+            <h3>Best agency to grow your Business</h3>
             <span class="animate-border mb-4"></span>
-            <p>Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-              network accurate methods of empowerment rather than client-centered improvements.</p>
+            <p>Choose us for data-driven digital marketing that delivers real results. From SEO to paid ads and social media, we craft strategies that grow your brand, generate leads, and boost ROI. Transparent reporting, creative excellence, and performance-first mindset set us apart.</p>
 
             <div class="skill-content-wrap">
               <div class="progress-item">
                 <div class="progress-title">
-                  <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
+                  <h6>Technical skills<span class="float-right"><span class="progress-number">100</span>%</span>
                   </h6>
                 </div>
                 <div class="progress">
-                  <span style="width:80%;"><span class="progress-line"></span></span>
+                  <span style="width:100%;"><span class="progress-line"></span></span>
                 </div>
               </div>
               <div class="progress-item">
+                <div class="progress-title">
+                  <h6>Web Consulting<span class="float-right"><span class="progress-number">100</span>%</span>
+                  </h6>
+                </div>   
+                <div class="progress">
+                  <span style="width:100%;"><span class="progress-line"></span></span>
+                </div>
+              </div>
+              <!-- <div class="progress-item">
                 <div class="progress-title">
                   <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
                   </h6>
@@ -349,22 +352,13 @@
               </div>
               <div class="progress-item">
                 <div class="progress-title">
-                  <h6>Web Consulting<span class="float-right"><span class="progress-number">85</span>%</span>
-                  </h6>
-                </div>
-                <div class="progress">
-                  <span style="width:85%;"><span class="progress-line"></span></span>
-                </div>
-              </div>
-              <div class="progress-item">
-                <div class="progress-title">
                   <h6>Technical skills<span class="float-right"><span class="progress-number">80</span>%</span>
                   </h6>
                 </div>
                 <div class="progress">
                   <span style="width:80%;"><span class="progress-line"></span></span>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -547,17 +541,17 @@
         </div>
         <div class="col-md-6 col-lg-6">
           <div class="testimonial-content-wrap">
-            <img src="{{ url('front/') }}/img/testimonial-arrow-top.png"
-              class="img-fluid testimonial-tb-shape shape-top" alt="testimonial shape">
+            <!-- <img src="{{ url('front/') }}/img/client-1.jpg"
+              class="img-fluid testimonial-tb-shape shape-top" alt="testimonial shape"> -->
             <div class="owl-carousel owl-theme client-testimonial-1 custom-dot testimonial-shape">
               @foreach ($testimonial as $tes)
               <div class="item">
                 <div class="testimonial-quote-wrap">
                   <div class="media author-info mb-3">
-                    <div class="author-img mr-3">
+                    <!-- <div class="author-img mr-3">
                       <img src="{{ $tes->thumbnail_path==null?'uploads/default.png':asset($tes->thumbnail_path) }}"
                         alt="client" class="img-fluid">
-                    </div>
+                    </div> -->
                     <div class="media-body text-white">
                       <h5 class="mb-0 text-white">{{ $tes->name }}</h5>
                       <span>{{ $tes->company }}</span>
@@ -916,4 +910,5 @@
 
 </div>
 <!--body content wrap end-->
+
 @endsection

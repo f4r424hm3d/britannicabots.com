@@ -13,19 +13,18 @@
                 <div class="social-nav mt-4">
                   <ul class="list-unstyled social-list mb-0">
                     <li class="list-inline-item tooltip-hover"><a href="https://www.facebook.com/britannicabots" class="rounded"><span
-                          class="ti-facebook"></span></a>
+                          class="fab fa-facebook"></span></a>
                       <div class="tooltip-item">Facebook</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="https://in.pinterest.com/Britannicabots/" class="rounded"><span
-                          class="ti-pinterest"></span></a>
+                    <li class="list-inline-item tooltip-hover"><a href="https://in.pinterest.com/Britannicabots/" class="rounded"><i class="fab fa-pinterest-p"></i></a>
                       <div class="tooltip-item">Pinterest</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="https://www.linkedin.com/company/britannicabots/" class="rounded"><span
-                          class="ti-linkedin"></span></a>
+                    <li class="list-inline-item tooltip-hover"><a href="https://www.linkedin.com/company/britannicabots/" class="rounded"><i class="fab fa-linkedin-in"></i>
+</a>
                       <div class="tooltip-item">Linkedin</div>
                     </li>
-                    <li class="list-inline-item tooltip-hover"><a href="https://www.instagram.com/britannicabots" class="rounded"><span
-                          class="ti-instagram"></span></a>
+                    <li class="list-inline-item tooltip-hover"><a href="https://www.instagram.com/britannicabots" class="rounded"><i class="fab fa-instagram"></i>
+</a>
                       <div class="tooltip-item">Instagram</div>
                     </li>
                   </ul>
@@ -93,7 +92,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-md-12 col-lg-12 text-center">
           <p class="copyright-text pb-0 mb-0">Copyrights © {{ date('Y') }}. All rights reserved by <a href=""
-              target="_blank">Britannica</a></p>
+              target="_blank">Britannica Bots</a></p>
         </div>
         <!-- <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
           <ul class="list-inline policy-nav text-right social-list">
@@ -108,7 +107,9 @@
 <!--footer section end-->
 
 <!--bottom to top button start-->
-<button class="scroll-top scroll-to-target" data-target="html"><span class="ti-angle-up"></span></button>
+<button class="scroll-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i>
+
+</button>
 <!--bottom to top button end-->
 
 <!--jQuery-->
@@ -154,10 +155,12 @@
       });
 
     $('#latest-info').owlCarousel({
+    items: 1,
       loop: true,
       nav: false,
       dots: true,
-      autoplay: 7000,
+      // autoplay: 7000,
+       autoplay: false,
       responsive: {
         0: {
           items: 1
@@ -274,11 +277,23 @@
 </script>
 <!-- header hire rescours js  start -->
 <script>
-  $(document).ready(function(){
-    $('.mainlinks').on('mouseenter', function () {
-      $(this).tab('show');
-    });
+  // $(document).ready(function(){
+  //   $('.mainlinks').on('mouseenter', function () {
+  //     $(this).tab('show');
+  //   });
+  // });
+let hoverTimer;
+$(document).ready(function(){
+  $('.mainlinks').on('mouseenter', function () {
+    let that = this;
+    clearTimeout(hoverTimer);
+    hoverTimer = setTimeout(function(){
+      $(that).tab('show');
+    }, 200); 
   });
+
+});
+
 </script>    
 <!-- header hire rescours js  end -->
 

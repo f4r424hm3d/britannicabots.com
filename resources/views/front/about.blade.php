@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-8 col-lg-8">
           <div class="about-us-content-wrap pl-4">
-            <h2 class="font-weight-bolder">What are <span class="color-secondary">we to do?</span></h2>
+            <h2 class="font-weight-bolder">What <span class="color-secondary">we do?</span></h2>
             <span class="animate-border mb-4"></span>
             <p class="lead">We brainstorm and create innovative, affordable web applications and mobile apps that aid
               businesses in streamlining their procedures. Our goal is to create software of unrivalled quality within

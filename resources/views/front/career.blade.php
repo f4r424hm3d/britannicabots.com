@@ -58,7 +58,7 @@ use App\Models\Vacancy;
 
           <div class="col-md-8">
             @foreach ($designations as $des)
-            <div id="{{ $des->designation_id }}" class="tabcontent">
+            <div id="{{ $des->designation_id }}" class="tabcontent mb-3">
               @php
               $vacancy = Vacancy::where(['designation_id'=>$des->designation_id])->get();
               @endphp

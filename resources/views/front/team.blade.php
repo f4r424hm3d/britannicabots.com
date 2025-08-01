@@ -26,9 +26,9 @@
       <div class="row d-flex align-items-center">
 
         @foreach ($rows as $row)
-        <div class="col-md-4 col-lg-4">
+        <div class="col-md-3 col-lg-3">
           <div class="staff-member mb-4 shadow">
-            <div class="card p-4 text-center">
+            <div class="card text-center">
               <div class="custom-port-col-image w-anuimation-image4">
                 <div class="team-images">
                 <img alt="{{ $row->name }}" src="{{ asset($row->profile_picture_path??'uploads/default.png') }}"
@@ -40,11 +40,11 @@
                 <span>{{ $row->designation }}</span>
               </div>
             </div>
-            <div class="overlay d-flex align-items-center justify-content-center z-index">
+            <!-- <div class="overlay d-flex align-items-center justify-content-center z-index">
               <div class="overlay-inner">
                 <p class="lead">"{{ $row->quote }}" </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         @endforeach

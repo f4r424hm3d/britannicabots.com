@@ -1,6 +1,6 @@
 @extends('front.layouts.main')
 @push('seo_meta_tag')
-  @include('front.layouts.dynamic_page_meta_tag')
+@include('front.layouts.dynamic_page_meta_tag')
 @endpush
 @section('main-section')
   <!--body content wrap start-->
@@ -50,7 +50,7 @@
                         <span class="">{{ $cat->hourly_price }}/<small class="">Hour</small></span>
                       </div>
                     </div>
-                    <button class="btn btn-outline-primary rounded-pill px-3">{{ $cat->sub_category_name }}</button>
+                    <button class="btn btn-primary rounded-pill px-3">{{ $cat->sub_category_name }}</button>
                   </div>
                 </div>
               </div>
@@ -82,8 +82,8 @@
               <h2 class="exper-hires">
                 {{ $cat->title }}
               </h2>
-              <button type="button" class="btn btn-outline-primary rounded-pill">{{ $cat->sub_category_name }}</button>
-            </div>
+              <!-- <button type="button" class="btn btn-outline-primary rounded-pill">{{ $cat->sub_category_name }}</button> -->
+            </div>   
 
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-8 mb-4">
@@ -98,7 +98,7 @@
     <section class="vision-steps">
       <div class="container">
         <div class="main-visionss">
-          <div class="row flex-sm-column-reverse flex-md-row">
+          <div class="row flex-sm-column-reverse flex-md-row align-items-center">
             <div class="col-12 col-sm-12 col-md-6 col-lg-5  mb-3">
               <div class="hire-apps">
                 <h2>{{ $cat->section2_title }}</h2>
@@ -117,7 +117,7 @@
     </section>
 
     <section class="talent-steps">
-      <div class="container">w
+      <div class="container">
         <div class="row ">
           <div class="col-12 col-sm-12 col-md-12  ">
             <div class="class-talent p-4 p-md-5 p-tb-80 h-100 text-center">
@@ -211,7 +211,7 @@
               <table class="table table-bordered mb-0">
                 <thead>
                   <tr>
-                    <th class="font-weight-bold">Range of Developers</th>
+                    <th class="title-zones">Range of Developers</th>
                     <th class="title-zones">Junior Developers</th>
                     <th class="title-zones">Mid-Level Developers</th>
                     <th class="title-zones">Senior Developers</th>

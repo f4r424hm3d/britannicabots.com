@@ -37,7 +37,7 @@
               <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">50%</span>
             </div>
-            <p>Britannica Bots can help you save up to 50% off your annual budget.</p>
+            <p>Britannica Bots helps you save up to 50% off your annual budget.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -49,7 +49,7 @@
               <span class="ti-shield icon-lg color-secondary d-flex float-left mb-3"></span>
               <span class="icon-md d-block font-weight-bold">100%</span>
             </div>
-            <p>ou can have complete faith in us. We work with genuine intentions to improve.</p>
+            <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -553,8 +553,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Austin Cesar</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Aarav Sharma</h5>
+                  <p class="mb-0">Sahyadri Industries</p>
                 </div>
               </div>
             </div>
@@ -582,8 +582,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Pirtle Karol</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Neha Deshmukh</h5>
+                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
                 </div>
               </div>
             </div>
@@ -611,8 +611,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Aminul Islam</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Arjun Nair</h5>
+                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
                 </div>
               </div>
             </div>
@@ -640,8 +640,8 @@
                     class="img-fluid rounded-circle shadow-sm" />
                 </div>
                 <div class="client-info">
-                  <h5 class="mb-0">Pirtle Karol</h5>
-                  <p class="mb-0">ThemeTags</p>
+                  <h5 class="mb-0">Rahul Sharma</h5>
+                  <p class="mb-0">Bright Future Solutions</p>
                 </div>
               </div>
             </div>

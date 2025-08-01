@@ -10,7 +10,8 @@
   <link
     href="{{ url('front/') }}/https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap"
     rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
   <!--Bootstrap css-->
   <link rel="stylesheet" href="{{ url('front/') }}/css/bootstrap.min.css">
   <!--Magnific popup css-->
@@ -73,7 +74,8 @@
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="ti-menu"></span>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+
         </button>
 
         <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
@@ -332,14 +334,14 @@
                     <div class="row">
 
                       <div class="col-12 col-sm-12">
-                        <div class="mainehireds">
+                        <div class="mainehireds px-0">
                           <h4>Explore More</h4>
                           <p>We are so much more than your run-of-the-mill tech company, check out the latest &
                             exclusive trends, discoveries, and success stories.
 
                           </p>
                         </div>
-                        <div class="main-resources">
+                        <div class="main-resources px-0">
                           <div class="row">
                             <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
@@ -368,7 +370,7 @@
                                 </p>
                               </a>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+                            <!-- <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
                                 <span>Tech news <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 </span>
@@ -394,8 +396,8 @@
 
                                 </p>
                               </a>
-                            </div>
-                            <div class="col-12 col-sm-4 col-md-4">
+                            </div> -->
+                            <!-- <div class="col-12 col-sm-4 col-md-4">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
                                 <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>
                                 </span>
@@ -421,7 +423,7 @@
 
                                 </p>
                               </a>
-                            </div>
+                            </div> -->
 
                           </div>
                         </div>
@@ -435,8 +437,8 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn check-btn"><span
-                  class="ti-pencil-alt mr-1"></span> Get Quote</a>
+              <a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn check-btn"><i
+                  class="fas fa-pencil-alt mr-1"></i> Get Quote</a>
             </li>
           </ul>
         </div>
