@@ -10,8 +10,8 @@
   <link
     href="{{ url('front/') }}/https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap"
     rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
   <!--Bootstrap css-->
   <link rel="stylesheet" href="{{ url('front/') }}/css/bootstrap.min.css">
   <!--Magnific popup css-->
@@ -370,6 +370,14 @@
                                 </p>
                               </a>
                             </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
+                              <a class=" mainlinks" href="{{ asset('brochure/BritannicaBots-Brochures.pdf') }}"
+                                target="_blank">
+                                <span>Download brochure <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </span>
+                                <p>Download our brochure to explore Britannica Bots in detail.</p>
+                              </a>
+                            </div>
                             <!-- <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
                                 <span>Tech news <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -379,15 +387,7 @@
                                 </p>
                               </a>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">
-                              <a class=" mainlinks" href="{{ url('/blogs') }}/">
-                                <span>Download brochure <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                </span>
-                                <p>Everything You Need to Know – Just a Click Away
 
-                                </p>
-                              </a>
-                            </div>
                             <div class="col-12 col-sm-4 col-md-4">
                               <a class=" mainlinks" href="{{ url('/blogs') }}/">
                                 <span>Latest Blogs <i class="fa fa-arrow-right" aria-hidden="true"></i>

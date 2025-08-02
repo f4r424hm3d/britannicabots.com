@@ -195,7 +195,7 @@ use App\Models\Vacancy;
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input name="mobile" type="number" class="form-control" placeholder="Phone No."
+                      <input name="tel" type="number" class="form-control" placeholder="Phone No."
                         value="{{ old('mobile') }}" required>
                     </div>
                     <span class="text-danger">

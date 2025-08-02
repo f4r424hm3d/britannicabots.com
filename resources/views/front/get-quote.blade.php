@@ -72,7 +72,7 @@
                     <label class="pb-1">Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input name="mobile" type="number" class="form-control" placeholder="Phone No."
+                      <input name="mobile" type="tel" class="form-control" placeholder="Phone No."
                         value="{{ old('mobile') }}" required>
                     </div>
                     <span class="text-danger">
@@ -104,7 +104,7 @@
                     <label class="pb-1">Select Services</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-link color-primary"></span></div>
-                      <select name="services[]" id="services" class="form-control" multiple="multiple">
+                      <select name="services[]" id="services" class="form-control">
                         <option value="">Select</option>
                         @foreach ($services as $service)
                         <option value="{{ $service->name }}">{{ $service->name }}</option>
@@ -123,7 +123,7 @@
 
               <div class="my-2">
                 <div class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="check-terms">
+                  <input type="checkbox" class="custom-control-input" id="check-terms" required>
                   <label class="custom-control-label" for="check-terms">I agree to the <a href="#">Terms &amp;
                       Conditions</a></label>
                 </div>

@@ -41,6 +41,7 @@
                   --}}
                   <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}">Our Blog</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ url('career') }}">Our Careers</a></li>
+                   <li class="nav-item"><a class="nav-link" href="{{ url('/get-quote') }}/">Our Contacts</a></li>
                 </ul>
               </div>
             </div>
@@ -67,7 +68,7 @@
               <div class="footer-nav-wrap text-white">
                 <h4 class="text-white">GET IN TOUCH</h4>
                 <ul class="get-in-touch-list">
-                  <!--li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span> 1234 Street Name, City Name, USA</li-->
+                 <li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span>B-16 Ground Floor, Mayfield Garden, Sector 50, Gurugram, Haryana - 122002</li>
                   <li class="d-flex align-items-center py-2"><span class="fas fa-envelope mr-2"></span>
                     info@britannicabots.com</li>
                   <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span>+91 9818560331
