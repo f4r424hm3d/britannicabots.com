@@ -41,7 +41,7 @@
               </div>
               <div>
                 <h5 class="mb-2">Call Us</h5>
-                <p class="text-muted mb-0"><a href="tel+919818560331">(+91) 9818560331</a><br><a href="tel+919342914452">(+91) 9342914452</a></p>
+                <p class="text-muted mb-0"><a href="tel:+919818560331">(+91) 9818560331</a><br><a href="tel:+919342914452">(+91) 9342914452</a></p>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input name="mobile" type="number" class="form-control" placeholder="Phone No." value="{{ old('mobile') }}" required>
+                      <input name="mobile" type="tel" class="form-control" placeholder="Phone No." value="{{ old('mobile') }}" required>
                     </div>
                     <span class="text-danger">
                       @error('mobile')
@@ -175,7 +175,6 @@
 
               </div>
 
-              <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
             </form>
           </div>
         </div>

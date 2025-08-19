@@ -9,7 +9,7 @@
             <div class="col-md-6 col-sm-6">
               <div class="footer-nav-wrap text-white">
                 <img src="{{ url('/front/') }}/img/logo-white.png" alt="logo" class="mb-2">
-                <p>Continually myocardinate inexpensive catalysts for change with seamless initiatives.</p>
+                <p>Innovative marketing solutions to accelerate your growth.</p>
                 <div class="social-nav mt-4">
                   <ul class="list-unstyled social-list mb-0">
                     <li class="list-inline-item tooltip-hover"><a href="https://www.facebook.com/britannicabots" class="rounded"><span

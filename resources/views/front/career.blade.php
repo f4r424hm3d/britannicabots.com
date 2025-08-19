@@ -195,7 +195,7 @@ use App\Models\Vacancy;
                     <label class="pb-1">Your Mobile No.</label>
                     <div class="input-group input-group-merge">
                       <div class="input-icon"><span class="ti-mobile color-primary"></span></div>
-                      <input name="tel" type="number" class="form-control" placeholder="Phone No."
+                      <input name="tel" type="tel" class="form-control" placeholder="Phone No."
                         value="{{ old('mobile') }}" required>
                     </div>
                     <span class="text-danger">
@@ -271,10 +271,9 @@ use App\Models\Vacancy;
                   <div class="form-group">
                     <label class="pb-1">Your Message</label>
                     <div class="input-group input-group-merge">
-                      <div class="input-icon" style="height:100px;"><span class="ti-pencil-alt color-primary"
-                          style="height:100px;"></span></div>
-                      <textarea name="msg" id="msg" type="text" class="form-control"
-                        placeholder="Enter your message here" style="height:100px; padding-top:17px"></textarea>
+                      <div class="input-icon" ><span class="ti-pencil-alt color-primary border-0"></span></div>
+                      <textarea maxlength="1000" name="msg" id="msg" type="text" class="form-control"
+                        placeholder="Enter your message here" style="min-height:49px; padding-top:17px;     padding-left: 40px; text-indent: 5px;"></textarea>
                     </div>
                     <span class="text-danger">
                       @error('msg')
@@ -289,12 +288,14 @@ use App\Models\Vacancy;
               <div class="my-2">
                 <div class="custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input" id="check-terms">
-                  <label class="custom-control-label" for="check-terms">I agree to the <a href="#">Terms &amp;
+                  <label class="custom-control-label" for="check-terms">I agree to the <a href="{{ url('terms-of-use') }}">Terms &amp;
                       Conditions</a></label>
                 </div>
               </div>
 
-              <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+              <div style="text-align: center;" >
+                <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+              </div>
             </form>
           </div>
         </div>

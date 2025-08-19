@@ -50,7 +50,7 @@
                         <span class="">{{ $cat->hourly_price }}/<small class="">Hour</small></span>
                       </div>
                     </div>
-                    <button class="btn btn-primary rounded-pill px-3">{{ $cat->category_name }}</button>
+                    <p class="hire-appsss">{{ $cat->category_name }}</p>
                   </div>
                 </div>
               </div>

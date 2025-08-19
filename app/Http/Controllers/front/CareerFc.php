@@ -8,7 +8,7 @@ use App\Models\JobApplication;
 use App\Models\Vacancy;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Mail;
+use Illuminate\Support\Facades\Mail;
 
 class CareerFc extends Controller
 {
@@ -30,10 +30,10 @@ class CareerFc extends Controller
         'mobile' => 'required|numeric',
         'experience' => 'required',
         'position' => 'required|numeric',
-        'resume' => 'max:2048|mimes:pdf,doc,docx',
+        'resume' => 'max:5000|mimes:pdf,doc,docx',
       ],
       [
-        'resume.max' => 'The file may not be greater than 2 MB'
+        'resume.max' => 'The file may not be greater than 4 MB'
       ]
     );
     $field = new JobApplication;

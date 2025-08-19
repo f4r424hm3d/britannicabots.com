@@ -87,7 +87,7 @@
                   <div class="form-group">
                     <label class="pb-1">Website</label>
                     <div class="input-group input-group-merge">
-                      <div class="input-icon"><span class="ti-link color-primary"></span></div>
+                      <div class="input-icon"><span class="fas fa-globe color-primary"></span></div>
                       <input name="website" type="url" class="form-control" value="{{ old('website') }}"
                         placeholder="Enter your website">
                     </div>
@@ -103,7 +103,7 @@
                   <div class="form-group">
                     <label class="pb-1">Select Services</label>
                     <div class="input-group input-group-merge">
-                      <div class="input-icon"><span class="ti-link color-primary"></span></div>
+                      <div class="input-icon"><span class="ti-settings color-primary"></span></div>
                       <select name="services[]" id="services" class="form-control">
                         <option value="">Select</option>
                         @foreach ($services as $service)
@@ -124,12 +124,14 @@
               <div class="my-2">
                 <div class="custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input" id="check-terms" required>
-                  <label class="custom-control-label" for="check-terms">I agree to the <a href="#">Terms &amp;
+                  <label class="custom-control-label" for="check-terms">I agree to the <a href="{{ url('terms-of-use') }}">Terms &amp;
                       Conditions</a></label>
                 </div>
               </div>
 
-              <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+             <div style="text-align: center;" >
+               <button type="submit" class="btn secondary-solid-btn border-radius mt-3 mb-3">Send Message</button>
+             </div>
             </form>
 
           </div>

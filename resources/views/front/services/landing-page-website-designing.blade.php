@@ -343,9 +343,8 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-4 col-md-6 col-sm-6 h-100">
+          <div class="h-100 services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
@@ -355,9 +354,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-4 col-md-6 col-sm-6 h-100">
+          <div  class="h-100 services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
@@ -367,15 +365,12 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
+        <div class="col-lg-4 col-md-6 col-sm-6 h-100">
+          <div class="h-100 services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
-            <h5>Maintenance and Lifetime Warranty</h5>
-            <p>Our one-year free maintenance service and yearly dedicated maintenance service with lifetime code
-              guarantee make website maintenance hassle-free. With our free one-year hosting, you can forget about
-              website maintenance.</p>
+            <h5>Maintenance and Ongoing Support</h5>
+            <p>We offer three maintenance packages – Basic, Standard, and Premium – covering regular updates, bug fixes, security checks, performance optimization, and priority support based on your needs.</p>
           </div>
         </div>
 

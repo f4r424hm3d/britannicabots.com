@@ -52,7 +52,7 @@
         <div class="col-md-7 col-lg-7">
           <div class="about-us-content-wrap pl-3">
             <strong class="color-secondary">{{ $pd->company_name }}</strong>
-            <h3 class="mb-1"><span class="font-weight-light">Project</span> Description</h3>
+            <h3 class="mb-1"><span class="font-weight-light">Project Description</span> </h3>
 
             {!! $pd->description !!}
 

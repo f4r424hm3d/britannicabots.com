@@ -105,8 +105,8 @@
               strategic planning and the greatest product in the industry in order to compete in the market.</p>
             <p>Are you a business owner in need of a website or website redesign? Let's talk to our experts and receive
               a free proposal.</p>
-            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn" data-toggle="modal"
-              data-target="#popupInquiry"><span class="blink"></span> Lets talk with us</a>
+            <a href="{{ url('/get-quote') }}/" class="btn btn secondary-solid-btn" ><span class="blink"></span> Lets talk with us</a>
+            <!-- data-toggle="modal"  data-target="#popupInquiry" -->
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
@@ -322,7 +322,7 @@
               represents your business and helps it grow.</p>
             <p class="lead">Are you a business owner in Gurugram that requires a website or is seeking for a website
               design company? Let's talk to our experts and obtain a free proposal.</p>
-            <a href="{{url('get-quote')}}" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
+            <a href="{{ url('/get-quote') }}/" class="btn btn secondary-solid-btn"><span class="blink"></span> Lets talk
               with
               us</a>
           </div>
@@ -346,9 +346,8 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5  shadow-sm white-bg rounded "
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single text-center p-5  shadow-sm white-bg rounded h-100 "
             data-wow-duration="0.5s">
             <span class="ti-check-box icon-lg color-secondary d-block mb-4"></span>
             <h5>Effective Layout and Navigation</h5>
@@ -358,9 +357,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5  shadow-sm white-bg rounded "
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single text-center p-5  shadow-sm white-bg rounded h-100 "
             data-wow-duration="0.5s">
             <span class="ti-shield icon-lg color-secondary d-block mb-4"></span>
             <h5>Information is easily accessible</h5>
@@ -370,15 +368,12 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div
-            class="services-single text-center p-5  shadow-sm white-bg rounded "
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+          <div class="services-single text-center p-5  shadow-sm white-bg rounded h-100 "
             data-wow-duration="0.5s">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
-            <h5>Maintenance and Lifetime Warranty</h5>
-            <p>Our one-year free maintenance service and yearly dedicated maintenance service with lifetime code
-              guarantee make website maintenance hassle-free. With our free one-year hosting, you can forget about
-              website maintenance.</p>
+            <h5>Maintenance and Ongoing Support</h5>
+            <p>We offer three maintenance packages – Basic, Standard, and Premium – covering regular updates, bug fixes, security checks, performance optimization, and priority support based on your needs.</p>
           </div>
         </div>
 

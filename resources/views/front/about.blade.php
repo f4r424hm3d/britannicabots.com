@@ -45,7 +45,7 @@
             <h2 class="font-weight-bolder">What <span class="color-secondary">we do?</span></h2>
             <span class="animate-border mb-4"></span>
             <p class="lead">We brainstorm and create innovative, affordable web applications and mobile apps that aid
-              businesses in streamlining their procedures. Our goal is to create software of unrivalled quality within
+              business in streamlining their procedures. Our goal is to create software of unrivalled quality within
               deadlines that meet the needs of our clients. Following agile concepts in all facets of our working lives
               is a core value of Britannica Bots.</p>
           </div>

@@ -18,7 +18,7 @@
                 <p class="lead">Join the top digital marketing firm in Gurugram to grow your business. Our primary
                   objective is to provide your company with all the chances, innovations, and success it deserves.
                   With our ongoing innovations, we hope to increase the productivity of your business.</p>
-                <div class="action-btns mt-3"><a href="http://127.0.0.1:8000/get-quote/" class="btn secondary-solid-btn">Start Now</a></div>
+                <div class="action-btns mt-3"><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn">Start Now</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
@@ -178,62 +178,77 @@
 
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          <a class="h-100" href="{{ url('static-website-designing') }}">
+            <div class="services-single single-serv  text-center">
             <span class="ti-desktop icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Designing</h5>
             <p class="mb-0">The best website design company in Gurugram, Britannica Bots, is known for offering
               cutting-edge web...</p>
-            <a href="{{ url('static-website-designing') }}" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <span class="detail-link mt-4">Read more <span
+                class="ti-arrow-right"></span></span>
           </div>
+          </a>
+          
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          <a class="h-100" href="web-development" >
+               <div class="services-single single-serv  text-center">
             <span class="ti-files icon-lg color-secondary d-block mb-4"></span>
             <h5>Website Development</h5>
             <p class="mb-0">With experience in the agile development process and a user-friendly admin panel,
               Britannica...</p>
-            <a href="web-development" class="detail-link mt-4">Read more
-               <span class="ti-arrow-right"></span></a>
+            <p class="detail-link mt-4 font-weight-bold d-flex align-items-center justify-content-center">Read more <span class="ti-arrow-right ml-1"></span></p>
           </div>
+          </a>
+          
+       
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          <a class="h-100" href="{{ url('logo-design') }}">
+              <div class="services-single single-serv  text-center">
             <span class="ti-brush icon-lg color-secondary d-block mb-4"></span>
             <h5>Graphic Designing</h5>
             <p class="mb-0">Britannica Bots creates amazing, ever-changing images that effectively communicate your
               company's...</p>
-            <a href="{{ url('logo-design') }}" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <p class="detail-link mt-4 font-weight-bold d-flex align-items-center justify-content-center">Read more <span class="ti-arrow-right ml-1"></span></p>
           </div>
+          </a>
+        
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          
+          <a class="h-100" href="android-app-development">
+              <div class="services-single single-serv  text-center">
             <span class="ti-mobile icon-lg color-secondary d-block mb-4"></span>
             <h5>App Development</h5>
             <p class="mb-0">Britannica Bots is a leading Android and iOS app development firm that creates native,
               cross-platform...</p>
-            <a href="android-app-development" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <p class="detail-link mt-4 font-weight-bold d-flex align-items-center justify-content-center">Read more <span class="ti-arrow-right ml-1"></span></p>
           </div>
+          </a>
+        
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          <a class="h-100" href="{{ url('social-media-optimization') }}">
+             <div class="services-single single-serv  text-center">
             <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
             <h5>Digital Marketing</h5>
             <p class="mb-0">Boost audience, reach & traffic with SMO on Facebook, Instagram & more. Britannica Bots builds strong brands....</p>
-            <a href="{{ url('social-media-optimization') }}" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <p class="detail-link mt-4 font-weight-bold d-flex align-items-center justify-content-center">Read more <span class="ti-arrow-right ml-1"></span></p>
           </div>
+          </a>
+         
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
-          <div class="services-single single-serv  text-center">
+          <a class="h-100" href="{{ url('payment-gateway-integration') }}">
+             <div class="services-single single-serv  text-center">
             <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
             <h5>Other Services</h5>
             <p class="mb-0">Integrate multiple payment gateways to process online orders securely. Trusted services in Gurugram...</p>
-            <a href="{{ url('payment-gateway-integration') }}" class="detail-link mt-4">Read more <span
-                class="ti-arrow-right"></span></a>
+            <p class="detail-link mt-4 font-weight-bold d-flex align-items-center justify-content-center">Read more <span class="ti-arrow-right ml-1"></span></p>
           </div>
+          </a>
+         
         </div>
       </div>
     </div>
