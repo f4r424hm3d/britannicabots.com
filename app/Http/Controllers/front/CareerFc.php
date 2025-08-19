@@ -30,7 +30,7 @@ class CareerFc extends Controller
         'mobile' => 'required|numeric',
         'experience' => 'required',
         'position' => 'required|numeric',
-        'resume' => 'max:5000|mimes:pdf,doc,docx',
+        'resume' => 'max:5001|mimes:pdf,doc,docx',
       ],
       [
         'resume.max' => 'The file may not be greater than 4 MB'
