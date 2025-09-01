@@ -70,8 +70,10 @@
                 <ul class="get-in-touch-list">
                  <li class="d-flex align-items-center py-2"><span class="fas fa-map-marker-alt mr-2"></span>B-16 Ground Floor, Mayfield Garden, Sector 50, Gurugram, Haryana - 122002</li>
                   <li class="d-flex align-items-center py-2"><span class="fas fa-envelope mr-2"></span>
-                    info@britannicabots.com</li>
-                  <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span>+91 9818560331
+                  <a href="mailto:info@britannicabots.com">info@britannicabots.com</a>
+                  </li>
+                  <li class="d-flex align-items-center py-2"><span class="fas fa-phone-alt mr-2"></span>
+                  <a href="tel:+919818560331">+91 9818560331</a>
                   </li>
                 </ul>
                 <form class="newsletter-form mt-3">
