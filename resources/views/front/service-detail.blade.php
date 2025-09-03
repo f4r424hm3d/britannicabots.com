@@ -187,7 +187,7 @@
     <div class="row align-items-center">
       <div class="col-12 col-sm-6 col-md-6 col-lg-9 mb-4">
       <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
+            <h3 class="mb-1">Best Agency to Grow Your Business</h3>
             <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
           </div>
       </div>

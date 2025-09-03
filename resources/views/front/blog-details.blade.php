@@ -123,7 +123,7 @@
       <div class="row justify-content-around align-items-center">
         <div class="col-md-7">
           <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
+            <h3 class="mb-1">Best Agency to Grow Your Business</h3>
             <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
           </div>
         </div>

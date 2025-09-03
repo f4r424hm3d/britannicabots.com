@@ -156,7 +156,7 @@
                     alt="project managers">
                   <h3 class="title-h6 font-w-600 mt-4 mb-3">Project Managers</h3>
                   <p class="desc mb-0">Our project managers are well aware of how to handle and execute projects.
-                    Hyperlink InfoSystem has expertise in IT development, and our project managers keep an eye on every
+                    britannica bots has expertise in IT development, and our project managers keep an eye on every
                     minor detail in the development process with client satisfaction.</p>
                 </div>
               </div>
@@ -176,7 +176,7 @@
                   <img src="{{ url('/front/') }}/img/web-designers.svg" width="60" height="60"
                     alt="ui and ux designers">
                   <h3 class="title-h6 font-w-600 mt-4 mb-3">Web Designers</h3>
-                  <p class="desc mb-0">The web designers of Hyperlink InfoSystem are outstanding and dedicated. We have a
+                  <p class="desc mb-0">The web designers of britannica bots are outstanding and dedicated. We have a
                     team of skilled web designers with several years of experience in the market. Web Designers have a
                     futuristic vision of web development.</p>
                 </div>
@@ -220,9 +220,9 @@
                 <tbody>
                   <tr>
                     <td class="title-zones">Approx Cost</td>
-                    <td>₹18</td>
-                    <td>₹23</td>
-                    <td>₹30</td>
+                    <td>$18</td>
+                    <td>$23</td>
+                    <td>$30</td>
                   </tr>
                   <tr>
                     <td class="title-zones">Years of Experience</td>
@@ -294,7 +294,7 @@
               <i class="fa fa-certificate oz" aria-hidden="true"></i>
 
               <h3 class="title-h6 font-w-600 my-3">Choose the Best</h3>
-              <p class="desc mb-0">Hyperlink InfoSystem believes in the best and delivers the best only. We offer a team
+              <p class="desc mb-0">britannica bots believes in the best and delivers the best only. We offer a team
                 or team of experts who provide quality and excellent work. Our success rate is high because of our work.
               </p>
             </div>
@@ -451,8 +451,7 @@
                   <img src="{{ url('/front/') }}/img/business1.png" class="main-buss" alt="">
                   <div class="all-business">
                     <h3 class="mid-title mb-2">Startups</h3>
-                    <p class="desc mb-0 c-white">Global startups can hire a dedicated development team from Hyperlink
-                      InfoSystem to access the large pool of developers that can help them accelerate their project
+                    <p class="desc mb-0 c-white">Global startups can hire a dedicated development team from britannica bots to access the large pool of developers that can help them accelerate their project
                       development process while keeping their budget and timeframe in the center.</p>
                   </div>
                 </div>
@@ -462,8 +461,7 @@
                   <img src="{{ url('/front/') }}/img/web-development.jpg" class="main-buss" alt="">
                   <div class="all-business">
                     <h3 class="mid-title">Mid-Size Businesses</h3>
-                    <p class="desc mb-0 c-white">Mid-size businesses can hire dedicated developers from Hyperlink
-                      InfoSystem to build more scalable and robust digital solutions that can bring more innovation and
+                    <p class="desc mb-0 c-white">Mid-size businesses can hire dedicated developers from britannica bots to build more scalable and robust digital solutions that can bring more innovation and
                       risk mitigation while helping businesses take a step forward toward excellence.</p>
                   </div>
                 </div>

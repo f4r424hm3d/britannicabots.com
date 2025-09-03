@@ -36,9 +36,10 @@
           <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
               <span class="ti-bar-chart-alt icon-lg color-secondary d-flex float-left mb-3"></span>
-              <span class="icon-md d-block font-weight-bold">50%</span>
+              <span class="icon-md d-block font-weight-bold"></span>
             </div>
-            <p>Britannica Bots helps you save up to 50% off your annual budget.</p>
+            <h4>Save up to 50%</h4> 
+            <p>Britannica Bots helps you cut marketing costs by saving up to 50% of your annual budget.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -48,9 +49,10 @@
           <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
               <span class="ti-shield icon-lg color-secondary d-flex float-left mb-3"></span>
-              <span class="icon-md d-block font-weight-bold">100%</span>
+              <span class="icon-md d-block font-weight-bold"></span>
             </div>
-            <p>You can have complete faith in us. We work with genuine intentions to improve.</p>
+            <h4>Trusted & Reliable</h4>
+            <p>Count on us for genuine, transparent strategies designed to grow your business.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -60,9 +62,10 @@
           <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
               <span class="ti-check-box icon-lg color-secondary d-flex float-left mb-3"></span>
-              <span class="icon-md d-block font-weight-bold">100%</span>
+              <span class="icon-md d-block font-weight-bold"></span>
             </div>
-            <p>If you don't see results, you can get your money back.</p>
+            <h4>Results Guaranteed</h4>
+            <p>We’re confident in our work—if you don’t see improvement, we’ll make it right.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -72,9 +75,10 @@
           <div class="promo-item main-promo single-promo-hover">
             <div class="promo-img">
               <span class="ti-headphone-alt icon-lg color-secondary d-flex float-left mb-3"></span>
-              <span class="icon-md d-block font-weight-bold">FREE</span>
+              <span class="icon-md d-block font-weight-bold"></span>
             </div>
-            <p>Lifetime Website Support and Digital Marketing Suggestions.</p>
+            <h4>Ongoing Support</h4>
+            <p>Enjoy lifetime website assistance along with expert digital marketing guidance.</p>
             <div class="promo-bottom-shape">
               <img src="{{url('front')}}/img/promo-box-shape-bottom.png" alt="shape">
             </div>
@@ -198,8 +202,8 @@
     </div>
   </section>
 
-  <!--12 box start-->
-  <section class="why-choose-us ptb-100 gray-light-bg">
+ <!--12 box start-->
+  <section class="why-choose-us ptb-100">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-12 text-center">
@@ -214,85 +218,88 @@
 
       <div class="row mt-2 wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/autoh.png"
-              height="60"></div>
+          
+          <div class=" p-4 gradient-bg roundedUp">
+            <img src="{{url('front')}}/img/icons/autoh.png"
+          
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Automobile Engineering</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/b2bh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>B2B & B2C Portal</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/bankh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Banking & Finance</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/consth.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Construction & Interiors</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eduh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Education & Learning</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/eventh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Events & Banking</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/insuranceh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Healthcare & Fitness</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/logih.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Transportation & Logistics</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/ecomh.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Ecommerce Solution</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/plantah.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Agriculture</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/mediah.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Entertainment Media</b>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-4">
-          <div class="services-single p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
-              height="60"></div>
+          <div class=" p-4 gradient-bg roundedUp"><img src="{{url('front')}}/img/icons/taxih.png"
+              class="main-roundlap"></div>
           <div class="p-3 white-bg roundedDown shadow-lg">
             <b>Cab Aggregation</b>
           </div>
@@ -315,7 +322,7 @@
 
       <div class="row">
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
@@ -326,7 +333,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.1s">
@@ -337,7 +344,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.2s">
@@ -348,7 +355,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.3s">
@@ -359,7 +366,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.4s">
@@ -369,7 +376,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
@@ -586,7 +593,7 @@
                 </div>
                 <div class="client-info">
                   <h5 class="mb-0">Aarav Sharma</h5>
-                  <p class="mb-0">Sahyadri Industries</p>
+                  <p class="mb-0">CEO</p>
                 </div>
               </div>
             </div>
@@ -615,7 +622,7 @@
                 </div>
                 <div class="client-info">
                   <h5 class="mb-0">Neha Deshmukh</h5>
-                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
+                  <p class="mb-0">Vice President</p>
                 </div>
               </div>
             </div>
@@ -644,7 +651,7 @@
                 </div>
                 <div class="client-info">
                   <h5 class="mb-0">Arjun Nair</h5>
-                  <p class="mb-0">Sunrise AgroTech Pvt. Ltd.</p>
+                  <p class="mb-0">Manager</p>
                 </div>
               </div>
             </div>
@@ -691,7 +698,7 @@
       <div class="row justify-content-around align-items-center">
         <div class="col-md-7">
           <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
+            <h3 class="mb-1">Best Agency to Grow Your Business</h3>
             <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
           </div>
         </div>

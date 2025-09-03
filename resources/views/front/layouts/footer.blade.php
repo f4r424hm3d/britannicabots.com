@@ -41,7 +41,7 @@
                   --}}
                   <li class="nav-item"><a class="nav-link" href="{{ url('blogs') }}">Our Blog</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ url('career') }}">Our Careers</a></li>
-                   <li class="nav-item"><a class="nav-link" href="{{ url('/get-quote') }}/">Our Contacts</a></li>
+                   <li class="nav-item"><a class="nav-link" href="{{ url('/get-quote') }}/">Contacts Us</a></li>
                 </ul>
               </div>
             </div>
@@ -157,28 +157,41 @@
         }, 3000);
       });
 
+  $(document).ready(function(){
     $('#latest-info').owlCarousel({
-    items: 1,
+      items:1,
       loop: true,
-      nav: false,
+      nav: true,
       dots: true,
-      // autoplay: 7000,
-       autoplay: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>'
+      ],
       responsive: {
         0: {
-          items: 1
+          items: 1   // mobile
         },
-        767: {
-          items: 1
+        576: {
+          items: 1   // small devices
         },
-        960: {
-          items: 1,
+        768: {
+          items: 1  // tablet
+        },
+        992: {
+          items: 1   // laptop
         },
         1200: {
-          items: 1
+          items: 1   // desktop
         }
       }
     });
+  });
+
+
+
     $('#clientale').owlCarousel({
       loop: true,
       nav: false,
@@ -299,10 +312,12 @@ $(document).ready(function(){
 
 </script>    
 <!-- header hire rescours js  end -->
-
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
 
 <link rel="stylesheet" href="{{ url('front/') }}/fancybox/jquery.fancybox.min.css" />
 <script src="{{ url('front/') }}/fancybox/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>

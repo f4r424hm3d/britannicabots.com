@@ -56,7 +56,8 @@
                       <span class="ti-mobile icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">App<br>Development</h5>
-                    <p>Wash your hands frequently more</p>
+                    <p>Custom mobile apps for business growth.
+</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -69,7 +70,7 @@
                       <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">Digital<br>Marketing</h5>
-                    <p>Progressively leverage existing</p>
+                    <p>Data-driven strategies to boost visibility.</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -84,7 +85,8 @@
                       <span class="ti-desktop icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">Website<br>Designing</h5>
-                    <p>Progressively leverage existing</p>
+                    <p>Creative, responsive, and user-friendly websites.
+</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -97,7 +99,8 @@
                       <span class="ti-brush icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">Graphic<br>Designing</h5>
-                    <p>Progressively leverage existing</p>
+                    <p>Engaging visuals that define your brand.
+</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -112,7 +115,8 @@
                       <span class="ti-cup icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">Web<br>Development</h5>
-                    <p>Wash your hands frequently more</p>
+                    <p>Scalable solutions built for digital success.
+</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -125,7 +129,7 @@
                       <span class="ti-settings icon-lg color-secondary d-block mb-4"></span>
                     </div>
                     <h5 class="mb-2">Other<br>Services</h5>
-                    <p>Progressively leverage existing</p>
+                    <p>Tailored solutions to fit your needs.</p>
                     <span class="ti-arrow-right ani-arrow"></span>
                     <div class="promo-bottom-shape">
                       <img src="{{ url('/front/') }}/img/promo-box-shape-bottom.png" alt="shape">
@@ -397,7 +401,7 @@
 
 
       <div class="row mt-5">
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2s">
@@ -409,7 +413,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="2.5s">
@@ -421,7 +425,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
           <div
             class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded wow zoomInDown animated"
             data-wow-duration="3s">
@@ -444,7 +448,7 @@
       <div class="row justify-content-around align-items-center">
         <div class="col-md-7">
           <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
+            <h3 class="mb-1">Best Agency to Grow Your Business</h3>
             <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
           </div>
         </div>

@@ -217,7 +217,8 @@
           </div>
         </div>
         <div class="col-md-7 col-lg-7">
-          <div class="about-us-content-wrap pl-4">
+        <div class="mb-4">
+            <div class="about-us-content-wrap pl-4">
             <h2 class="font-weight-bolder">Other <span class="color-secondary">Work</span></h2>
             <p>We are top Android & iOS App development company, designing and developing native applications,
               cross-platform applications, Hybrid applications and progressive applications. With consumers being more
@@ -231,6 +232,7 @@
               EXPLORE
               WORK</a>
           </div>
+        </div>
         </div>
       </div>
     </div>

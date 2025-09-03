@@ -3,26 +3,82 @@
 @include('front.layouts.static_page_meta_tag')
 @endpush
 @section('main-section')
+  <style>
+   
+    .owl-nav i {
+      font-size: 30px;
+      color: #333;
+    }
+  </style>
 <!--body content wrap start-->
 <div class="main">
 
   <!--hero section start-->
   <section class="ptb-70 gradient-bg">
     <div class="container pt-5">
-      <div id="latest-info" class="owl-carousel owl-theme client-testimonial-1 custom-dot">
+       
+      <div id="latest-info" class="owl-carousel owl-theme custom-dot">
         <div class="item">
-          <div class="row align-items-center">
+         <div class="row align-items-center">
             <div class="col-md-6 col-lg-6">
               <div class="hero-slider-content text-white pt-5">
-                <h1 class="text-white">Grow Your Business With Britannica Bots</h1>
-                <p class="lead">Join the top digital marketing firm in Gurugram to grow your business. Our primary
-                  objective is to provide your company with all the chances, innovations, and success it deserves.
-                  With our ongoing innovations, we hope to increase the productivity of your business.</p>
+                <h1 class="text-white"> <span>Brand Promise</span> Innovative IT & Digital Marketing Solutions That Drive Real Results</h1>
+                <p class="lead">We help brands grow faster with data-driven strategies and future-ready digital solutions.</p>
                 <div class="action-btns mt-3"><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn">Start Now</a></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
-              <div class="image-wrap pt-5"><img src="{{ url('front/') }}/img/t1-hero-img.svg"
+              <div class="image-wrap pt-5"><img src="{{ url('front/') }}/img/slider-one.png"
+                  class="img-fluid custom-width" alt="hero" />
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="item">
+         <div class="row align-items-center">
+            <div class="col-md-6 col-lg-6">
+              <div class="hero-slider-content text-white pt-5">
+                <h1 class="text-white"><span>Credibility & Reach</span> Years of Excellence | 150+ Clients | Global Presence</h1>
+                <p class="lead"> Trusted by businesses worldwide to deliver technology and marketing that scales.</p>
+                <div class="action-btns mt-3"><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn">Start Now</a></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="image-wrap pt-5"><img src="{{ url('front/') }}/img/slider-two.png"
+                  class="img-fluid custom-width" alt="hero" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="item">
+         <div class="row align-items-center">
+            <div class="col-md-6 col-lg-6">
+              <div class="hero-slider-content text-white pt-5">
+                <h1 class="text-white"><span>Core Value Proposition </span>From Code to Conversions — We Build Growth Engines, Not Just Campaigns</h1>
+                <p class="lead">Custom IT and marketing solutions designed to attract, engage, and convert customers.</p>
+                <div class="action-btns mt-3"><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn">Start Now</a></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="image-wrap pt-5"><img src="{{ url('front/') }}/img/slider-three.png"
+                  class="img-fluid custom-width" alt="hero" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="item">
+         <div class="row align-items-center">
+            <div class="col-md-6 col-lg-6">
+              <div class="hero-slider-content text-white pt-5">
+                <h1 class="text-white"><span>Unique Initiative</span>  Empowering Rural & B-town Talent Through Technical Training</h1>
+                <p class="lead">Stay ahead with creative and customized digital marketing. We blend innovation with technology to bring you powerful campaigns that increase engagement, sales, and brand loyalty across multiple platforms.</p>
+                <div class="action-btns mt-3"><a href="{{ url('/get-quote') }}/" class="btn secondary-solid-btn">Start Now</a></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="image-wrap pt-5"><img src="{{ url('front/') }}/img/slider-four.png"
                   class="img-fluid custom-width" alt="hero" />
               </div>
             </div>
@@ -42,7 +98,7 @@
           <div class="promo-item main-promo">
             <div class="promo-img"><img src="{{ url('front/') }}/img/increase.svg" alt="prevention" width="75"></div>
             <h5>Increased Traffic</h5>
-            <p>Boosts visitors to your site, improving visibility, engagement, and potential conversions.</p>
+            <p>Increase visitors to your site while improving visibility, engagement, and conversions.</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
@@ -909,7 +965,7 @@
       <div class="row justify-content-around align-items-center">
         <div class="col-md-7">
           <div class="subscribe-content">
-            <h3 class="mb-1">Best Agency For Grow Your Business</h3>
+            <h3 class="mb-1">Best Agency to Grow Your Business</h3>
             <p>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
           </div>
         </div>

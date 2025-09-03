@@ -31,6 +31,13 @@
   <link rel="stylesheet" href="{{ url('front/') }}/css/style.css">
   <!--responsive css-->
   <link rel="stylesheet" href="{{ url('front/') }}/css/responsive.css">
+  <!-- home page slider  -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+
+<!-- end  -->
+
   <style>
     .hide-this {
       display: none;
@@ -86,9 +93,9 @@
                 aria-haspopup="true" aria-expanded="false">
                 About Bots
               </a>
-              <ul class="dropdown-menu" aria-labelledby="one">
-                <li><a class="px-2" href="{{ url('/about/') }}/">Who we are</a></li>
-                <li><a class="px-2" href="{{ url('/team/') }}/">Our Team</a></li>
+              <ul class="dropdown-menu menuwho" aria-labelledby="one">
+                <li><a class="px-2" href="{{ url('/about/') }}/"><i class="fa fa-info-circle mr-3"></i> Who we are</a></li>
+                <li><a class="px-2" href="{{ url('/team/') }}/"> <i class="fa fa-users mr-3"></i> Our Team</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown  main-bots">
